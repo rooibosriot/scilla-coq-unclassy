@@ -1,0 +1,306 @@
+DIGEST aa744db50c96ceb071094dd9541323b1
+FContracts.Puzzle
+R39:47 mathcomp.ssreflect.ssreflect <> <> lib
+R49:55 mathcomp.ssreflect.ssrbool <> <> lib
+R57:62 mathcomp.ssreflect.ssrnat <> <> lib
+R64:69 mathcomp.ssreflect.eqtype <> <> lib
+R71:76 mathcomp.ssreflect.ssrfun <> <> lib
+R78:80 mathcomp.ssreflect.seq <> <> lib
+R112:115 mathcomp.ssreflect.path <> <> lib
+R133:137 Coq.Logic.Eqdep <> <> lib
+R166:169 Heaps.pred <> <> lib
+R171:177 Heaps.prelude <> <> lib
+R179:186 Heaps.idynamic <> <> lib
+R188:194 Heaps.ordtype <> <> lib
+R196:198 Heaps.pcm <> <> lib
+R200:205 Heaps.finmap <> <> lib
+R207:214 Heaps.unionmap <> <> lib
+R216:219 Heaps.heap <> <> lib
+R221:226 Heaps.coding <> <> lib
+R260:267 Contracts.Automata <> <> lib
+sec 1130:1135 <> Puzzle
+var 1148:1154 Puzzle bytes32
+R1161:1164 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1165:1167 Coq.Init.Datatypes <> nat ind
+R1158:1160 Coq.Init.Datatypes <> nat ind
+var 1179:1184 Puzzle sha256
+R1191:1194 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1195:1197 Coq.Init.Datatypes <> nat ind
+R1188:1190 Coq.Init.Datatypes <> nat ind
+def 1243:1254 <> get_solution
+R1262:1273 Contracts.Automata <> payload_type def
+R1284:1285 Contracts.Puzzle <> pl var
+R1301:1304 mathcomp.ssreflect.seq <> :seq_scope:x_'::'_x not
+R1290:1290 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1292:1293 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1300:1300 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1295:1298 mathcomp.ssreflect.seq <> :seq_scope:x_'::'_x not
+constr 1349:1350 <> PS
+rec 1332:1342 <> PuzzleState
+proj 1360:1364 <> owner
+proj 1379:1384 <> locked
+proj 1399:1404 <> reward
+proj 1419:1422 <> diff
+proj 1437:1444 <> solution
+R1368:1370 Coq.Init.Datatypes <> nat ind
+R1387:1390 Coq.Init.Datatypes <> bool ind
+R1408:1410 Coq.Init.Datatypes <> nat ind
+R1426:1428 Coq.Init.Datatypes <> nat ind
+R1448:1453 Coq.Init.Datatypes <> option ind
+R1455:1457 Coq.Init.Datatypes <> nat ind
+var 1477:1487 Puzzle init_sender
+R1491:1493 Coq.Init.Datatypes <> nat ind
+var 1505:1515 Puzzle init_reward
+R1519:1521 Coq.Init.Datatypes <> nat ind
+def 1587:1588 <> s0
+R1593:1594 Contracts.Puzzle <> PS constr
+R1642:1645 Coq.Init.Datatypes <> None constr
+R1627:1633 Contracts.Puzzle <> Puzzle.bytes32 var
+R1614:1624 Contracts.Puzzle <> Puzzle.init_reward var
+R1608:1612 Coq.Init.Datatypes <> false constr
+R1596:1606 Contracts.Puzzle <> Puzzle.init_sender var
+def 1702:1714 <> input_filter1
+R1718:1734 Contracts.Automata <> input_filter_type def
+R1736:1746 Contracts.Puzzle <> PuzzleState rec
+R1766:1766 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R1790:1795 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R1817:1817 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R1775:1778 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R1767:1772 Contracts.Automata <> sender proj
+R1774:1774 Contracts.Puzzle <> m var
+R1779:1789 Contracts.Puzzle <> Puzzle.init_sender var
+R1796:1798 Coq.ssr.ssrbool <> :bool_scope:'~~'_x not
+R1799:1804 Contracts.Puzzle <> locked proj
+R1807:1811 Contracts.Automata <> state proj
+R1813:1815 Contracts.Puzzle <> st1 var
+def 1832:1841 <> new_reward
+R1873:1873 Contracts.Puzzle <> s var
+R1857:1858 Contracts.Puzzle <> PS constr
+R1878:1879 Contracts.Puzzle <> PS constr
+R1885:1885 Contracts.Puzzle <> r var
+def 1904:1913 <> trans_rel1
+R1917:1930 Contracts.Automata <> trans_rel_type def
+R1932:1944 Contracts.Puzzle <> input_filter1 def
+R1988:1992 Contracts.Automata <> state proj
+R1994:1996 Contracts.Puzzle <> st1 var
+R2033:2040 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2007:2009 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2005:2006 Contracts.Puzzle <> s2 var
+R2010:2019 Contracts.Puzzle <> new_reward def
+R2025:2029 Contracts.Automata <> value proj
+R2031:2031 Contracts.Puzzle <> m var
+R2021:2022 Contracts.Puzzle <> s1 var
+R2045:2047 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2041:2044 Contracts.Puzzle <> outs var
+R2048:2051 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R2085:2085 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R2052:2052 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2064:2065 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2075:2076 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2078:2079 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2084:2084 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2053:2063 Contracts.Puzzle <> Puzzle.init_sender var
+R2066:2071 Contracts.Puzzle <> reward proj
+R2073:2074 Contracts.Puzzle <> s1 var
+R2080:2083 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_']' not
+def 2100:2112 <> update_reward
+R2117:2122 Contracts.Automata <> CTrans constr
+R2126:2135 Contracts.Puzzle <> trans_rel1 def
+def 2169:2181 <> input_filter2
+R2185:2201 Contracts.Automata <> input_filter_type def
+R2203:2213 Contracts.Puzzle <> PuzzleState rec
+R2237:2237 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2261:2266 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2288:2288 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R2246:2249 mathcomp.ssreflect.eqtype <> :bool_scope:x_'!='_x not
+R2238:2243 Contracts.Automata <> sender proj
+R2245:2245 Contracts.Puzzle <> m var
+R2250:2260 Contracts.Puzzle <> Puzzle.init_sender var
+R2267:2269 Coq.ssr.ssrbool <> :bool_scope:'~~'_x not
+R2270:2275 Contracts.Puzzle <> locked proj
+R2278:2282 Contracts.Automata <> state proj
+R2284:2286 Contracts.Puzzle <> st1 var
+def 2303:2312 <> trans_rel2
+R2316:2329 Contracts.Automata <> trans_rel_type def
+R2331:2343 Contracts.Puzzle <> input_filter2 def
+R2387:2391 Contracts.Automata <> state proj
+R2393:2395 Contracts.Puzzle <> st1 var
+R2415:2426 Contracts.Puzzle <> get_solution def
+R2429:2435 Contracts.Automata <> payload proj
+R2437:2437 Contracts.Puzzle <> m var
+R2447:2449 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R2470:2479 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R2591:2600 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R2460:2462 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<'_x not
+R2450:2455 Contracts.Puzzle <> Puzzle.sha256 var
+R2457:2459 Contracts.Puzzle <> sol var
+R2463:2466 Contracts.Puzzle <> diff proj
+R2468:2469 Contracts.Puzzle <> s1 var
+R2536:2548 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2482:2484 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2480:2481 Contracts.Puzzle <> s2 var
+R2485:2486 Contracts.Puzzle <> PS constr
+R2527:2530 Coq.Init.Datatypes <> Some constr
+R2532:2534 Contracts.Puzzle <> sol var
+R2517:2520 Contracts.Puzzle <> diff proj
+R2522:2523 Contracts.Puzzle <> s1 var
+R2505:2510 Contracts.Puzzle <> reward proj
+R2512:2513 Contracts.Puzzle <> s1 var
+R2499:2502 Coq.Init.Datatypes <> true constr
+R2489:2493 Contracts.Puzzle <> owner proj
+R2495:2496 Contracts.Puzzle <> s1 var
+R2553:2555 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2549:2552 Contracts.Puzzle <> outs var
+R2556:2559 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R2590:2590 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R2560:2560 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2569:2570 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2580:2581 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2583:2584 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2589:2589 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2561:2566 Contracts.Automata <> sender proj
+R2568:2568 Contracts.Puzzle <> m var
+R2571:2576 Contracts.Puzzle <> reward proj
+R2578:2579 Contracts.Puzzle <> s1 var
+R2585:2588 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_']' not
+R2608:2611 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2603:2605 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2601:2602 Contracts.Puzzle <> s2 var
+R2606:2607 Contracts.Puzzle <> s1 var
+R2616:2618 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2612:2615 Contracts.Puzzle <> outs var
+R2619:2622 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_']' not
+def 2637:2648 <> try_solution
+R2653:2658 Contracts.Automata <> CTrans constr
+R2662:2671 Contracts.Puzzle <> trans_rel2 def
+var 2707:2716 Puzzle puzzle_acc
+R2720:2722 Coq.Init.Datatypes <> nat ind
+def 2745:2755 <> puzzle_prot
+R2759:2766 Contracts.Automata <> Protocol rec
+R2768:2778 Contracts.Puzzle <> PuzzleState rec
+R2786:2790 Contracts.Automata <> CProt constr
+R2820:2823 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R2837:2838 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R2851:2851 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R2824:2836 Contracts.Puzzle <> update_reward def
+R2839:2850 Contracts.Puzzle <> try_solution def
+R2817:2818 Contracts.Puzzle <> s0 def
+R2805:2815 Contracts.Puzzle <> Puzzle.init_reward var
+R2794:2803 Contracts.Puzzle <> Puzzle.puzzle_acc var
+sec 2893:2908 Puzzle PuzzleInvariants
+syndef 2921:2926 <> PState
+R2932:2937 Contracts.Automata <> cstate rec
+R2939:2949 Contracts.Puzzle <> PuzzleState rec
+def 3099:3103 <> I_bal
+R3111:3116 Contracts.Puzzle <> PState syndef
+R3144:3149 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3160:3163 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'>='_x not
+R3164:3169 Contracts.Puzzle <> reward proj
+R3172:3176 Contracts.Automata <> state proj
+R3178:3179 Contracts.Puzzle <> st var
+R3150:3156 Contracts.Automata <> balance proj
+R3158:3159 Contracts.Puzzle <> st var
+R3124:3126 Coq.ssr.ssrbool <> :bool_scope:'~~'_x not
+R3127:3132 Contracts.Puzzle <> locked proj
+R3135:3139 Contracts.Automata <> state proj
+R3141:3142 Contracts.Puzzle <> st var
+prf 3192:3200 <> I_bal_ind
+R3204:3212 Contracts.Automata <> inductive def
+R3226:3230 Contracts.Puzzle <> I_bal def
+R3214:3224 Contracts.Puzzle <> puzzle_prot def
+R3256:3257 Contracts.Puzzle <> s0 def
+R3259:3263 Contracts.Puzzle <> I_bal def
+R3285:3289 mathcomp.ssreflect.ssrnat <> leqnn thm
+R3256:3257 Contracts.Puzzle <> s0 def
+R3256:3257 Contracts.Puzzle <> s0 def
+R3259:3263 Contracts.Puzzle <> I_bal def
+R3259:3263 Contracts.Puzzle <> I_bal def
+R3256:3257 Contracts.Puzzle <> s0 def
+R3256:3257 Contracts.Puzzle <> s0 def
+R3259:3263 Contracts.Puzzle <> I_bal def
+R3259:3263 Contracts.Puzzle <> I_bal def
+R3285:3289 mathcomp.ssreflect.ssrnat <> leqnn thm
+R3285:3289 mathcomp.ssreflect.ssrnat <> leqnn thm
+R3400:3409 Contracts.Puzzle <> trans_rel2 def
+R3417:3419 Coq.ssr.ssrbool <> ifP thm
+R3400:3409 Contracts.Puzzle <> trans_rel2 def
+R3400:3409 Contracts.Puzzle <> trans_rel2 def
+R3417:3419 Coq.ssr.ssrbool <> ifP thm
+R3417:3419 Coq.ssr.ssrbool <> ifP thm
+R3493:3500 Contracts.Automata <> msg_bals def
+R3513:3517 mathcomp.ssreflect.ssrnat <> subn0 thm
+R3493:3500 Contracts.Automata <> msg_bals def
+R3493:3500 Contracts.Automata <> msg_bals def
+R3513:3517 mathcomp.ssreflect.ssrnat <> subn0 thm
+R3513:3517 mathcomp.ssreflect.ssrnat <> subn0 thm
+R3563:3571 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R3534:3537 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R3541:3543 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'+'_x not
+R3544:3548 Contracts.Automata <> value proj
+R3563:3571 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R3591:3598 mathcomp.ssreflect.ssrnat <> leq_addr thm
+R3591:3598 mathcomp.ssreflect.ssrnat <> leq_addr thm
+R3610:3619 Contracts.Puzzle <> trans_rel1 def
+R3610:3619 Contracts.Puzzle <> trans_rel1 def
+R3610:3619 Contracts.Puzzle <> trans_rel1 def
+R3642:3654 Contracts.Puzzle <> input_filter1 def
+R3642:3654 Contracts.Puzzle <> input_filter1 def
+R3642:3654 Contracts.Puzzle <> input_filter1 def
+R3670:3673 Coq.ssr.ssrbool <> andP thm
+R3747:3754 Contracts.Automata <> msg_bals def
+R3756:3762 Contracts.Automata <> msg_bal def
+R3766:3770 mathcomp.ssreflect.ssrnat <> addn0 thm
+R3772:3779 mathcomp.ssreflect.ssrnat <> leq_addl thm
+R3747:3754 Contracts.Automata <> msg_bals def
+R3747:3754 Contracts.Automata <> msg_bals def
+R3756:3762 Contracts.Automata <> msg_bal def
+R3756:3762 Contracts.Automata <> msg_bal def
+R3766:3770 mathcomp.ssreflect.ssrnat <> addn0 thm
+R3766:3770 mathcomp.ssreflect.ssrnat <> addn0 thm
+R3772:3779 mathcomp.ssreflect.ssrnat <> leq_addl thm
+R3772:3779 mathcomp.ssreflect.ssrnat <> leq_addl thm
+def 3846:3854 <> is_locked
+R3862:3867 Contracts.Puzzle <> locked proj
+R3870:3874 Contracts.Automata <> state proj
+R3876:3877 Contracts.Puzzle <> st var
+def 3893:3910 <> holds_same_balance
+R3922:3927 Contracts.Puzzle <> PState syndef
+R3945:3947 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3935:3941 Contracts.Automata <> balance proj
+R3943:3944 Contracts.Puzzle <> st var
+R3948:3954 Contracts.Automata <> balance proj
+R3956:3958 Contracts.Puzzle <> st' var
+prf 4061:4072 <> since_locked
+R4076:4080 Contracts.Automata <> since def
+R4104:4121 Contracts.Puzzle <> holds_same_balance def
+R4094:4102 Contracts.Puzzle <> is_locked def
+R4082:4092 Contracts.Puzzle <> puzzle_prot def
+R4262:4265 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4248:4250 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4238:4244 Contracts.Automata <> balance proj
+R4251:4257 Contracts.Automata <> balance proj
+R4266:4274 Contracts.Puzzle <> is_locked def
+R4294:4311 Contracts.Puzzle <> holds_same_balance def
+R4294:4311 Contracts.Puzzle <> holds_same_balance def
+R4294:4311 Contracts.Puzzle <> holds_same_balance def
+R4459:4467 Contracts.Puzzle <> is_locked def
+R4459:4467 Contracts.Puzzle <> is_locked def
+R4459:4467 Contracts.Puzzle <> is_locked def
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4583:4595 Contracts.Puzzle <> input_filter2 def
+R4597:4601 Coq.ssr.ssrbool <> andbC thm
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4583:4595 Contracts.Puzzle <> input_filter2 def
+R4583:4595 Contracts.Puzzle <> input_filter2 def
+R4597:4601 Coq.ssr.ssrbool <> andbC thm
+R4597:4601 Coq.ssr.ssrbool <> andbC thm
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4568:4580 Contracts.Puzzle <> input_filter1 def
+R4583:4595 Contracts.Puzzle <> input_filter2 def
+R4583:4595 Contracts.Puzzle <> input_filter2 def
+R4597:4601 Coq.ssr.ssrbool <> andbC thm
+R4597:4601 Coq.ssr.ssrbool <> andbC thm
+R4681:4696 Contracts.Puzzle Puzzle.PuzzleInvariants <> sec
+R4704:4709 Contracts.Puzzle Puzzle <> sec

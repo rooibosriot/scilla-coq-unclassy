@@ -1,0 +1,1771 @@
+DIGEST d0e985608b3ec64d9e0c057437835ce9
+FHeaps.coding
+R39:47 mathcomp.ssreflect.ssreflect <> <> lib
+R49:55 mathcomp.ssreflect.ssrbool <> <> lib
+R57:62 mathcomp.ssreflect.ssrnat <> <> lib
+R64:69 mathcomp.ssreflect.eqtype <> <> lib
+R71:77 mathcomp.ssreflect.fintype <> <> lib
+R79:84 mathcomp.ssreflect.ssrfun <> <> lib
+R86:88 mathcomp.ssreflect.seq <> <> lib
+R120:125 mathcomp.ssreflect.finfun <> <> lib
+R143:147 Coq.Logic.Eqdep <> <> lib
+R176:179 Heaps.pred <> <> lib
+R181:187 Heaps.prelude <> <> lib
+R189:196 Heaps.idynamic <> <> lib
+R198:204 Heaps.ordtype <> <> lib
+R206:211 Heaps.domain <> <> lib
+R213:215 Heaps.pcm <> <> lib
+R217:220 Heaps.spcm <> <> lib
+R222:229 Heaps.unionmap <> <> lib
+R231:234 Heaps.heap <> <> lib
+mod 680:686 <> SetType
+sec 698:705 SetType ClassDef
+constr 733:736 SetType Pack
+rec 718:721 SetType type
+proj 739:742 SetType sort
+R759:792 Heaps.coding SetType sort proj
+var 807:807 SetType.ClassDef T
+var 818:819 SetType.ClassDef cT
+R823:826 Heaps.coding SetType type rec
+def 841:844 SetType pack
+R850:853 Heaps.coding SetType Pack constr
+R855:855 Heaps.coding <> SetType.ClassDef.T var
+def 869:873 SetType clone
+R889:892 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R893:893 Heaps.coding <> SetType.ClassDef.T var
+R887:888 Heaps.coding <> SetType.ClassDef.cT var
+R898:905 Coq.ssr.ssrfun <> phant_id def
+R912:913 Heaps.coding <> SetType.ClassDef.cT var
+R907:910 Heaps.coding SetType pack def
+R918:921 Heaps.coding SetType pack def
+R928:935 Heaps.coding SetType.ClassDef <> sec
+mod 946:952 <> SetType.Exports
+R955:988 Heaps.coding SetType sort proj
+syndef 1000:1002 SetType.Exports set
+R1007:1010 Heaps.coding SetType type rec
+syndef 1022:1024 SetType.Exports SET
+R1033:1036 Heaps.coding SetType pack def
+R1084:1088 Heaps.coding SetType clone def
+R1100:1101 Coq.ssr.ssrfun <> id syndef
+R1094:1098 Coq.ssr.ssrfun <> idfun syndef
+not 1052:1052 SetType.Exports :form_scope:'['_'set'_'of'_x_'for'_x_']'
+R1205:1209 Heaps.coding SetType clone def
+R1218:1219 Coq.ssr.ssrfun <> id syndef
+R1215:1216 Coq.ssr.ssrfun <> id syndef
+not 1181:1181 SetType.Exports :form_scope:'['_'set'_'of'_x_']'
+R1285:1291 Heaps.coding SetType.Exports <> mod
+R1298:1304 Heaps.coding SetType <> mod
+R1354:1356 Heaps.coding <> SET syndef
+R1358:1361 Coq.Init.Datatypes <> unit ind
+R1384:1386 Heaps.coding <> SET syndef
+R1388:1390 Coq.Init.Datatypes <> nat ind
+R1414:1416 Heaps.coding <> SET syndef
+R1418:1421 Coq.Init.Datatypes <> bool ind
+R1444:1446 Heaps.coding <> SET syndef
+R1448:1450 Heaps.heap <> ptr ind
+R1475:1477 Heaps.coding <> SET syndef
+R1479:1483 Heaps.pcm <> mutex ind
+R1511:1513 Heaps.coding <> set syndef
+R1519:1521 Heaps.coding <> SET syndef
+R1524:1529 Coq.Init.Datatypes <> option ind
+R1531:1531 Heaps.coding <> s var
+R1557:1559 Heaps.coding <> set syndef
+R1565:1567 Heaps.coding <> SET syndef
+R1570:1572 mathcomp.ssreflect.seq <> seq syndef
+R1574:1574 Heaps.coding <> s var
+R1605:1607 Heaps.coding <> set syndef
+R1613:1615 Heaps.coding <> SET syndef
+R1618:1621 Coq.Init.Datatypes <> prod ind
+R1626:1627 Heaps.coding <> s2 var
+R1623:1624 Heaps.coding <> s1 var
+R1657:1659 Heaps.coding <> set syndef
+R1665:1667 Heaps.coding <> SET syndef
+R1672:1675 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1676:1677 Heaps.coding <> s2 var
+R1670:1671 Heaps.coding <> s1 var
+ind 2138:2144 <> st_code
+constr 2151:2157 <> st_unit
+constr 2161:2166 <> st_nat
+constr 2170:2176 <> st_bool
+constr 2180:2185 <> st_ptr
+constr 2189:2194 <> st_mtx
+constr 2235:2243 <> st_option
+constr 2258:2263 <> st_seq
+constr 2292:2298 <> st_prod
+constr 2323:2328 <> st_arr
+R2158:2158 Heaps.coding <> st_code ind
+R2167:2167 Heaps.coding <> st_code ind
+R2177:2177 Heaps.coding <> st_code ind
+R2186:2186 Heaps.coding <> st_code ind
+R2195:2195 Heaps.coding <> st_code ind
+R2248:2254 Heaps.coding <> st_code ind
+R2255:2255 Heaps.coding <> st_code ind
+R2268:2274 Heaps.coding <> st_code ind
+R2275:2275 Heaps.coding <> st_code ind
+R2303:2309 Heaps.coding <> st_code ind
+R2313:2319 Heaps.coding <> st_code ind
+R2320:2320 Heaps.coding <> st_code ind
+R2333:2339 Heaps.coding <> st_code ind
+R2343:2349 Heaps.coding <> st_code ind
+R2350:2350 Heaps.coding <> st_code ind
+ind 2408:2416 <> spcm_code
+constr 2423:2431 <> spcm_unit
+constr 2435:2442 <> spcm_nat
+constr 2446:2456 <> spcm_natmap
+constr 2471:2481 <> spcm_ptrmap
+constr 2498:2506 <> spcm_prod
+R2432:2432 Heaps.coding <> spcm_code ind
+R2443:2443 Heaps.coding <> spcm_code ind
+R2461:2467 Heaps.coding <> st_code ind
+R2468:2468 Heaps.coding <> spcm_code ind
+R2486:2492 Heaps.coding <> st_code ind
+R2493:2493 Heaps.coding <> spcm_code ind
+R2511:2519 Heaps.coding <> spcm_code ind
+R2523:2531 Heaps.coding <> spcm_code ind
+R2532:2532 Heaps.coding <> spcm_code ind
+ind 2565:2572 <> pcm_code
+constr 2579:2586 <> pcm_unit
+constr 2590:2596 <> pcm_nat
+constr 2600:2606 <> pcm_mtx
+constr 2610:2617 <> pcm_heap
+constr 2621:2630 <> pcm_natmap
+constr 2647:2656 <> pcm_ptrmap
+constr 2671:2678 <> pcm_prod
+R2587:2587 Heaps.coding <> pcm_code ind
+R2597:2597 Heaps.coding <> pcm_code ind
+R2607:2607 Heaps.coding <> pcm_code ind
+R2618:2618 Heaps.coding <> pcm_code ind
+R2635:2641 Heaps.coding <> st_code ind
+R2642:2642 Heaps.coding <> pcm_code ind
+R2661:2667 Heaps.coding <> st_code ind
+R2668:2668 Heaps.coding <> pcm_code ind
+R2683:2690 Heaps.coding <> pcm_code ind
+R2694:2701 Heaps.coding <> pcm_code ind
+R2702:2702 Heaps.coding <> pcm_code ind
+ind 2735:2741 <> tp_code
+constr 2748:2754 <> tp_unit
+constr 2758:2763 <> tp_nat
+constr 2767:2773 <> tp_bool
+constr 2777:2782 <> tp_ptr
+constr 2786:2791 <> tp_mtx
+constr 2795:2801 <> tp_heap
+constr 2821:2829 <> tp_option
+constr 2844:2849 <> tp_seq
+constr 2878:2884 <> tp_prod
+constr 2909:2914 <> tp_arr
+constr 2954:2961 <> tp_array
+constr 2983:2991 <> tp_ptrmap
+R2755:2755 Heaps.coding <> tp_code ind
+R2764:2764 Heaps.coding <> tp_code ind
+R2774:2774 Heaps.coding <> tp_code ind
+R2783:2783 Heaps.coding <> tp_code ind
+R2792:2792 Heaps.coding <> tp_code ind
+R2802:2802 Heaps.coding <> tp_code ind
+R2834:2840 Heaps.coding <> tp_code ind
+R2841:2841 Heaps.coding <> tp_code ind
+R2854:2860 Heaps.coding <> tp_code ind
+R2861:2861 Heaps.coding <> tp_code ind
+R2889:2895 Heaps.coding <> tp_code ind
+R2899:2905 Heaps.coding <> tp_code ind
+R2906:2906 Heaps.coding <> tp_code ind
+R2919:2925 Heaps.coding <> tp_code ind
+R2929:2935 Heaps.coding <> tp_code ind
+R2936:2936 Heaps.coding <> tp_code ind
+R2966:2968 Coq.Init.Datatypes <> nat ind
+R2972:2979 Heaps.coding <> pcm_code ind
+R2980:2980 Heaps.coding <> tp_code ind
+R2996:3002 Heaps.coding <> st_code ind
+R3003:3003 Heaps.coding <> tp_code ind
+def 3015:3021 <> st_sort
+R3028:3034 Heaps.coding <> st_code ind
+R3039:3041 Heaps.coding <> set syndef
+R3054:3054 Heaps.coding <> x var
+R3065:3071 Heaps.coding <> st_unit constr
+R3076:3083 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3088:3088 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3084:3087 Coq.Init.Datatypes <> unit ind
+R3094:3099 Heaps.coding <> st_nat constr
+R3104:3111 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3115:3115 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3112:3114 Coq.Init.Datatypes <> nat ind
+R3121:3127 Heaps.coding <> st_bool constr
+R3132:3139 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3144:3144 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3140:3143 Coq.Init.Datatypes <> bool ind
+R3150:3155 Heaps.coding <> st_ptr constr
+R3160:3167 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3171:3171 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3168:3170 Heaps.heap <> ptr ind
+R3177:3182 Heaps.coding <> st_mtx constr
+R3187:3194 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3200:3200 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3195:3199 Heaps.pcm <> mutex ind
+R3251:3259 Heaps.coding <> st_option constr
+R3266:3273 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3292:3292 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3274:3279 Coq.Init.Datatypes <> option ind
+R3282:3288 Heaps.coding <> st_sort def
+R3298:3303 Heaps.coding <> st_seq constr
+R3310:3317 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3333:3333 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3318:3320 mathcomp.ssreflect.seq <> seq syndef
+R3323:3329 Heaps.coding <> st_sort def
+R3339:3345 Heaps.coding <> st_prod constr
+R3354:3362 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3384:3385 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3372:3374 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R3363:3369 Heaps.coding <> st_sort def
+R3375:3381 Heaps.coding <> st_sort def
+R3391:3396 Heaps.coding <> st_arr constr
+R3405:3412 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3435:3435 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R3422:3425 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3426:3432 Heaps.coding <> st_sort def
+R3413:3419 Heaps.coding <> st_sort def
+def 3454:3462 <> spcm_sort
+R3469:3477 Heaps.coding <> spcm_code ind
+R3482:3485 Heaps.spcm SPCM.Exports spcm syndef
+R3498:3498 Heaps.coding <> x var
+R3509:3517 Heaps.coding <> spcm_unit constr
+R3522:3529 Heaps.spcm <> unitSPCM canonstruc
+R3535:3542 Heaps.coding <> spcm_nat constr
+R3547:3553 Heaps.spcm <> natSPCM canonstruc
+R3559:3569 Heaps.coding <> spcm_natmap constr
+R3577:3586 Heaps.spcm <> natmapSPCM canonstruc
+R3589:3595 Heaps.coding <> st_sort def
+R3605:3615 Heaps.coding <> spcm_ptrmap constr
+R3623:3632 Heaps.spcm <> ptrmapSPCM canonstruc
+R3635:3641 Heaps.coding <> st_sort def
+R3651:3659 Heaps.coding <> spcm_prod constr
+R3668:3675 Heaps.spcm <> prodSPCM canonstruc
+R3692:3700 Heaps.coding <> spcm_sort def
+R3678:3686 Heaps.coding <> spcm_sort def
+def 3722:3729 <> pcm_sort
+R3736:3743 Heaps.coding <> pcm_code ind
+R3748:3750 Heaps.pcm PCM.Exports pcm syndef
+R3763:3763 Heaps.coding <> x var
+R3774:3781 Heaps.coding <> pcm_unit constr
+R3786:3793 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3798:3798 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3794:3797 Coq.Init.Datatypes <> unit ind
+R3804:3810 Heaps.coding <> pcm_nat constr
+R3815:3822 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3826:3826 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3823:3825 Coq.Init.Datatypes <> nat ind
+R3832:3838 Heaps.coding <> pcm_mtx constr
+R3843:3850 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3875:3875 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3851:3854 Heaps.pcm <> lift syndef
+R3856:3868 Heaps.pcm Unlifted.Exports :form_scope:'['_'unlifted'_'of'_x_']' not
+R3874:3874 Heaps.pcm Unlifted.Exports :form_scope:'['_'unlifted'_'of'_x_']' not
+R3869:3873 Heaps.pcm <> mutex ind
+R3881:3888 Heaps.coding <> pcm_heap constr
+R3893:3900 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3905:3905 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3901:3904 Heaps.heap <> heap syndef
+R3911:3920 Heaps.coding <> pcm_natmap constr
+R3928:3935 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3970:3970 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R3936:3944 Heaps.unionmap <> union_map syndef
+R3959:3965 Heaps.coding <> st_sort def
+R3946:3956 Heaps.ordtype <> nat_ordType canonstruc
+R3976:3985 Heaps.coding <> pcm_ptrmap constr
+R3993:4000 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R4035:4035 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R4001:4009 Heaps.unionmap <> union_map syndef
+R4024:4030 Heaps.coding <> st_sort def
+R4011:4021 Heaps.heap <> ptr_ordType canonstruc
+R4041:4048 Heaps.coding <> pcm_prod constr
+R4057:4064 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R4088:4088 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R4075:4077 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4065:4072 Heaps.coding <> pcm_sort def
+R4078:4085 Heaps.coding <> pcm_sort def
+def 4107:4113 <> tp_sort
+R4120:4126 Heaps.coding <> tp_code ind
+R4147:4147 Heaps.coding <> x var
+R4158:4164 Heaps.coding <> tp_unit constr
+R4169:4172 Coq.Init.Datatypes <> unit ind
+R4178:4183 Heaps.coding <> tp_nat constr
+R4188:4190 Coq.Init.Datatypes <> nat ind
+R4196:4202 Heaps.coding <> tp_bool constr
+R4207:4210 Coq.Init.Datatypes <> bool ind
+R4216:4221 Heaps.coding <> tp_ptr constr
+R4226:4228 Heaps.heap <> ptr ind
+R4234:4239 Heaps.coding <> tp_mtx constr
+R4244:4248 Heaps.pcm <> mutex ind
+R4254:4260 Heaps.coding <> tp_heap constr
+R4265:4268 Heaps.heap <> heap syndef
+R4274:4282 Heaps.coding <> tp_option constr
+R4289:4294 Coq.Init.Datatypes <> option ind
+R4297:4303 Heaps.coding <> tp_sort def
+R4312:4317 Heaps.coding <> tp_seq constr
+R4324:4326 mathcomp.ssreflect.seq <> seq syndef
+R4329:4335 Heaps.coding <> tp_sort def
+R4344:4350 Heaps.coding <> tp_prod constr
+R4369:4371 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R4360:4366 Heaps.coding <> tp_sort def
+R4372:4378 Heaps.coding <> tp_sort def
+R4392:4397 Heaps.coding <> tp_arr constr
+R4415:4418 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4419:4425 Heaps.coding <> tp_sort def
+R4406:4412 Heaps.coding <> tp_sort def
+R4433:4440 Heaps.coding <> tp_array constr
+R4449:4454 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R4473:4473 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R4459:4462 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4463:4470 Heaps.coding <> pcm_sort def
+R4455:4457 mathcomp.ssreflect.fintype <> ::'''I_'_x not
+R4479:4487 Heaps.coding <> tp_ptrmap constr
+R4494:4502 Heaps.unionmap <> union_map syndef
+R4517:4523 Heaps.coding <> st_sort def
+R4504:4514 Heaps.heap <> ptr_ordType canonstruc
+def 4593:4597 <> st_eq
+R4617:4617 Heaps.coding <> y var
+R4614:4614 Heaps.coding <> x var
+R4628:4634 Heaps.coding <> st_unit constr
+R4637:4643 Heaps.coding <> st_unit constr
+R4648:4651 Coq.Init.Datatypes <> true constr
+R4657:4662 Heaps.coding <> st_nat constr
+R4665:4670 Heaps.coding <> st_nat constr
+R4675:4678 Coq.Init.Datatypes <> true constr
+R4684:4690 Heaps.coding <> st_bool constr
+R4693:4699 Heaps.coding <> st_bool constr
+R4704:4707 Coq.Init.Datatypes <> true constr
+R4713:4718 Heaps.coding <> st_ptr constr
+R4721:4726 Heaps.coding <> st_ptr constr
+R4731:4734 Coq.Init.Datatypes <> true constr
+R4740:4745 Heaps.coding <> st_mtx constr
+R4748:4753 Heaps.coding <> st_mtx constr
+R4758:4761 Coq.Init.Datatypes <> true constr
+R4812:4820 Heaps.coding <> st_option constr
+R4826:4834 Heaps.coding <> st_option constr
+R4842:4846 Heaps.coding <> st_eq def
+R4858:4863 Heaps.coding <> st_seq constr
+R4869:4874 Heaps.coding <> st_seq constr
+R4882:4886 Heaps.coding <> st_eq def
+R4898:4904 Heaps.coding <> st_prod constr
+R4913:4919 Heaps.coding <> st_prod constr
+R4947:4950 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R4936:4940 Heaps.coding <> st_eq def
+R4951:4955 Heaps.coding <> st_eq def
+R4967:4972 Heaps.coding <> st_arr constr
+R4981:4986 Heaps.coding <> st_arr constr
+R5014:5017 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R5003:5007 Heaps.coding <> st_eq def
+R5018:5022 Heaps.coding <> st_eq def
+R5042:5046 Coq.Init.Datatypes <> false constr
+def 5065:5071 <> spcm_eq
+R5091:5091 Heaps.coding <> y var
+R5088:5088 Heaps.coding <> x var
+R5102:5110 Heaps.coding <> spcm_unit constr
+R5113:5121 Heaps.coding <> spcm_unit constr
+R5126:5129 Coq.Init.Datatypes <> true constr
+R5135:5142 Heaps.coding <> spcm_nat constr
+R5145:5152 Heaps.coding <> spcm_nat constr
+R5157:5160 Coq.Init.Datatypes <> true constr
+R5166:5176 Heaps.coding <> spcm_natmap constr
+R5182:5192 Heaps.coding <> spcm_natmap constr
+R5200:5204 Heaps.coding <> st_eq def
+R5216:5226 Heaps.coding <> spcm_ptrmap constr
+R5232:5242 Heaps.coding <> spcm_ptrmap constr
+R5250:5254 Heaps.coding <> st_eq def
+R5266:5274 Heaps.coding <> spcm_prod constr
+R5283:5291 Heaps.coding <> spcm_prod constr
+R5321:5324 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R5308:5314 Heaps.coding <> spcm_eq def
+R5325:5331 Heaps.coding <> spcm_eq def
+R5351:5355 Coq.Init.Datatypes <> false constr
+def 5374:5379 <> pcm_eq
+R5399:5399 Heaps.coding <> y var
+R5396:5396 Heaps.coding <> x var
+R5410:5417 Heaps.coding <> pcm_unit constr
+R5420:5427 Heaps.coding <> pcm_unit constr
+R5432:5435 Coq.Init.Datatypes <> true constr
+R5441:5447 Heaps.coding <> pcm_nat constr
+R5450:5456 Heaps.coding <> pcm_nat constr
+R5461:5464 Coq.Init.Datatypes <> true constr
+R5470:5476 Heaps.coding <> pcm_mtx constr
+R5479:5485 Heaps.coding <> pcm_mtx constr
+R5490:5493 Coq.Init.Datatypes <> true constr
+R5499:5506 Heaps.coding <> pcm_heap constr
+R5509:5516 Heaps.coding <> pcm_heap constr
+R5521:5524 Coq.Init.Datatypes <> true constr
+R5530:5539 Heaps.coding <> pcm_natmap constr
+R5545:5554 Heaps.coding <> pcm_natmap constr
+R5562:5566 Heaps.coding <> st_eq def
+R5578:5587 Heaps.coding <> pcm_ptrmap constr
+R5593:5602 Heaps.coding <> pcm_ptrmap constr
+R5610:5614 Heaps.coding <> st_eq def
+R5626:5633 Heaps.coding <> pcm_prod constr
+R5642:5649 Heaps.coding <> pcm_prod constr
+R5678:5681 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R5666:5671 Heaps.coding <> pcm_eq def
+R5682:5687 Heaps.coding <> pcm_eq def
+R5707:5711 Coq.Init.Datatypes <> false constr
+def 5730:5734 <> tp_eq
+R5754:5754 Heaps.coding <> y var
+R5751:5751 Heaps.coding <> x var
+R5765:5771 Heaps.coding <> tp_unit constr
+R5774:5780 Heaps.coding <> tp_unit constr
+R5785:5788 Coq.Init.Datatypes <> true constr
+R5794:5799 Heaps.coding <> tp_nat constr
+R5802:5807 Heaps.coding <> tp_nat constr
+R5812:5815 Coq.Init.Datatypes <> true constr
+R5821:5827 Heaps.coding <> tp_bool constr
+R5830:5836 Heaps.coding <> tp_bool constr
+R5841:5844 Coq.Init.Datatypes <> true constr
+R5850:5855 Heaps.coding <> tp_ptr constr
+R5858:5863 Heaps.coding <> tp_ptr constr
+R5868:5871 Coq.Init.Datatypes <> true constr
+R5877:5882 Heaps.coding <> tp_mtx constr
+R5885:5890 Heaps.coding <> tp_mtx constr
+R5895:5898 Coq.Init.Datatypes <> true constr
+R5904:5910 Heaps.coding <> tp_heap constr
+R5913:5919 Heaps.coding <> tp_heap constr
+R5924:5927 Coq.Init.Datatypes <> true constr
+R5933:5941 Heaps.coding <> tp_option constr
+R5947:5955 Heaps.coding <> tp_option constr
+R5963:5967 Heaps.coding <> tp_eq def
+R5979:5984 Heaps.coding <> tp_seq constr
+R5990:5995 Heaps.coding <> tp_seq constr
+R6003:6007 Heaps.coding <> tp_eq def
+R6019:6025 Heaps.coding <> tp_prod constr
+R6034:6040 Heaps.coding <> tp_prod constr
+R6068:6071 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R6057:6061 Heaps.coding <> tp_eq def
+R6072:6076 Heaps.coding <> tp_eq def
+R6088:6093 Heaps.coding <> tp_arr constr
+R6102:6107 Heaps.coding <> tp_arr constr
+R6135:6138 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R6124:6128 Heaps.coding <> tp_eq def
+R6139:6143 Heaps.coding <> tp_eq def
+R6155:6162 Heaps.coding <> tp_array constr
+R6171:6178 Heaps.coding <> tp_array constr
+R6195:6195 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R6204:6209 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R6222:6222 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R6198:6201 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R6210:6215 Heaps.coding <> pcm_eq def
+R6228:6236 Heaps.coding <> tp_ptrmap constr
+R6242:6250 Heaps.coding <> tp_ptrmap constr
+R6258:6262 Heaps.coding <> st_eq def
+R6282:6286 Coq.Init.Datatypes <> false constr
+prf 6333:6338 <> st_eqP
+R6342:6355 mathcomp.ssreflect.eqtype Equality axiom def
+R6357:6361 Heaps.coding <> st_eq def
+R6504:6507 Coq.ssr.ssrbool <> iffP thm
+R6636:6639 Coq.ssr.ssrbool <> iffP thm
+R6641:6644 Coq.ssr.ssrbool <> andP thm
+R6504:6507 Coq.ssr.ssrbool <> iffP thm
+R6504:6507 Coq.ssr.ssrbool <> iffP thm
+R6504:6507 Coq.ssr.ssrbool <> iffP thm
+R6504:6507 Coq.ssr.ssrbool <> iffP thm
+R6641:6644 Coq.ssr.ssrbool <> andP thm
+R6636:6639 Coq.ssr.ssrbool <> iffP thm
+R6641:6644 Coq.ssr.ssrbool <> andP thm
+R6636:6639 Coq.ssr.ssrbool <> iffP thm
+prf 6702:6709 <> spcm_eqP
+R6713:6726 mathcomp.ssreflect.eqtype Equality axiom def
+R6728:6734 Heaps.coding <> spcm_eq def
+R6840:6845 Heaps.coding <> st_eqP thm
+R6840:6845 Heaps.coding <> st_eqP thm
+R6840:6845 Heaps.coding <> st_eqP thm
+R6941:6946 Heaps.coding <> st_eqP thm
+R6941:6946 Heaps.coding <> st_eqP thm
+R6941:6946 Heaps.coding <> st_eqP thm
+R7060:7063 Coq.ssr.ssrbool <> iffP thm
+R7065:7068 Coq.ssr.ssrbool <> andP thm
+R7065:7068 Coq.ssr.ssrbool <> andP thm
+R7060:7063 Coq.ssr.ssrbool <> iffP thm
+prf 7126:7132 <> pcm_eqP
+R7136:7149 mathcomp.ssreflect.eqtype Equality axiom def
+R7151:7156 Heaps.coding <> pcm_eq def
+R7262:7267 Heaps.coding <> st_eqP thm
+R7262:7267 Heaps.coding <> st_eqP thm
+R7262:7267 Heaps.coding <> st_eqP thm
+R7363:7368 Heaps.coding <> st_eqP thm
+R7363:7368 Heaps.coding <> st_eqP thm
+R7363:7368 Heaps.coding <> st_eqP thm
+R7482:7485 Coq.ssr.ssrbool <> iffP thm
+R7487:7490 Coq.ssr.ssrbool <> andP thm
+R7487:7490 Coq.ssr.ssrbool <> andP thm
+R7482:7485 Coq.ssr.ssrbool <> iffP thm
+prf 7548:7553 <> tp_eqP
+R7557:7570 mathcomp.ssreflect.eqtype Equality axiom def
+R7572:7576 Heaps.coding <> tp_eq def
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7855:7858 Coq.ssr.ssrbool <> iffP thm
+R7860:7863 Coq.ssr.ssrbool <> andP thm
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7719:7722 Coq.ssr.ssrbool <> iffP thm
+R7860:7863 Coq.ssr.ssrbool <> andP thm
+R7855:7858 Coq.ssr.ssrbool <> iffP thm
+R7860:7863 Coq.ssr.ssrbool <> andP thm
+R7855:7858 Coq.ssr.ssrbool <> iffP thm
+R7986:7988 mathcomp.ssreflect.eqtype <> eqP thm
+R7986:7988 mathcomp.ssreflect.eqtype <> eqP thm
+R7986:7988 mathcomp.ssreflect.eqtype <> eqP thm
+R8035:8041 Heaps.coding <> pcm_eqP thm
+R8035:8041 Heaps.coding <> pcm_eqP thm
+R8035:8041 Heaps.coding <> pcm_eqP thm
+R8147:8152 Heaps.coding <> st_eqP thm
+R8147:8152 Heaps.coding <> st_eqP thm
+R8147:8152 Heaps.coding <> st_eqP thm
+def 8244:8258 <> st_code_eqMixin
+R8263:8269 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R8271:8276 Heaps.coding <> st_eqP thm
+R8307:8312 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R8314:8320 Heaps.coding <> st_code ind
+R8322:8336 Heaps.coding <> st_code_eqMixin def
+def 8351:8367 <> spcm_code_eqMixin
+R8372:8378 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R8380:8387 Heaps.coding <> spcm_eqP thm
+R8420:8425 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R8427:8435 Heaps.coding <> spcm_code ind
+R8437:8453 Heaps.coding <> spcm_code_eqMixin def
+def 8468:8483 <> pcm_code_eqMixin
+R8488:8494 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R8496:8502 Heaps.coding <> pcm_eqP thm
+R8534:8539 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R8541:8548 Heaps.coding <> pcm_code ind
+R8550:8565 Heaps.coding <> pcm_code_eqMixin def
+def 8580:8594 <> tp_code_eqMixin
+R8599:8605 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R8607:8612 Heaps.coding <> tp_eqP thm
+R8643:8648 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R8650:8656 Heaps.coding <> tp_code ind
+R8658:8672 Heaps.coding <> tp_code_eqMixin def
+mod 8792:8795 <> Code
+constr 8832:8836 Code Mixin
+rec 8809:8816 Code mixin_of
+proj 8842:8852 Code code_dom_op
+proj 8866:8874 Code encode_op
+proj 8898:8907 Code to_type_op
+R8856:8861 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R8889:8892 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8893:8893 Heaps.coding <> T var
+R8878:8888 Heaps.coding <> code_dom_op meth
+R8912:8915 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8911:8911 Heaps.coding <> T var
+sec 8932:8939 Code ClassDef
+syndef 8952:8959 Code class_of
+R8964:8971 Heaps.coding Code mixin_of rec
+constr 9015:9018 Code Pack
+rec 9000:9003 Code type
+proj 9021:9024 Code sort
+R9038:9045 Heaps.coding Code class_of syndef
+R9047:9050 Heaps.coding <> sort meth
+R9070:9103 Heaps.coding Code sort proj
+var 9118:9118 Code.ClassDef T
+var 9129:9130 Code.ClassDef cT
+R9134:9137 Heaps.coding Code type rec
+def 9152:9156 Code class
+R9187:9188 Heaps.coding <> Code.ClassDef.cT var
+R9197:9204 Heaps.coding Code class_of syndef
+R9206:9208 Heaps.coding <> cT' var
+R9166:9169 Heaps.coding Code Pack constr
+def 9228:9231 Code pack
+R9239:9242 Heaps.coding Code Pack constr
+R9248:9248 Heaps.coding <> Code.ClassDef.T var
+R9246:9246 Heaps.coding <> c var
+R9244:9244 Heaps.coding <> Code.ClassDef.T var
+def 9262:9266 Code clone
+R9281:9284 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9285:9285 Heaps.coding <> Code.ClassDef.T var
+R9279:9280 Heaps.coding <> Code.ClassDef.cT var
+R9289:9296 Coq.ssr.ssrfun <> phant_id def
+R9307:9308 Heaps.coding <> Code.ClassDef.cT var
+R9299:9302 Heaps.coding Code pack def
+R9304:9304 Heaps.coding <> c var
+R9313:9316 Heaps.coding Code pack def
+R9318:9318 Heaps.coding <> c var
+def 9333:9340 Code code_dom
+R9345:9355 Heaps.coding Code code_dom_op proj
+R9357:9361 Heaps.coding Code class def
+def 9375:9380 Code encode
+R9386:9394 Heaps.coding Code encode_op proj
+R9398:9402 Heaps.coding Code class def
+def 9416:9422 Code to_type
+R9427:9436 Heaps.coding Code to_type_op proj
+R9438:9442 Heaps.coding Code class def
+R9450:9457 Heaps.coding Code.ClassDef <> sec
+mod 9468:9474 <> Code.Exports
+R9477:9510 Heaps.coding Code sort proj
+syndef 9522:9525 Code.Exports code
+R9530:9533 Heaps.coding Code type rec
+syndef 9545:9553 Code.Exports codeMixin
+R9564:9568 Heaps.coding Code Mixin constr
+syndef 9587:9590 Code.Exports Code
+R9601:9604 Heaps.coding Code pack def
+syndef 9622:9629 Code.Exports code_dom
+R9634:9641 Heaps.coding Code code_dom def
+syndef 9653:9658 Code.Exports encode
+R9663:9668 Heaps.coding Code encode def
+syndef 9680:9686 Code.Exports to_type
+R9691:9697 Heaps.coding Code to_type def
+R9720:9726 Heaps.coding Code to_type def
+R9753:9758 Heaps.coding Code encode def
+R9846:9848 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+R9849:9856 Heaps.coding Code mixin_of rec
+R9839:9843 Heaps.coding Code class def
+not 9810:9810 Code.Exports :form_scope:'['_'codeMixin'_'of'_x_']'
+R9967:9971 Heaps.coding Code clone def
+R9985:9986 Coq.ssr.ssrfun <> id syndef
+R9979:9983 Coq.ssr.ssrfun <> idfun syndef
+not 9934:9934 Code.Exports :form_scope:'['_'code'_'of'_x_'for'_x_']'
+R10092:10096 Heaps.coding Code clone def
+R10107:10108 Coq.ssr.ssrfun <> id syndef
+R10104:10105 Coq.ssr.ssrfun <> id syndef
+not 10067:10067 Code.Exports :form_scope:'['_'code'_'of'_x_']'
+R10175:10181 Heaps.coding Code.Exports <> mod
+R10189:10192 Heaps.coding Code <> mod
+def 10305:10317 <> set_codeMixin
+R10322:10330 Heaps.coding <> codeMixin syndef
+R10332:10345 Heaps.coding <> st_code_eqType canonstruc
+R10347:10353 Heaps.coding <> st_sort def
+R10355:10366 Heaps.coding <> sort proj
+R10390:10393 Heaps.coding <> Code syndef
+R10395:10397 Heaps.coding <> set syndef
+R10399:10411 Heaps.coding <> set_codeMixin def
+def 10426:10439 <> spcm_codeMixin
+R10444:10452 Heaps.coding <> codeMixin syndef
+R10454:10469 Heaps.coding <> spcm_code_eqType canonstruc
+R10471:10479 Heaps.coding <> spcm_sort def
+R10481:10489 Heaps.spcm SPCM sort proj
+R10514:10517 Heaps.coding <> Code syndef
+R10519:10522 Heaps.spcm SPCM.Exports spcm syndef
+R10524:10537 Heaps.coding <> spcm_codeMixin def
+def 10552:10564 <> pcm_codeMixin
+R10569:10577 Heaps.coding <> codeMixin syndef
+R10579:10593 Heaps.coding <> pcm_code_eqType canonstruc
+R10595:10602 Heaps.coding <> pcm_sort def
+R10604:10611 Heaps.pcm PCM sort proj
+R10635:10638 Heaps.coding <> Code syndef
+R10640:10642 Heaps.pcm PCM.Exports pcm syndef
+R10644:10656 Heaps.coding <> pcm_codeMixin def
+def 10671:10684 <> type_codeMixin
+R10689:10697 Heaps.coding <> codeMixin syndef
+R10699:10712 Heaps.coding <> tp_code_eqType canonstruc
+R10714:10720 Heaps.coding <> tp_sort def
+R10722:10723 Coq.ssr.ssrfun <> id syndef
+R10748:10751 Heaps.coding <> Code syndef
+R10758:10771 Heaps.coding <> type_codeMixin def
+mod 11079:11085 <> Encoded
+sec 11096:11102 Encoded Encoded
+var 11114:11114 Encoded.Encoded C
+R11118:11121 Heaps.coding Code.Exports code syndef
+constr 11155:11159 Encoded Mixin
+rec 11135:11142 Encoded mixin_of
+proj 11165:11173 Encoded decode_op
+R11149:11149 Heaps.coding <> Encoded.Encoded.C var
+R11177:11184 Heaps.coding Code.Exports code_dom syndef
+R11186:11186 Heaps.coding <> Encoded.Encoded.C var
+R11211:11213 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11195:11200 Heaps.coding Code.Exports encode syndef
+R11202:11210 Heaps.coding <> decode_op meth
+R11214:11214 Heaps.coding <> v var
+sec 11227:11234 Encoded.Encoded ClassDef
+syndef 11247:11254 Encoded class_of
+R11259:11266 Heaps.coding Encoded mixin_of rec
+constr 11310:11313 Encoded Pack
+rec 11295:11298 Encoded type
+proj 11316:11319 Encoded sort
+R11323:11323 Heaps.coding <> Encoded.Encoded.C var
+R11330:11337 Heaps.coding Encoded class_of syndef
+R11339:11342 Heaps.coding <> sort meth
+R11349:11349 Heaps.coding <> Encoded.Encoded.C var
+R11359:11392 Heaps.coding Encoded sort proj
+var 11407:11407 Encoded.Encoded.ClassDef v
+var 11415:11416 Encoded.Encoded.ClassDef cT
+R11411:11411 Heaps.coding <> Encoded.Encoded.C var
+R11420:11423 Heaps.coding Encoded type rec
+def 11438:11442 Encoded class
+R11473:11474 Heaps.coding <> Encoded.Encoded.ClassDef.cT var
+R11483:11490 Heaps.coding Encoded class_of syndef
+R11492:11494 Heaps.coding <> cT' var
+R11452:11455 Heaps.coding Encoded Pack constr
+def 11514:11517 Encoded pack
+R11525:11528 Heaps.coding Encoded Pack constr
+R11534:11534 Heaps.coding <> Encoded.Encoded.ClassDef.v var
+R11532:11532 Heaps.coding <> c var
+R11530:11530 Heaps.coding <> Encoded.Encoded.ClassDef.v var
+def 11549:11553 Encoded clone
+R11578:11581 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11582:11588 Heaps.coding Code.Exports to_type syndef
+R11590:11590 Heaps.coding <> Encoded.Encoded.ClassDef.v var
+R11568:11574 Heaps.coding Code.Exports to_type syndef
+R11576:11577 Heaps.coding <> Encoded.Encoded.ClassDef.cT var
+R11594:11601 Coq.ssr.ssrfun <> phant_id def
+R11612:11613 Heaps.coding <> Encoded.Encoded.ClassDef.cT var
+R11604:11607 Heaps.coding Encoded pack def
+R11609:11609 Heaps.coding <> c var
+R11618:11621 Heaps.coding Encoded pack def
+R11623:11623 Heaps.coding <> c var
+def 11638:11643 Encoded decode
+R11648:11656 Heaps.coding Encoded decode_op proj
+R11658:11662 Heaps.coding Encoded class def
+R11670:11677 Heaps.coding Encoded.Encoded.ClassDef <> sec
+R11684:11690 Heaps.coding Encoded.Encoded <> sec
+mod 11701:11707 <> Encoded.Exports
+R11710:11743 Heaps.coding Encoded sort proj
+syndef 11755:11761 Encoded.Exports encoded
+R11766:11769 Heaps.coding Encoded type rec
+syndef 11781:11791 Encoded.Exports encodeMixin
+R11796:11800 Heaps.coding Encoded Mixin constr
+syndef 11812:11817 Encoded.Exports Encode
+R11830:11833 Heaps.coding Encoded pack def
+syndef 11853:11858 Encoded.Exports decode
+R11863:11868 Heaps.coding Encoded decode def
+R11891:11901 Heaps.coding Encoded Mixin constr
+sec 11916:11921 Encoded.Exports Lemmas
+var 11933:11933 Encoded.Exports.Lemmas C
+R11937:11940 Heaps.coding Code.Exports code syndef
+R11961:11967 Heaps.coding Encoded.Exports encoded syndef
+R11969:11969 Heaps.coding <> Encoded.Exports.Lemmas.C var
+prf 12154:12160 Encoded.Exports encdecE
+R12183:12185 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12166:12171 Heaps.coding Code.Exports encode syndef
+R12174:12179 Heaps.coding Encoded.Exports decode syndef
+R12181:12181 Heaps.coding <> U var
+R12186:12186 Heaps.coding <> U var
+prf 12227:12236 Encoded.Exports decode_inj
+R12267:12270 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12273:12275 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R12278:12281 Coq.Init.Logic <> :type_scope:x_'='_x_':>'_x not
+R12282:12282 Heaps.coding <> Encoded.Exports.Lemmas.C var
+R12271:12272 Heaps.coding <> U1 var
+R12276:12277 Heaps.coding <> U2 var
+R12255:12257 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12246:12251 Heaps.coding Encoded.Exports decode syndef
+R12253:12254 Heaps.coding <> U1 var
+R12258:12263 Heaps.coding Encoded.Exports decode syndef
+R12265:12266 Heaps.coding <> U2 var
+R12363:12368 Heaps.coding Encoded.Exports decode syndef
+R12363:12368 Heaps.coding Encoded.Exports decode syndef
+R12363:12368 Heaps.coding Encoded.Exports decode syndef
+def 12405:12412 Encoded.Exports code_dyn
+R12421:12427 Heaps.coding Code.Exports to_type syndef
+R12429:12429 Heaps.coding <> U var
+R12438:12441 Heaps.idynamic <> idyn constr
+R12509:12515 Heaps.idynamic <> icoerce def
+R12528:12531 Coq.ssr.ssrfun <> esym def
+R12534:12540 Heaps.coding Encoded.Exports encdecE thm
+R12542:12542 Heaps.coding <> U var
+R12525:12525 Heaps.coding <> v var
+R12517:12523 Heaps.coding Code.Exports to_type syndef
+R12477:12482 Heaps.coding Encoded.Exports decode syndef
+R12484:12484 Heaps.coding <> U var
+R12464:12467 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R12457:12463 Heaps.coding Code.Exports to_type syndef
+R12468:12473 Heaps.coding Code.Exports encode syndef
+R12444:12451 Heaps.coding Code.Exports code_dom syndef
+R12453:12453 Heaps.coding <> Encoded.Exports.Lemmas.C var
+sec 12614:12620 Encoded.Exports.Lemmas CodeEta
+var 12632:12632 Encoded.Exports.Lemmas.CodeEta u
+R12636:12643 Heaps.idynamic <> idynamic ind
+R12653:12656 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R12646:12652 Heaps.coding Code.Exports to_type syndef
+R12658:12663 Heaps.coding Code.Exports encode syndef
+R12665:12665 Heaps.coding <> Encoded.Exports.Lemmas.C var
+def 12681:12688 Encoded.Exports code_enc
+R12692:12698 Heaps.coding Encoded.Exports encoded syndef
+R12700:12700 Heaps.coding <> Encoded.Exports.Lemmas.C var
+R12717:12722 Heaps.coding Code.Exports encode syndef
+R12725:12731 Heaps.idynamic <> idyn_tp def
+R12733:12733 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12752:12762 Heaps.coding Encoded.Exports encodeMixin syndef
+R12781:12785 Coq.ssr.ssrfun <> erefl syndef
+R12769:12775 Heaps.idynamic <> idyn_tp def
+R12777:12777 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12764:12764 Heaps.coding <> Encoded.Exports.Lemmas.C var
+R12797:12802 Heaps.coding Encoded.Exports Encode syndef
+R12804:12804 Heaps.coding <> Encoded.Exports.Lemmas.C var
+def 12823:12830 Encoded.Exports code_val
+R12834:12840 Heaps.coding Code.Exports to_type syndef
+R12842:12849 Heaps.coding Encoded.Exports code_enc def
+R12854:12861 Heaps.idynamic <> idyn_val def
+R12863:12863 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+prf 12873:12880 Encoded.Exports code_eta
+R12885:12887 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12884:12884 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12888:12895 Heaps.coding Encoded.Exports code_dyn def
+R12897:12904 Heaps.coding Encoded.Exports code_val def
+R12930:12937 Heaps.idynamic <> idyn_eta thm
+R12939:12939 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12950:12954 Heaps.idynamic <> idynE thm
+R12973:12976 Heaps.idynamic <> ieqc thm
+R12930:12937 Heaps.idynamic <> idyn_eta thm
+R12939:12939 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12930:12937 Heaps.idynamic <> idyn_eta thm
+R12939:12939 Heaps.coding <> Encoded.Exports.Lemmas.CodeEta.u var
+R12950:12954 Heaps.idynamic <> idynE thm
+R12973:12976 Heaps.idynamic <> ieqc thm
+R12973:12976 Heaps.idynamic <> ieqc thm
+R12973:12976 Heaps.idynamic <> ieqc thm
+R12973:12976 Heaps.idynamic <> ieqc thm
+R12989:12995 Heaps.coding Encoded.Exports.Lemmas.CodeEta <> sec
+R13003:13008 Heaps.coding Encoded.Exports.Lemmas <> sec
+R13066:13068 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+R13070:13077 Heaps.coding Encoded mixin_of rec
+R13057:13061 Heaps.coding Encoded class def
+not 13021:13021 Encoded.Exports :form_scope:'['_'encodedMixin'_x_'for'_x_']'
+R13202:13206 Heaps.coding Encoded clone def
+R13222:13223 Coq.ssr.ssrfun <> id syndef
+R13216:13220 Coq.ssr.ssrfun <> idfun syndef
+not 13164:13164 Encoded.Exports :form_scope:'['_'encoded'_x_'of'_x_'for'_x_']'
+R13340:13344 Heaps.coding Encoded clone def
+R13360:13361 Coq.ssr.ssrfun <> id syndef
+R13354:13358 Coq.ssr.ssrfun <> idfun syndef
+not 13310:13310 Encoded.Exports :form_scope:'['_'encoded'_x_'of'_x_']'
+R13434:13440 Heaps.coding Encoded.Exports <> mod
+R13448:13454 Heaps.coding Encoded <> mod
+def 13494:13504 <> encoded_set
+R13509:13515 Heaps.coding <> encoded syndef
+R13517:13523 Heaps.coding <> setCode canonstruc
+def 13537:13549 <> encodeMixinST
+R13554:13564 Heaps.coding <> encodeMixin syndef
+R13566:13572 Heaps.coding <> setCode canonstruc
+def 13586:13593 <> EncodeST
+R13601:13611 Heaps.coding <> encoded_set def
+R13617:13628 Heaps.coding <> pack def
+R13640:13640 Heaps.coding <> m var
+R13638:13638 Heaps.coding <> v var
+R13630:13636 Heaps.coding <> setCode canonstruc
+R13662:13674 Heaps.coding <> encodeMixinST def
+R13699:13706 Heaps.coding <> EncodeST def
+def 13724:13735 <> encoded_spcm
+R13740:13746 Heaps.coding <> encoded syndef
+R13748:13755 Heaps.coding <> spcmCode canonstruc
+def 13769:13783 <> encodeMixinSPCM
+R13788:13798 Heaps.coding <> encodeMixin syndef
+R13800:13807 Heaps.coding <> spcmCode canonstruc
+def 13821:13830 <> EncodeSPCM
+R13838:13849 Heaps.coding <> encoded_spcm def
+R13855:13866 Heaps.coding <> pack def
+R13879:13879 Heaps.coding <> m var
+R13877:13877 Heaps.coding <> v var
+R13868:13875 Heaps.coding <> spcmCode canonstruc
+R13901:13915 Heaps.coding <> encodeMixinSPCM def
+R13940:13949 Heaps.coding <> EncodeSPCM def
+def 13967:13977 <> encoded_pcm
+R13982:13988 Heaps.coding <> encoded syndef
+R13990:13996 Heaps.coding <> pcmCode canonstruc
+def 14010:14023 <> encodeMixinPCM
+R14028:14038 Heaps.coding <> encodeMixin syndef
+R14040:14046 Heaps.coding <> pcmCode canonstruc
+def 14060:14068 <> EncodePCM
+R14076:14086 Heaps.coding <> encoded_pcm def
+R14092:14103 Heaps.coding <> pack def
+R14115:14115 Heaps.coding <> m var
+R14113:14113 Heaps.coding <> v var
+R14105:14111 Heaps.coding <> pcmCode canonstruc
+R14137:14150 Heaps.coding <> encodeMixinPCM def
+R14175:14183 Heaps.coding <> EncodePCM def
+def 14201:14212 <> encoded_type
+R14217:14223 Heaps.coding <> encoded syndef
+R14225:14232 Heaps.coding <> typeCode canonstruc
+def 14246:14258 <> encodeMixinTP
+R14263:14273 Heaps.coding <> encodeMixin syndef
+R14275:14282 Heaps.coding <> typeCode canonstruc
+def 14296:14303 <> EncodeTP
+R14311:14322 Heaps.coding <> encoded_type def
+R14328:14339 Heaps.coding <> pack def
+R14352:14352 Heaps.coding <> m var
+R14350:14350 Heaps.coding <> v var
+R14341:14348 Heaps.coding <> typeCode canonstruc
+R14374:14386 Heaps.coding <> encodeMixinTP def
+R14411:14418 Heaps.coding <> EncodeTP def
+def 14470:14485 <> encoded_sort_set
+R14500:14503 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14504:14506 Heaps.coding <> set syndef
+R14489:14499 Heaps.coding <> encoded_set def
+R14522:14533 Heaps.coding <> sort proj
+R14535:14535 Heaps.coding <> U var
+R14538:14584 Heaps.coding <> encoded_sort_set def
+def 14599:14615 <> encoded_sort_spcm
+R14631:14634 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14635:14638 Heaps.spcm SPCM.Exports spcm syndef
+R14619:14630 Heaps.coding <> encoded_spcm def
+R14654:14665 Heaps.coding <> sort proj
+R14667:14667 Heaps.coding <> U var
+R14670:14719 Heaps.coding <> encoded_sort_spcm def
+def 14734:14749 <> encoded_sort_pcm
+R14764:14767 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14768:14770 Heaps.pcm PCM.Exports pcm syndef
+R14753:14763 Heaps.coding <> encoded_pcm def
+R14786:14797 Heaps.coding <> sort proj
+R14799:14799 Heaps.coding <> U var
+R14802:14848 Heaps.coding <> encoded_sort_pcm def
+def 14863:14879 <> encoded_sort_type
+R14895:14898 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14883:14894 Heaps.coding <> encoded_type def
+R14918:14929 Heaps.coding <> sort proj
+R14931:14931 Heaps.coding <> U var
+R14934:14988 Heaps.coding <> encoded_sort_type def
+def 15036:15046 <> spcm_to_pcm
+R15053:15061 Heaps.coding <> spcm_code ind
+R15066:15073 Heaps.coding <> pcm_code ind
+R15086:15086 Heaps.coding <> x var
+R15097:15105 Heaps.coding <> spcm_unit constr
+R15110:15117 Heaps.coding <> pcm_unit constr
+R15123:15130 Heaps.coding <> spcm_nat constr
+R15135:15141 Heaps.coding <> pcm_nat constr
+R15147:15157 Heaps.coding <> spcm_natmap constr
+R15165:15174 Heaps.coding <> pcm_natmap constr
+R15183:15193 Heaps.coding <> spcm_ptrmap constr
+R15201:15210 Heaps.coding <> pcm_ptrmap constr
+R15219:15227 Heaps.coding <> spcm_prod constr
+R15236:15243 Heaps.coding <> pcm_prod constr
+R15262:15272 Heaps.coding <> spcm_to_pcm def
+R15246:15256 Heaps.coding <> spcm_to_pcm def
+prf 15291:15301 <> spcm_pcm_pf
+R15308:15319 Heaps.coding <> encoded_spcm def
+R15372:15374 Coq.Init.Logic <> :type_scope:x_'='_x not
+R15333:15338 Heaps.coding <> encode syndef
+R15349:15359 Heaps.coding <> spcm_to_pcm def
+R15362:15367 Heaps.coding <> decode syndef
+R15369:15369 Heaps.coding <> V var
+R15340:15346 Heaps.coding <> pcmCode canonstruc
+R15375:15375 Heaps.coding <> V var
+R15417:15422 Heaps.coding <> decode syndef
+R15433:15438 Heaps.coding <> encode syndef
+R15417:15422 Heaps.coding <> decode syndef
+R15417:15422 Heaps.coding <> decode syndef
+R15433:15438 Heaps.coding <> encode syndef
+R15433:15438 Heaps.coding <> encode syndef
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15483:15490 Heaps.pcm PCM pack def
+R15499:15507 Heaps.pcm PCM Mixin constr
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+R15521:15537 Heaps.prelude <> proof_irrelevance thm
+def 15557:15577 <> spcm_pcm_encodedMixin
+R15584:15595 Heaps.coding <> encoded_spcm def
+R15603:15616 Heaps.coding <> encodeMixinPCM def
+R15646:15656 Heaps.coding <> spcm_pcm_pf thm
+R15658:15658 Heaps.coding <> V var
+R15621:15631 Heaps.coding <> spcm_to_pcm def
+R15634:15639 Heaps.coding <> decode syndef
+R15641:15641 Heaps.coding <> V var
+R15618:15618 Heaps.coding <> V var
+R15694:15705 Heaps.coding <> encoded_spcm def
+R15713:15721 Heaps.coding <> EncodePCM def
+R15726:15746 Heaps.coding <> spcm_pcm_encodedMixin def
+R15748:15748 Heaps.coding <> V var
+R15723:15723 Heaps.coding <> V var
+R15753:15808 Heaps.coding <> spcm_pcm_Encoded canonstruc
+def 15858:15864 <> pcm_dyn
+R15871:15881 Heaps.coding <> encoded_pcm def
+R15889:15889 Heaps.coding <> U var
+R15896:15903 Heaps.coding <> code_dyn def
+R15915:15915 Heaps.coding <> v var
+R15913:15913 Heaps.coding <> U var
+R15905:15911 Heaps.coding <> pcmCode canonstruc
+sec 15927:15932 <> PCMEta
+var 15944:15944 PCMEta u
+R15948:15955 Heaps.idynamic <> idynamic ind
+R15965:15968 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R15958:15964 Heaps.coding <> to_type syndef
+R15969:15976 Heaps.coding <> pcm_sort def
+def 15992:15998 <> pcm_enc
+R16002:16012 Heaps.coding <> encoded_pcm def
+R16018:16025 Heaps.coding <> code_enc def
+R16035:16035 Heaps.coding <> PCMEta.u var
+R16027:16033 Heaps.coding <> pcmCode canonstruc
+def 16049:16055 <> pcm_val
+R16059:16065 Heaps.coding <> pcm_enc def
+R16071:16078 Heaps.coding <> code_val def
+R16088:16088 Heaps.coding <> PCMEta.u var
+R16080:16086 Heaps.coding <> pcmCode canonstruc
+def 16102:16108 <> pcm_eta
+R16113:16115 Coq.Init.Logic <> :type_scope:x_'='_x not
+R16112:16112 Heaps.coding <> PCMEta.u var
+R16116:16122 Heaps.coding <> pcm_dyn def
+R16124:16130 Heaps.coding <> pcm_val def
+R16136:16143 Heaps.coding <> code_eta thm
+R16153:16153 Heaps.coding <> PCMEta.u var
+R16145:16151 Heaps.coding <> pcmCode canonstruc
+R16161:16166 Heaps.coding PCMEta <> sec
+def 16275:16294 <> unit_st_encodedMixin
+R16299:16311 Heaps.coding <> encodeMixinST def
+R16330:16334 Coq.ssr.ssrfun <> erefl syndef
+R16321:16327 Heaps.coding <> st_unit constr
+R16313:16319 Heaps.coding <> unitSet canonstruc
+R16369:16376 Heaps.coding <> EncodeST def
+R16386:16405 Heaps.coding <> unit_st_encodedMixin def
+R16378:16384 Heaps.coding <> unitSet canonstruc
+def 16420:16438 <> nat_st_encodedMixin
+R16443:16455 Heaps.coding <> encodeMixinST def
+R16472:16476 Coq.ssr.ssrfun <> erefl syndef
+R16464:16469 Heaps.coding <> st_nat constr
+R16457:16462 Heaps.coding <> natSet canonstruc
+R16510:16517 Heaps.coding <> EncodeST def
+R16526:16544 Heaps.coding <> nat_st_encodedMixin def
+R16519:16524 Heaps.coding <> natSet canonstruc
+def 16559:16578 <> bool_st_encodedMixin
+R16583:16595 Heaps.coding <> encodeMixinST def
+R16614:16618 Coq.ssr.ssrfun <> erefl syndef
+R16605:16611 Heaps.coding <> st_bool constr
+R16597:16603 Heaps.coding <> boolSet canonstruc
+R16653:16660 Heaps.coding <> EncodeST def
+R16670:16689 Heaps.coding <> bool_st_encodedMixin def
+R16662:16668 Heaps.coding <> boolSet canonstruc
+def 16704:16722 <> ptr_st_encodedMixin
+R16727:16739 Heaps.coding <> encodeMixinST def
+R16756:16760 Coq.ssr.ssrfun <> erefl syndef
+R16748:16753 Heaps.coding <> st_ptr constr
+R16741:16746 Heaps.coding <> ptrSet canonstruc
+R16794:16801 Heaps.coding <> EncodeST def
+R16810:16828 Heaps.coding <> ptr_st_encodedMixin def
+R16803:16808 Heaps.coding <> ptrSet canonstruc
+def 16843:16861 <> mtx_st_encodedMixin
+R16866:16878 Heaps.coding <> encodeMixinST def
+R16897:16901 Coq.ssr.ssrfun <> erefl syndef
+R16889:16894 Heaps.coding <> st_mtx constr
+R16880:16887 Heaps.coding <> mutexSet canonstruc
+R16935:16942 Heaps.coding <> EncodeST def
+R16953:16971 Heaps.coding <> mtx_st_encodedMixin def
+R16944:16951 Heaps.coding <> mutexSet canonstruc
+prf 17164:17175 <> option_st_pf
+R17182:17192 Heaps.coding <> encoded_set def
+R17243:17245 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17206:17211 Heaps.coding <> encode syndef
+R17222:17230 Heaps.coding <> st_option constr
+R17233:17238 Heaps.coding <> decode syndef
+R17240:17240 Heaps.coding <> U var
+R17213:17219 Heaps.coding <> setCode canonstruc
+R17246:17254 Heaps.coding <> optionSet canonstruc
+R17256:17256 Heaps.coding <> U var
+R17278:17283 Heaps.coding <> decode syndef
+R17278:17283 Heaps.coding <> decode syndef
+R17278:17283 Heaps.coding <> decode syndef
+def 17327:17348 <> option_st_encodedMixin
+R17355:17365 Heaps.coding <> encoded_set def
+R17373:17383 Heaps.coding <> encodeMixin syndef
+R17431:17442 Heaps.coding <> option_st_pf thm
+R17444:17444 Heaps.coding <> U var
+R17408:17416 Heaps.coding <> st_option constr
+R17419:17424 Heaps.coding <> decode syndef
+R17426:17426 Heaps.coding <> U var
+R17394:17402 Heaps.coding <> optionSet canonstruc
+R17404:17404 Heaps.coding <> U var
+R17385:17391 Heaps.coding <> setCode canonstruc
+R17481:17491 Heaps.coding <> encoded_set def
+R17499:17506 Heaps.coding <> EncodeST def
+R17523:17544 Heaps.coding <> option_st_encodedMixin def
+R17546:17546 Heaps.coding <> U var
+R17509:17517 Heaps.coding <> optionSet canonstruc
+R17519:17519 Heaps.coding <> U var
+prf 17557:17565 <> seq_st_pf
+R17572:17582 Heaps.coding <> encoded_set def
+R17630:17632 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17596:17601 Heaps.coding <> encode syndef
+R17612:17617 Heaps.coding <> st_seq constr
+R17620:17625 Heaps.coding <> decode syndef
+R17627:17627 Heaps.coding <> U var
+R17603:17609 Heaps.coding <> setCode canonstruc
+R17633:17638 Heaps.coding <> seqSet canonstruc
+R17640:17640 Heaps.coding <> U var
+R17662:17667 Heaps.coding <> decode syndef
+R17662:17667 Heaps.coding <> decode syndef
+R17662:17667 Heaps.coding <> decode syndef
+def 17711:17729 <> seq_st_encodedMixin
+R17736:17746 Heaps.coding <> encoded_set def
+R17754:17764 Heaps.coding <> encodeMixin syndef
+R17806:17814 Heaps.coding <> seq_st_pf thm
+R17816:17816 Heaps.coding <> U var
+R17786:17791 Heaps.coding <> st_seq constr
+R17794:17799 Heaps.coding <> decode syndef
+R17801:17801 Heaps.coding <> U var
+R17775:17780 Heaps.coding <> seqSet canonstruc
+R17782:17782 Heaps.coding <> U var
+R17766:17772 Heaps.coding <> setCode canonstruc
+R17850:17860 Heaps.coding <> encoded_set def
+R17868:17875 Heaps.coding <> EncodeST def
+R17889:17907 Heaps.coding <> seq_st_encodedMixin def
+R17909:17909 Heaps.coding <> U var
+R17878:17883 Heaps.coding <> seqSet canonstruc
+R17885:17885 Heaps.coding <> U var
+prf 17920:17929 <> prod_st_pf
+R17940:17950 Heaps.coding <> encoded_set def
+R18012:18014 Coq.Init.Logic <> :type_scope:x_'='_x not
+R17964:17969 Heaps.coding <> encode syndef
+R17980:17986 Heaps.coding <> st_prod constr
+R18001:18006 Heaps.coding <> decode syndef
+R18008:18009 Heaps.coding <> U2 var
+R17989:17994 Heaps.coding <> decode syndef
+R17996:17997 Heaps.coding <> U1 var
+R17971:17977 Heaps.coding <> setCode canonstruc
+R18015:18021 Heaps.coding <> prodSet canonstruc
+R18026:18027 Heaps.coding <> U2 var
+R18023:18024 Heaps.coding <> U1 var
+R18049:18054 Heaps.coding <> decode syndef
+R18049:18054 Heaps.coding <> decode syndef
+R18049:18054 Heaps.coding <> decode syndef
+def 18118:18137 <> prod_st_encodedMixin
+R18148:18158 Heaps.coding <> encoded_set def
+R18166:18178 Heaps.coding <> encodeMixinST def
+R18247:18256 Heaps.coding <> prod_st_pf thm
+R18261:18262 Heaps.coding <> U2 var
+R18258:18259 Heaps.coding <> U1 var
+R18213:18219 Heaps.coding <> st_prod constr
+R18234:18239 Heaps.coding <> decode syndef
+R18241:18242 Heaps.coding <> U2 var
+R18222:18227 Heaps.coding <> decode syndef
+R18229:18230 Heaps.coding <> U1 var
+R18181:18187 Heaps.coding <> prodSet canonstruc
+R18192:18193 Heaps.coding <> U2 var
+R18189:18190 Heaps.coding <> U1 var
+R18301:18311 Heaps.coding <> encoded_set def
+R18319:18326 Heaps.coding <> EncodeST def
+R18345:18364 Heaps.coding <> prod_st_encodedMixin def
+R18369:18370 Heaps.coding <> U2 var
+R18366:18367 Heaps.coding <> U1 var
+R18329:18335 Heaps.coding <> prodSet canonstruc
+R18340:18341 Heaps.coding <> U2 var
+R18337:18338 Heaps.coding <> U1 var
+prf 18531:18539 <> arr_st_pf
+R18550:18560 Heaps.coding <> encoded_set def
+R18621:18623 Coq.Init.Logic <> :type_scope:x_'='_x not
+R18574:18579 Heaps.coding <> encode syndef
+R18590:18595 Heaps.coding <> st_arr constr
+R18610:18615 Heaps.coding <> decode syndef
+R18617:18618 Heaps.coding <> U2 var
+R18598:18603 Heaps.coding <> decode syndef
+R18605:18606 Heaps.coding <> U1 var
+R18581:18587 Heaps.coding <> setCode canonstruc
+R18624:18629 Heaps.coding <> arrSet canonstruc
+R18634:18635 Heaps.coding <> U2 var
+R18631:18632 Heaps.coding <> U1 var
+R18657:18662 Heaps.coding <> decode syndef
+R18657:18662 Heaps.coding <> decode syndef
+R18657:18662 Heaps.coding <> decode syndef
+def 18726:18744 <> arr_st_encodedMixin
+R18755:18765 Heaps.coding <> encoded_set def
+R18773:18785 Heaps.coding <> encodeMixinST def
+R18836:18844 Heaps.coding <> arr_st_pf thm
+R18849:18850 Heaps.coding <> U2 var
+R18846:18847 Heaps.coding <> U1 var
+R18803:18808 Heaps.coding <> st_arr constr
+R18823:18828 Heaps.coding <> decode syndef
+R18830:18831 Heaps.coding <> U2 var
+R18811:18816 Heaps.coding <> decode syndef
+R18818:18819 Heaps.coding <> U1 var
+R18788:18793 Heaps.coding <> arrSet canonstruc
+R18798:18799 Heaps.coding <> U2 var
+R18795:18796 Heaps.coding <> U1 var
+R18888:18898 Heaps.coding <> encoded_set def
+R18906:18913 Heaps.coding <> EncodeST def
+R18931:18949 Heaps.coding <> arr_st_encodedMixin def
+R18954:18955 Heaps.coding <> U2 var
+R18951:18952 Heaps.coding <> U1 var
+R18916:18921 Heaps.coding <> arrSet canonstruc
+R18926:18927 Heaps.coding <> U2 var
+R18923:18924 Heaps.coding <> U1 var
+def 19119:19127 <> set_clone
+R19144:19154 Heaps.coding <> encoded_set def
+R19162:19174 Heaps.coding <> clone def
+R19194:19195 Heaps.coding <> b2 var
+R19191:19192 Heaps.coding <> b1 var
+R19189:19189 Heaps.coding <> c var
+R19186:19187 Heaps.coding <> cT var
+R19184:19184 Heaps.coding <> v var
+R19176:19182 Heaps.coding <> setCode canonstruc
+R19240:19248 Heaps.coding <> set_clone def
+R19271:19272 Coq.ssr.ssrfun <> id syndef
+R19265:19269 Coq.ssr.ssrfun <> idfun syndef
+R19250:19257 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+R19259:19259 Heaps.coding SetType.Exports :form_scope:'['_'set'_'of'_x_']' not
+not 19208:19208 <> :form_scope:'['_'encoded_set'_'of'_x_']'
+def 19450:19469 <> unit_tp_encodedMixin
+R19474:19486 Heaps.coding <> encodeMixinTP def
+R19511:19515 Coq.ssr.ssrfun <> erefl syndef
+R19502:19508 Heaps.coding <> tp_unit constr
+R19493:19499 Coq.ssr.ssreflect <> :core_scope:x_':'_'Type' not
+R19489:19492 Coq.Init.Datatypes <> unit ind
+R19550:19557 Heaps.coding <> EncodeTP def
+R19564:19583 Heaps.coding <> unit_tp_encodedMixin def
+R19559:19562 Coq.Init.Datatypes <> unit ind
+def 19598:19616 <> nat_tp_encodedMixin
+R19621:19633 Heaps.coding <> encodeMixinTP def
+R19647:19651 Coq.ssr.ssrfun <> erefl syndef
+R19639:19644 Heaps.coding <> tp_nat constr
+R19635:19637 Coq.Init.Datatypes <> nat ind
+R19685:19692 Heaps.coding <> EncodeTP def
+R19698:19716 Heaps.coding <> nat_tp_encodedMixin def
+R19694:19696 Coq.Init.Datatypes <> nat ind
+def 19731:19750 <> bool_tp_encodedMixin
+R19755:19767 Heaps.coding <> encodeMixinTP def
+R19783:19787 Coq.ssr.ssrfun <> erefl syndef
+R19774:19780 Heaps.coding <> tp_bool constr
+R19769:19772 Coq.Init.Datatypes <> bool ind
+R19822:19829 Heaps.coding <> EncodeTP def
+R19836:19855 Heaps.coding <> bool_tp_encodedMixin def
+R19831:19834 Coq.Init.Datatypes <> bool ind
+def 19870:19888 <> ptr_tp_encodedMixin
+R19893:19905 Heaps.coding <> encodeMixinTP def
+R19919:19923 Coq.ssr.ssrfun <> erefl syndef
+R19911:19916 Heaps.coding <> tp_ptr constr
+R19907:19909 Heaps.heap <> ptr ind
+R19957:19964 Heaps.coding <> EncodeTP def
+R19970:19988 Heaps.coding <> ptr_tp_encodedMixin def
+R19966:19968 Heaps.heap <> ptr ind
+def 20003:20021 <> mtx_tp_encodedMixin
+R20026:20038 Heaps.coding <> encodeMixinTP def
+R20054:20058 Coq.ssr.ssrfun <> erefl syndef
+R20046:20051 Heaps.coding <> tp_mtx constr
+R20040:20044 Heaps.pcm <> mutex ind
+R20092:20099 Heaps.coding <> EncodeTP def
+R20107:20125 Heaps.coding <> mtx_tp_encodedMixin def
+R20101:20105 Heaps.pcm <> mutex ind
+def 20140:20159 <> heap_tp_encodedMixin
+R20164:20176 Heaps.coding <> encodeMixinTP def
+R20192:20196 Coq.ssr.ssrfun <> erefl syndef
+R20183:20189 Heaps.coding <> tp_heap constr
+R20178:20181 Heaps.heap <> heap syndef
+R20231:20238 Heaps.coding <> EncodeTP def
+R20245:20264 Heaps.coding <> heap_tp_encodedMixin def
+R20240:20243 Heaps.heap <> heap syndef
+prf 20274:20285 <> option_tp_pf
+R20292:20303 Heaps.coding <> encoded_type def
+R20355:20357 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20317:20322 Heaps.coding <> encode syndef
+R20334:20342 Heaps.coding <> tp_option constr
+R20345:20350 Heaps.coding <> decode syndef
+R20352:20352 Heaps.coding <> U var
+R20324:20331 Heaps.coding <> typeCode canonstruc
+R20358:20363 Coq.Init.Datatypes <> option ind
+R20365:20365 Heaps.coding <> U var
+R20387:20392 Heaps.coding <> decode syndef
+R20387:20392 Heaps.coding <> decode syndef
+R20387:20392 Heaps.coding <> decode syndef
+def 20436:20457 <> option_tp_encodedMixin
+R20464:20475 Heaps.coding <> encoded_type def
+R20483:20493 Heaps.coding <> encodeMixin syndef
+R20539:20550 Heaps.coding <> option_tp_pf thm
+R20552:20552 Heaps.coding <> U var
+R20516:20524 Heaps.coding <> tp_option constr
+R20527:20532 Heaps.coding <> decode syndef
+R20534:20534 Heaps.coding <> U var
+R20505:20510 Coq.Init.Datatypes <> option ind
+R20512:20512 Heaps.coding <> U var
+R20495:20502 Heaps.coding <> typeCode canonstruc
+R20589:20600 Heaps.coding <> encoded_type def
+R20608:20615 Heaps.coding <> EncodeTP def
+R20629:20650 Heaps.coding <> option_tp_encodedMixin def
+R20652:20652 Heaps.coding <> U var
+R20618:20623 Coq.Init.Datatypes <> option ind
+R20625:20625 Heaps.coding <> U var
+prf 20663:20671 <> seq_tp_pf
+R20678:20689 Heaps.coding <> encoded_type def
+R20738:20740 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20703:20708 Heaps.coding <> encode syndef
+R20720:20725 Heaps.coding <> tp_seq constr
+R20728:20733 Heaps.coding <> decode syndef
+R20735:20735 Heaps.coding <> U var
+R20710:20717 Heaps.coding <> typeCode canonstruc
+R20741:20743 mathcomp.ssreflect.seq <> seq syndef
+R20745:20745 Heaps.coding <> U var
+R20767:20772 Heaps.coding <> decode syndef
+R20767:20772 Heaps.coding <> decode syndef
+R20767:20772 Heaps.coding <> decode syndef
+def 20816:20834 <> seq_tp_encodedMixin
+R20841:20852 Heaps.coding <> encoded_type def
+R20860:20870 Heaps.coding <> encodeMixin syndef
+R20910:20918 Heaps.coding <> seq_tp_pf thm
+R20920:20920 Heaps.coding <> U var
+R20890:20895 Heaps.coding <> tp_seq constr
+R20898:20903 Heaps.coding <> decode syndef
+R20905:20905 Heaps.coding <> U var
+R20882:20884 mathcomp.ssreflect.seq <> seq syndef
+R20886:20886 Heaps.coding <> U var
+R20872:20879 Heaps.coding <> typeCode canonstruc
+R20954:20965 Heaps.coding <> encoded_type def
+R20973:20980 Heaps.coding <> EncodeTP def
+R20991:21009 Heaps.coding <> seq_tp_encodedMixin def
+R21011:21011 Heaps.coding <> U var
+R20983:20985 mathcomp.ssreflect.seq <> seq syndef
+R20987:20987 Heaps.coding <> U var
+prf 21022:21031 <> prod_tp_pf
+R21042:21053 Heaps.coding <> encoded_type def
+R21116:21118 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21067:21072 Heaps.coding <> encode syndef
+R21084:21090 Heaps.coding <> tp_prod constr
+R21105:21110 Heaps.coding <> decode syndef
+R21112:21113 Heaps.coding <> U2 var
+R21093:21098 Heaps.coding <> decode syndef
+R21100:21101 Heaps.coding <> U1 var
+R21074:21081 Heaps.coding <> typeCode canonstruc
+R21119:21122 Coq.Init.Datatypes <> prod ind
+R21127:21128 Heaps.coding <> U2 var
+R21124:21125 Heaps.coding <> U1 var
+R21150:21155 Heaps.coding <> decode syndef
+R21150:21155 Heaps.coding <> decode syndef
+R21150:21155 Heaps.coding <> decode syndef
+def 21219:21238 <> prod_tp_encodedMixin
+R21249:21260 Heaps.coding <> encoded_type def
+R21268:21280 Heaps.coding <> encodeMixinTP def
+R21346:21355 Heaps.coding <> prod_tp_pf thm
+R21360:21361 Heaps.coding <> U2 var
+R21357:21358 Heaps.coding <> U1 var
+R21312:21318 Heaps.coding <> tp_prod constr
+R21333:21338 Heaps.coding <> decode syndef
+R21340:21341 Heaps.coding <> U2 var
+R21321:21326 Heaps.coding <> decode syndef
+R21328:21329 Heaps.coding <> U1 var
+R21283:21286 Coq.Init.Datatypes <> prod ind
+R21291:21292 Heaps.coding <> U2 var
+R21288:21289 Heaps.coding <> U1 var
+R21400:21411 Heaps.coding <> encoded_type def
+R21419:21426 Heaps.coding <> EncodeTP def
+R21442:21461 Heaps.coding <> prod_tp_encodedMixin def
+R21466:21467 Heaps.coding <> U2 var
+R21463:21464 Heaps.coding <> U1 var
+R21429:21432 Coq.Init.Datatypes <> prod ind
+R21437:21438 Heaps.coding <> U2 var
+R21434:21435 Heaps.coding <> U1 var
+prf 21628:21636 <> arr_tp_pf
+R21647:21658 Heaps.coding <> encoded_type def
+R21720:21723 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21732:21732 Coq.Init.Logic <> :type_scope:x_'='_x not
+R21672:21677 Heaps.coding <> encode syndef
+R21689:21694 Heaps.coding <> tp_arr constr
+R21709:21714 Heaps.coding <> decode syndef
+R21716:21717 Heaps.coding <> U2 var
+R21697:21702 Heaps.coding <> decode syndef
+R21704:21705 Heaps.coding <> U1 var
+R21679:21686 Heaps.coding <> typeCode canonstruc
+R21726:21729 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21730:21731 Heaps.coding <> U2 var
+R21724:21725 Heaps.coding <> U1 var
+R21754:21759 Heaps.coding <> decode syndef
+R21754:21759 Heaps.coding <> decode syndef
+R21754:21759 Heaps.coding <> decode syndef
+def 21823:21841 <> arr_tp_encodedMixin
+R21852:21863 Heaps.coding <> encoded_type def
+R21871:21883 Heaps.coding <> encodeMixinTP def
+R21930:21938 Heaps.coding <> arr_tp_pf thm
+R21943:21944 Heaps.coding <> U2 var
+R21940:21941 Heaps.coding <> U1 var
+R21897:21902 Heaps.coding <> tp_arr constr
+R21917:21922 Heaps.coding <> decode syndef
+R21924:21925 Heaps.coding <> U2 var
+R21905:21910 Heaps.coding <> decode syndef
+R21912:21913 Heaps.coding <> U1 var
+R21888:21891 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R21892:21893 Heaps.coding <> U2 var
+R21886:21887 Heaps.coding <> U1 var
+R21982:21993 Heaps.coding <> encoded_type def
+R22001:22008 Heaps.coding <> EncodeTP def
+R22022:22040 Heaps.coding <> arr_tp_encodedMixin def
+R22045:22046 Heaps.coding <> U2 var
+R22042:22043 Heaps.coding <> U1 var
+R22013:22016 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22017:22018 Heaps.coding <> U2 var
+R22011:22012 Heaps.coding <> U1 var
+prf 22057:22067 <> array_tp_pf
+R22074:22076 Coq.Init.Datatypes <> nat ind
+R22084:22094 Heaps.coding <> encoded_pcm def
+R22147:22149 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22108:22113 Heaps.coding <> encode syndef
+R22125:22132 Heaps.coding <> tp_array constr
+R22137:22142 Heaps.coding <> decode syndef
+R22144:22144 Heaps.coding <> U var
+R22134:22134 Heaps.coding <> n var
+R22115:22122 Heaps.coding <> typeCode canonstruc
+R22150:22155 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22165:22165 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22160:22163 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22164:22164 Heaps.coding <> U var
+R22156:22158 mathcomp.ssreflect.fintype <> ::'''I_'_x not
+R22159:22159 Heaps.coding <> n var
+R22187:22192 Heaps.coding <> decode syndef
+R22187:22192 Heaps.coding <> decode syndef
+R22187:22192 Heaps.coding <> decode syndef
+def 22236:22256 <> array_tp_encodedMixin
+R22265:22275 Heaps.coding <> encoded_pcm def
+R22283:22295 Heaps.coding <> encodeMixinTP def
+R22355:22365 Heaps.coding <> array_tp_pf thm
+R22369:22369 Heaps.coding <> U var
+R22367:22367 Heaps.coding <> n var
+R22331:22338 Heaps.coding <> tp_array constr
+R22343:22348 Heaps.coding <> decode syndef
+R22350:22350 Heaps.coding <> U var
+R22340:22340 Heaps.coding <> n var
+R22297:22302 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22312:22312 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22307:22310 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22311:22311 Heaps.coding <> U var
+R22303:22305 mathcomp.ssreflect.fintype <> ::'''I_'_x not
+R22306:22306 Heaps.coding <> n var
+R22407:22417 Heaps.coding <> encoded_pcm def
+R22425:22432 Heaps.coding <> EncodeTP def
+R22452:22472 Heaps.coding <> array_tp_encodedMixin def
+R22476:22476 Heaps.coding <> U var
+R22474:22474 Heaps.coding <> n var
+R22434:22439 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22449:22449 mathcomp.ssreflect.finfun <> :type_scope:'{'_'ffun'_x_'}' not
+R22444:22447 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22448:22448 Heaps.coding <> U var
+R22440:22442 mathcomp.ssreflect.fintype <> ::'''I_'_x not
+R22443:22443 Heaps.coding <> n var
+prf 22487:22498 <> ptrmap_tp_pf
+R22505:22515 Heaps.coding <> encoded_set def
+R22567:22569 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22529:22534 Heaps.coding <> encode syndef
+R22546:22554 Heaps.coding <> tp_ptrmap constr
+R22557:22562 Heaps.coding <> decode syndef
+R22564:22564 Heaps.coding <> V var
+R22536:22543 Heaps.coding <> typeCode canonstruc
+R22570:22578 Heaps.unionmap <> union_map syndef
+R22592:22592 Heaps.coding <> V var
+R22580:22590 Heaps.heap <> ptr_ordType canonstruc
+R22614:22619 Heaps.coding <> decode syndef
+R22614:22619 Heaps.coding <> decode syndef
+R22614:22619 Heaps.coding <> decode syndef
+def 22663:22684 <> ptrmap_tp_encodedMixin
+R22691:22701 Heaps.coding <> encoded_set def
+R22709:22721 Heaps.coding <> encodeMixinTP def
+R22789:22800 Heaps.coding <> ptrmap_tp_pf thm
+R22802:22802 Heaps.coding <> V var
+R22750:22758 Heaps.coding <> tp_ptrmap constr
+R22761:22766 Heaps.coding <> decode syndef
+R22768:22768 Heaps.coding <> V var
+R22724:22732 Heaps.unionmap <> union_map syndef
+R22746:22746 Heaps.coding <> V var
+R22734:22744 Heaps.heap <> ptr_ordType canonstruc
+R22839:22849 Heaps.coding <> encoded_set def
+R22857:22864 Heaps.coding <> EncodeTP def
+R22893:22914 Heaps.coding <> ptrmap_tp_encodedMixin def
+R22916:22916 Heaps.coding <> V var
+R22867:22875 Heaps.unionmap <> union_map syndef
+R22889:22889 Heaps.coding <> V var
+R22877:22887 Heaps.heap <> ptr_ordType canonstruc
+def 23074:23083 <> type_clone
+R23100:23111 Heaps.coding <> encoded_type def
+R23119:23131 Heaps.coding <> clone def
+R23152:23153 Heaps.coding <> b2 var
+R23149:23150 Heaps.coding <> b1 var
+R23147:23147 Heaps.coding <> c var
+R23144:23145 Heaps.coding <> cT var
+R23142:23142 Heaps.coding <> v var
+R23133:23140 Heaps.coding <> typeCode canonstruc
+R23199:23208 Heaps.coding <> type_clone def
+R23222:23223 Coq.ssr.ssrfun <> id syndef
+R23216:23220 Coq.ssr.ssrfun <> idfun syndef
+not 23166:23166 <> :form_scope:'['_'encoded_type'_'of'_x_']'
+def 23399:23419 <> unit_pcm_encodedMixin
+R23424:23437 Heaps.coding <> encodeMixinPCM def
+R23457:23461 Coq.ssr.ssrfun <> erefl syndef
+R23447:23454 Heaps.coding <> pcm_unit constr
+R23439:23445 Heaps.pcm <> unitPCM canonstruc
+R23497:23505 Heaps.coding <> EncodePCM def
+R23515:23535 Heaps.coding <> unit_pcm_encodedMixin def
+R23507:23513 Heaps.pcm <> unitPCM canonstruc
+def 23550:23569 <> nat_pcm_encodedMixin
+R23574:23587 Heaps.coding <> encodeMixinPCM def
+R23605:23609 Coq.ssr.ssrfun <> erefl syndef
+R23596:23602 Heaps.coding <> pcm_nat constr
+R23589:23594 Heaps.pcm <> natPCM canonstruc
+R23644:23652 Heaps.coding <> EncodePCM def
+R23661:23680 Heaps.coding <> nat_pcm_encodedMixin def
+R23654:23659 Heaps.pcm <> natPCM canonstruc
+def 23695:23714 <> mtx_pcm_encodedMixin
+R23721:23734 Heaps.coding <> encodeMixinPCM def
+R23769:23773 Coq.ssr.ssrfun <> erefl syndef
+R23760:23766 Heaps.coding <> pcm_mtx constr
+R23737:23743 Heaps.pcm <> liftPCM canonstruc
+R23745:23757 Heaps.pcm <> mutexUnlifted canonstruc
+R23810:23818 Heaps.coding <> EncodePCM def
+R23844:23863 Heaps.coding <> mtx_pcm_encodedMixin def
+R23821:23827 Heaps.pcm <> liftPCM canonstruc
+R23829:23841 Heaps.pcm <> mutexUnlifted canonstruc
+def 23878:23898 <> heap_pcm_encodedMixin
+R23903:23916 Heaps.coding <> encodeMixinPCM def
+R23936:23940 Coq.ssr.ssrfun <> erefl syndef
+R23926:23933 Heaps.coding <> pcm_heap constr
+R23918:23924 Heaps.heap Heap.Exports heapPCM canonstruc
+R23976:23984 Heaps.coding <> EncodePCM def
+R23994:24014 Heaps.coding <> heap_pcm_encodedMixin def
+R23986:23992 Heaps.heap Heap.Exports heapPCM canonstruc
+prf 24024:24036 <> natmap_pcm_pf
+R24043:24053 Heaps.coding <> encoded_set def
+R24105:24107 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24067:24072 Heaps.coding <> encode syndef
+R24083:24092 Heaps.coding <> pcm_natmap constr
+R24095:24100 Heaps.coding <> decode syndef
+R24102:24102 Heaps.coding <> V var
+R24074:24080 Heaps.coding <> pcmCode canonstruc
+R24108:24119 Heaps.unionmap <> union_mapPCM canonstruc
+R24133:24133 Heaps.coding <> V var
+R24121:24131 Heaps.ordtype <> nat_ordType canonstruc
+R24155:24160 Heaps.coding <> decode syndef
+R24155:24160 Heaps.coding <> decode syndef
+R24155:24160 Heaps.coding <> decode syndef
+def 24202:24224 <> natmap_pcm_encodedMixin
+R24231:24241 Heaps.coding <> encoded_set def
+R24249:24262 Heaps.coding <> encodeMixinPCM def
+R24335:24347 Heaps.coding <> natmap_pcm_pf thm
+R24349:24349 Heaps.coding <> V var
+R24294:24303 Heaps.coding <> pcm_natmap constr
+R24306:24311 Heaps.coding <> decode syndef
+R24313:24313 Heaps.coding <> V var
+R24265:24276 Heaps.unionmap <> union_mapPCM canonstruc
+R24290:24290 Heaps.coding <> V var
+R24278:24288 Heaps.ordtype <> nat_ordType canonstruc
+R24387:24397 Heaps.coding <> encoded_set def
+R24405:24413 Heaps.coding <> EncodePCM def
+R24445:24467 Heaps.coding <> natmap_pcm_encodedMixin def
+R24469:24469 Heaps.coding <> V var
+R24416:24427 Heaps.unionmap <> union_mapPCM canonstruc
+R24441:24441 Heaps.coding <> V var
+R24429:24439 Heaps.ordtype <> nat_ordType canonstruc
+prf 24480:24492 <> ptrmap_pcm_pf
+R24499:24509 Heaps.coding <> encoded_set def
+R24561:24563 Coq.Init.Logic <> :type_scope:x_'='_x not
+R24523:24528 Heaps.coding <> encode syndef
+R24539:24548 Heaps.coding <> pcm_ptrmap constr
+R24551:24556 Heaps.coding <> decode syndef
+R24558:24558 Heaps.coding <> V var
+R24530:24536 Heaps.coding <> pcmCode canonstruc
+R24564:24575 Heaps.unionmap <> union_mapPCM canonstruc
+R24589:24589 Heaps.coding <> V var
+R24577:24587 Heaps.heap <> ptr_ordType canonstruc
+R24611:24616 Heaps.coding <> decode syndef
+R24611:24616 Heaps.coding <> decode syndef
+R24611:24616 Heaps.coding <> decode syndef
+def 24658:24680 <> ptrmap_pcm_encodedMixin
+R24687:24697 Heaps.coding <> encoded_set def
+R24705:24718 Heaps.coding <> encodeMixinPCM def
+R24791:24803 Heaps.coding <> ptrmap_pcm_pf thm
+R24805:24805 Heaps.coding <> V var
+R24750:24759 Heaps.coding <> pcm_ptrmap constr
+R24762:24767 Heaps.coding <> decode syndef
+R24769:24769 Heaps.coding <> V var
+R24721:24732 Heaps.unionmap <> union_mapPCM canonstruc
+R24746:24746 Heaps.coding <> V var
+R24734:24744 Heaps.heap <> ptr_ordType canonstruc
+def 25044:25061 <> ptrmap_pcm_Encoded
+R25068:25078 Heaps.coding <> encoded_set def
+R25086:25094 Heaps.coding <> EncodePCM def
+R25126:25148 Heaps.coding <> ptrmap_pcm_encodedMixin def
+R25150:25150 Heaps.coding <> V var
+R25097:25108 Heaps.unionmap <> union_mapPCM canonstruc
+R25122:25122 Heaps.coding <> V var
+R25110:25120 Heaps.heap <> ptr_ordType canonstruc
+prf 25161:25171 <> prod_pcm_pf
+R25182:25192 Heaps.coding <> encoded_pcm def
+R25255:25257 Coq.Init.Logic <> :type_scope:x_'='_x not
+R25206:25211 Heaps.coding <> encode syndef
+R25222:25229 Heaps.coding <> pcm_prod constr
+R25244:25249 Heaps.coding <> decode syndef
+R25251:25252 Heaps.coding <> U2 var
+R25232:25237 Heaps.coding <> decode syndef
+R25239:25240 Heaps.coding <> U1 var
+R25213:25219 Heaps.coding <> pcmCode canonstruc
+R25258:25264 Heaps.pcm <> prodPCM canonstruc
+R25269:25270 Heaps.coding <> U2 var
+R25266:25267 Heaps.coding <> U1 var
+R25292:25297 Heaps.coding <> decode syndef
+R25292:25297 Heaps.coding <> decode syndef
+R25292:25297 Heaps.coding <> decode syndef
+def 25361:25381 <> prod_pcm_encodedMixin
+R25392:25402 Heaps.coding <> encoded_pcm def
+R25410:25423 Heaps.coding <> encodeMixinPCM def
+R25494:25504 Heaps.coding <> prod_pcm_pf thm
+R25509:25510 Heaps.coding <> U2 var
+R25506:25507 Heaps.coding <> U1 var
+R25459:25466 Heaps.coding <> pcm_prod constr
+R25481:25486 Heaps.coding <> decode syndef
+R25488:25489 Heaps.coding <> U2 var
+R25469:25474 Heaps.coding <> decode syndef
+R25476:25477 Heaps.coding <> U1 var
+R25426:25432 Heaps.pcm <> prodPCM canonstruc
+R25437:25438 Heaps.coding <> U2 var
+R25434:25435 Heaps.coding <> U1 var
+R25550:25560 Heaps.coding <> encoded_pcm def
+R25568:25576 Heaps.coding <> EncodePCM def
+R25595:25615 Heaps.coding <> prod_pcm_encodedMixin def
+R25620:25621 Heaps.coding <> U2 var
+R25617:25618 Heaps.coding <> U1 var
+R25579:25585 Heaps.pcm <> prodPCM canonstruc
+R25590:25591 Heaps.coding <> U2 var
+R25587:25588 Heaps.coding <> U1 var
+def 25785:25793 <> pcm_clone
+R25810:25820 Heaps.coding <> encoded_pcm def
+R25828:25840 Heaps.coding <> clone def
+R25860:25861 Heaps.coding <> b2 var
+R25857:25858 Heaps.coding <> b1 var
+R25855:25855 Heaps.coding <> c var
+R25852:25853 Heaps.coding <> cT var
+R25850:25850 Heaps.coding <> v var
+R25842:25848 Heaps.coding <> pcmCode canonstruc
+R25906:25914 Heaps.coding <> pcm_clone def
+R25937:25938 Coq.ssr.ssrfun <> id syndef
+R25931:25935 Coq.ssr.ssrfun <> idfun syndef
+R25916:25923 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+R25925:25925 Heaps.pcm PCM.Exports :form_scope:'['_'pcm'_'of'_x_']' not
+not 25874:25874 <> :form_scope:'['_'encoded_pcm'_'of'_x_']'
+def 26117:26138 <> unit_spcm_encodedMixin
+R26145:26159 Heaps.coding <> encodeMixinSPCM def
+R26181:26185 Coq.ssr.ssrfun <> erefl syndef
+R26170:26178 Heaps.coding <> spcm_unit constr
+R26161:26168 Heaps.spcm <> unitSPCM canonstruc
+R26222:26231 Heaps.coding <> EncodeSPCM def
+R26242:26263 Heaps.coding <> unit_spcm_encodedMixin def
+R26233:26240 Heaps.spcm <> unitSPCM canonstruc
+def 26278:26298 <> nat_spcm_encodedMixin
+R26303:26317 Heaps.coding <> encodeMixinSPCM def
+R26337:26341 Coq.ssr.ssrfun <> erefl syndef
+R26327:26334 Heaps.coding <> spcm_nat constr
+R26319:26325 Heaps.spcm <> natSPCM canonstruc
+R26377:26386 Heaps.coding <> EncodeSPCM def
+R26396:26416 Heaps.coding <> nat_spcm_encodedMixin def
+R26388:26394 Heaps.spcm <> natSPCM canonstruc
+prf 26426:26439 <> natmap_spcm_pf
+R26446:26456 Heaps.coding <> encoded_set def
+R26510:26512 Coq.Init.Logic <> :type_scope:x_'='_x not
+R26470:26475 Heaps.coding <> encode syndef
+R26487:26497 Heaps.coding <> spcm_natmap constr
+R26500:26505 Heaps.coding <> decode syndef
+R26507:26507 Heaps.coding <> V var
+R26477:26484 Heaps.coding <> spcmCode canonstruc
+R26513:26522 Heaps.spcm <> natmapSPCM canonstruc
+R26524:26524 Heaps.coding <> V var
+R26546:26551 Heaps.coding <> decode syndef
+R26546:26551 Heaps.coding <> decode syndef
+R26546:26551 Heaps.coding <> decode syndef
+def 26593:26616 <> natmap_spcm_encodedMixin
+R26623:26633 Heaps.coding <> encoded_set def
+R26641:26655 Heaps.coding <> encodeMixinSPCM def
+R26716:26729 Heaps.coding <> natmap_spcm_pf thm
+R26731:26731 Heaps.coding <> V var
+R26673:26683 Heaps.coding <> spcm_natmap constr
+R26686:26691 Heaps.coding <> decode syndef
+R26693:26693 Heaps.coding <> V var
+R26658:26667 Heaps.spcm <> natmapSPCM canonstruc
+R26669:26669 Heaps.coding <> V var
+R26770:26780 Heaps.coding <> encoded_set def
+R26788:26797 Heaps.coding <> EncodeSPCM def
+R26815:26838 Heaps.coding <> natmap_spcm_encodedMixin def
+R26840:26840 Heaps.coding <> V var
+R26800:26809 Heaps.spcm <> natmapSPCM canonstruc
+R26811:26811 Heaps.coding <> V var
+prf 26851:26864 <> ptrmap_spcm_pf
+R26871:26881 Heaps.coding <> encoded_set def
+R26935:26937 Coq.Init.Logic <> :type_scope:x_'='_x not
+R26895:26900 Heaps.coding <> encode syndef
+R26912:26922 Heaps.coding <> spcm_ptrmap constr
+R26925:26930 Heaps.coding <> decode syndef
+R26932:26932 Heaps.coding <> V var
+R26902:26909 Heaps.coding <> spcmCode canonstruc
+R26938:26947 Heaps.spcm <> ptrmapSPCM canonstruc
+R26949:26949 Heaps.coding <> V var
+R26971:26976 Heaps.coding <> decode syndef
+R26971:26976 Heaps.coding <> decode syndef
+R26971:26976 Heaps.coding <> decode syndef
+def 27018:27041 <> ptrmap_spcm_encodedMixin
+R27048:27058 Heaps.coding <> encoded_set def
+R27066:27080 Heaps.coding <> encodeMixinSPCM def
+R27141:27154 Heaps.coding <> ptrmap_spcm_pf thm
+R27156:27156 Heaps.coding <> V var
+R27098:27108 Heaps.coding <> spcm_ptrmap constr
+R27111:27116 Heaps.coding <> decode syndef
+R27118:27118 Heaps.coding <> V var
+R27083:27092 Heaps.spcm <> ptrmapSPCM canonstruc
+R27094:27094 Heaps.coding <> V var
+R27195:27205 Heaps.coding <> encoded_set def
+R27213:27222 Heaps.coding <> EncodeSPCM def
+R27240:27263 Heaps.coding <> ptrmap_spcm_encodedMixin def
+R27265:27265 Heaps.coding <> V var
+R27225:27234 Heaps.spcm <> ptrmapSPCM canonstruc
+R27236:27236 Heaps.coding <> V var
+prf 27277:27288 <> prod_spcm_pf
+R27299:27310 Heaps.coding <> encoded_spcm def
+R27375:27377 Coq.Init.Logic <> :type_scope:x_'='_x not
+R27324:27329 Heaps.coding <> encode syndef
+R27341:27349 Heaps.coding <> spcm_prod constr
+R27364:27369 Heaps.coding <> decode syndef
+R27371:27372 Heaps.coding <> U2 var
+R27352:27357 Heaps.coding <> decode syndef
+R27359:27360 Heaps.coding <> U1 var
+R27331:27338 Heaps.coding <> spcmCode canonstruc
+R27378:27385 Heaps.spcm <> prodSPCM canonstruc
+R27390:27391 Heaps.coding <> U2 var
+R27387:27388 Heaps.coding <> U1 var
+R27413:27418 Heaps.coding <> decode syndef
+R27413:27418 Heaps.coding <> decode syndef
+R27413:27418 Heaps.coding <> decode syndef
+def 27482:27503 <> prod_spcm_encodedMixin
+R27514:27525 Heaps.coding <> encoded_spcm def
+R27533:27547 Heaps.coding <> encodeMixinSPCM def
+R27621:27632 Heaps.coding <> prod_spcm_pf thm
+R27637:27638 Heaps.coding <> U2 var
+R27634:27635 Heaps.coding <> U1 var
+R27585:27593 Heaps.coding <> spcm_prod constr
+R27608:27613 Heaps.coding <> decode syndef
+R27615:27616 Heaps.coding <> U2 var
+R27596:27601 Heaps.coding <> decode syndef
+R27603:27604 Heaps.coding <> U1 var
+R27550:27557 Heaps.spcm <> prodSPCM canonstruc
+R27562:27563 Heaps.coding <> U2 var
+R27559:27560 Heaps.coding <> U1 var
+R27679:27690 Heaps.coding <> encoded_spcm def
+R27698:27707 Heaps.coding <> EncodeSPCM def
+R27727:27748 Heaps.coding <> prod_spcm_encodedMixin def
+R27753:27754 Heaps.coding <> U2 var
+R27750:27751 Heaps.coding <> U1 var
+R27710:27717 Heaps.spcm <> prodSPCM canonstruc
+R27722:27723 Heaps.coding <> U2 var
+R27719:27720 Heaps.coding <> U1 var
+def 27922:27931 <> spcm_clone
+R27948:27959 Heaps.coding <> encoded_spcm def
+R27967:27979 Heaps.coding <> clone def
+R28000:28001 Heaps.coding <> b2 var
+R27997:27998 Heaps.coding <> b1 var
+R27995:27995 Heaps.coding <> c var
+R27992:27993 Heaps.coding <> cT var
+R27990:27990 Heaps.coding <> v var
+R27981:27988 Heaps.coding <> spcmCode canonstruc
+R28047:28056 Heaps.coding <> spcm_clone def
+R28080:28081 Coq.ssr.ssrfun <> id syndef
+R28074:28078 Coq.ssr.ssrfun <> idfun syndef
+R28058:28066 Heaps.spcm SPCM.Exports :form_scope:'['_'spcm'_'of'_x_']' not
+R28068:28068 Heaps.spcm SPCM.Exports :form_scope:'['_'spcm'_'of'_x_']' not
+not 28014:28014 <> :form_scope:'['_'encoded_spcm'_'of'_x_']'

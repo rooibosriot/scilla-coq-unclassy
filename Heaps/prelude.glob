@@ -1,0 +1,536 @@
+DIGEST 0d62afd650be5d272025a2202dcd6187
+FHeaps.prelude
+R39:47 mathcomp.ssreflect.ssreflect <> <> lib
+R49:55 mathcomp.ssreflect.ssrbool <> <> lib
+R57:62 mathcomp.ssreflect.ssrnat <> <> lib
+R64:69 mathcomp.ssreflect.eqtype <> <> lib
+R71:76 mathcomp.ssreflect.ssrfun <> <> lib
+R78:80 mathcomp.ssreflect.seq <> <> lib
+R109:112 Heaps.pred <> <> lib
+R130:134 Coq.Logic.Eqdep <> <> lib
+R136:149 Coq.Logic.ClassicalFacts <> <> lib
+ax 381:384 <> pext
+R409:409 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R419:423 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R426:428 Coq.Init.Logic <> :type_scope:x_'='_x not
+R424:425 Heaps.prelude <> p1 var
+R429:430 Heaps.prelude <> p2 var
+R412:416 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R410:411 Heaps.prelude <> p1 var
+R417:418 Heaps.prelude <> p2 var
+ax 439:442 <> fext
+R461:464 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R460:460 Heaps.prelude <> A var
+R490:490 Heaps.prelude <> B var
+R492:492 Heaps.prelude <> x var
+R511:511 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R533:537 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R540:542 Coq.Init.Logic <> :type_scope:x_'='_x not
+R538:539 Heaps.prelude <> f1 var
+R543:544 Heaps.prelude <> f2 var
+R526:528 Coq.Init.Logic <> :type_scope:x_'='_x not
+R522:523 Heaps.prelude <> f1 var
+R525:525 Heaps.prelude <> x var
+R529:530 Heaps.prelude <> f2 var
+R532:532 Heaps.prelude <> x var
+prf 554:570 <> proof_irrelevance
+R592:592 Heaps.prelude <> P var
+R599:601 Coq.Init.Logic <> :type_scope:x_'='_x not
+R597:598 Heaps.prelude <> p1 var
+R602:603 Heaps.prelude <> p2 var
+R623:650 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R660:663 Heaps.prelude <> pext prfax
+R623:650 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R660:663 Heaps.prelude <> pext prfax
+prf 678:680 <> eta
+R690:693 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R689:689 Heaps.prelude <> A var
+R715:715 Heaps.prelude <> B var
+R717:717 Heaps.prelude <> x var
+R723:725 Coq.Init.Logic <> :type_scope:x_'='_x not
+R722:722 Heaps.prelude <> f var
+R726:730 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R732:732 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R731:731 Heaps.prelude <> f var
+R752:755 Heaps.prelude <> fext prfax
+R752:755 Heaps.prelude <> fext prfax
+prf 770:772 <> ext
+R782:785 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R781:781 Heaps.prelude <> A var
+R811:811 Heaps.prelude <> B var
+R813:813 Heaps.prelude <> x var
+R833:836 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R851:853 Coq.Init.Logic <> :type_scope:x_'='_x not
+R847:848 Heaps.prelude <> f1 var
+R850:850 Heaps.prelude <> x var
+R854:855 Heaps.prelude <> f2 var
+R857:857 Heaps.prelude <> x var
+R828:830 Coq.Init.Logic <> :type_scope:x_'='_x not
+R826:827 Heaps.prelude <> f1 var
+R831:832 Heaps.prelude <> f2 var
+R1162:1181 Coq.Classes.Morphisms <> respectful def
+not 1143:1143 <> :signature_scope:x_'===>'_x
+def 1405:1413 <> inj_pair2
+R1419:1427 Coq.Logic.Eqdep EqdepTheory inj_pair2 thm
+R1449:1457 Heaps.prelude <> inj_pair2 def
+prf 1507:1514 <> inj_sval
+R1522:1530 Coq.ssr.ssrfun <> injective def
+R1533:1541 mathcomp.ssreflect.eqtype <> ::'@'_'sval' not
+R1541:1541 Heaps.prelude <> P var
+R1539:1539 Heaps.prelude <> A var
+R1610:1614 Coq.Init.Specif <> exist constr
+R1624:1640 Heaps.prelude <> proof_irrelevance thm
+R1610:1614 Coq.Init.Specif <> exist constr
+R1624:1640 Heaps.prelude <> proof_irrelevance thm
+prf 1655:1659 <> svalE
+R1669:1672 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1668:1668 Heaps.prelude <> A var
+R1703:1705 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1685:1688 Coq.ssr.ssrfun <> sval syndef
+R1691:1695 Coq.Init.Specif <> exist constr
+R1701:1701 Heaps.prelude <> H var
+R1699:1699 Heaps.prelude <> x var
+R1697:1697 Heaps.prelude <> P var
+R1706:1706 Heaps.prelude <> x var
+prf 1781:1783 <> sym
+R1794:1794 Heaps.prelude <> A var
+R1804:1808 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R1800:1802 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1799:1799 Heaps.prelude <> x var
+R1803:1803 Heaps.prelude <> y var
+R1810:1812 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1809:1809 Heaps.prelude <> y var
+R1813:1813 Heaps.prelude <> x var
+def 1882:1887 <> erefli
+R1896:1896 Heaps.prelude <> A var
+R1902:1906 Coq.ssr.ssrfun <> erefl syndef
+R1908:1908 Heaps.prelude <> x var
+R1921:1926 Heaps.prelude <> erefli def
+R1921:1926 Heaps.prelude <> erefli def
+sec 2008:2016 <> HasSelect
+var 2030:2030 HasSelect A
+var 2043:2043 HasSelect p
+R2034:2039 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R2047:2050 Coq.ssr.ssrbool <> pred def
+R2052:2052 Heaps.prelude <> A var
+ind 2069:2076 <> has_spec
+constr 2110:2117 <> has_true
+constr 2158:2166 <> has_false
+R2083:2085 mathcomp.ssreflect.seq <> seq syndef
+R2087:2087 Heaps.prelude <> HasSelect.A var
+R2096:2099 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2092:2095 Coq.Init.Datatypes <> bool ind
+R2125:2129 Coq.ssr.ssrbool <> :bool_scope:x_'\in'_x not
+R2124:2124 Heaps.prelude <> x var
+R2130:2130 Heaps.prelude <> s var
+R2134:2134 Heaps.prelude <> HasSelect.p var
+R2136:2136 Heaps.prelude <> x var
+R2140:2147 Heaps.prelude <> has_spec ind
+R2151:2154 Coq.Init.Datatypes <> true constr
+R2149:2149 Heaps.prelude <> s var
+R2172:2174 mathcomp.ssreflect.seq <> all def
+R2186:2186 Heaps.prelude <> s var
+R2177:2181 Coq.ssr.ssrbool <> predC def
+R2183:2183 Heaps.prelude <> HasSelect.p var
+R2191:2198 Heaps.prelude <> has_spec ind
+R2202:2206 Coq.Init.Datatypes <> false constr
+R2200:2200 Heaps.prelude <> s var
+prf 2216:2220 <> hasPx
+R2234:2241 Heaps.prelude <> has_spec coind
+R2246:2248 mathcomp.ssreflect.seq <> has def
+R2252:2252 Heaps.prelude <> s var
+R2250:2250 Heaps.prelude <> HasSelect.p var
+R2243:2243 Heaps.prelude <> s var
+R2299:2307 Heaps.prelude <> has_false constr
+R2299:2307 Heaps.prelude <> has_false constr
+R2318:2321 Coq.ssr.ssrbool <> orbC thm
+R2318:2321 Coq.ssr.ssrbool <> orbC thm
+R2318:2321 Coq.ssr.ssrbool <> orbC thm
+R2362:2369 Heaps.prelude <> has_true constr
+R2380:2382 mathcomp.ssreflect.seq <> inE def
+R2387:2390 Coq.ssr.ssrbool <> orbT thm
+R2362:2369 Heaps.prelude <> has_true constr
+R2380:2382 mathcomp.ssreflect.seq <> inE def
+R2380:2382 mathcomp.ssreflect.seq <> inE def
+R2387:2390 Coq.ssr.ssrbool <> orbT thm
+R2387:2390 Coq.ssr.ssrbool <> orbT thm
+R2402:2402 Heaps.prelude <> HasSelect.p var
+R2426:2434 Heaps.prelude <> has_false constr
+R2402:2402 Heaps.prelude <> HasSelect.p var
+R2402:2402 Heaps.prelude <> HasSelect.p var
+R2426:2434 Heaps.prelude <> has_false constr
+R2463:2470 Heaps.prelude <> has_true constr
+R2483:2485 mathcomp.ssreflect.seq <> inE def
+R2487:2493 mathcomp.ssreflect.eqtype <> eq_refl thm
+R2463:2470 Heaps.prelude <> has_true constr
+R2483:2485 mathcomp.ssreflect.seq <> inE def
+R2483:2485 mathcomp.ssreflect.seq <> inE def
+R2487:2493 mathcomp.ssreflect.eqtype <> eq_refl thm
+R2487:2493 mathcomp.ssreflect.eqtype <> eq_refl thm
+R2506:2514 Heaps.prelude HasSelect <> sec
+prf 2615:2619 <> compA
+R2635:2638 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2639:2639 Heaps.prelude <> B var
+R2634:2634 Heaps.prelude <> A var
+R2648:2651 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2652:2652 Heaps.prelude <> C var
+R2647:2647 Heaps.prelude <> B var
+R2661:2664 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2665:2665 Heaps.prelude <> D var
+R2660:2660 Heaps.prelude <> C var
+R2691:2693 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2678:2678 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2685:2689 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2680:2683 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2679:2679 Heaps.prelude <> f var
+R2684:2684 Heaps.prelude <> g var
+R2690:2690 Heaps.prelude <> h var
+R2695:2699 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2706:2706 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2694:2694 Heaps.prelude <> f var
+R2701:2704 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2700:2700 Heaps.prelude <> g var
+R2705:2705 Heaps.prelude <> h var
+prf 2735:2740 <> compf1
+R2752:2755 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2756:2756 Heaps.prelude <> B var
+R2751:2751 Heaps.prelude <> A var
+R2762:2764 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2761:2761 Heaps.prelude <> f var
+R2766:2769 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2765:2765 Heaps.prelude <> f var
+R2770:2771 Coq.ssr.ssrfun <> id syndef
+R2791:2794 Heaps.prelude <> fext prfax
+R2791:2794 Heaps.prelude <> fext prfax
+prf 2809:2814 <> comp1f
+R2826:2829 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2830:2830 Heaps.prelude <> B var
+R2825:2825 Heaps.prelude <> A var
+R2836:2838 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2835:2835 Heaps.prelude <> f var
+R2841:2844 Coq.ssr.ssrfun <> :fun_scope:x_'\o'_x not
+R2839:2840 Coq.ssr.ssrfun <> id syndef
+R2845:2845 Heaps.prelude <> f var
+R2865:2868 Heaps.prelude <> fext prfax
+R2865:2868 Heaps.prelude <> fext prfax
+def 2888:2892 <> fprod
+R2914:2917 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2918:2919 Heaps.prelude <> B1 var
+R2912:2913 Heaps.prelude <> A1 var
+R2930:2933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2934:2935 Heaps.prelude <> B2 var
+R2928:2929 Heaps.prelude <> A2 var
+R2954:2956 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2952:2953 Heaps.prelude <> A1 var
+R2957:2958 Heaps.prelude <> A2 var
+R2964:2964 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2971:2972 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2979:2979 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2965:2966 Heaps.prelude <> f1 var
+R2969:2970 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R2968:2968 Heaps.prelude <> x var
+R2973:2974 Heaps.prelude <> f2 var
+R2977:2978 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R2976:2976 Heaps.prelude <> x var
+R3007:3011 Heaps.prelude <> fprod def
+not 2992:2992 <> ::x_'\*'_x
+ind 3621:3624 <> and6
+constr 3665:3668 <> And6
+R3673:3674 Heaps.prelude <> P1 var
+R3678:3679 Heaps.prelude <> P2 var
+R3683:3684 Heaps.prelude <> P3 var
+R3688:3689 Heaps.prelude <> P4 var
+R3693:3694 Heaps.prelude <> P5 var
+R3698:3699 Heaps.prelude <> P6 var
+R3700:3700 Heaps.prelude <> and6 ind
+R3700:3700 Heaps.prelude <> P6 var
+R3700:3700 Heaps.prelude <> P5 var
+R3700:3700 Heaps.prelude <> P4 var
+R3700:3700 Heaps.prelude <> P3 var
+R3700:3700 Heaps.prelude <> P2 var
+R3700:3700 Heaps.prelude <> P1 var
+ind 3713:3715 <> or5
+constr 3753:3756 <> Or51
+constr 3766:3769 <> Or52
+constr 3779:3782 <> Or53
+constr 3792:3795 <> Or54
+constr 3805:3808 <> Or55
+R3761:3762 Heaps.prelude <> P1 var
+R3763:3763 Heaps.prelude <> or5 ind
+R3763:3763 Heaps.prelude <> P5 var
+R3763:3763 Heaps.prelude <> P4 var
+R3763:3763 Heaps.prelude <> P3 var
+R3763:3763 Heaps.prelude <> P2 var
+R3763:3763 Heaps.prelude <> P1 var
+R3774:3775 Heaps.prelude <> P2 var
+R3776:3776 Heaps.prelude <> or5 ind
+R3776:3776 Heaps.prelude <> P5 var
+R3776:3776 Heaps.prelude <> P4 var
+R3776:3776 Heaps.prelude <> P3 var
+R3776:3776 Heaps.prelude <> P2 var
+R3776:3776 Heaps.prelude <> P1 var
+R3787:3788 Heaps.prelude <> P3 var
+R3789:3789 Heaps.prelude <> or5 ind
+R3789:3789 Heaps.prelude <> P5 var
+R3789:3789 Heaps.prelude <> P4 var
+R3789:3789 Heaps.prelude <> P3 var
+R3789:3789 Heaps.prelude <> P2 var
+R3789:3789 Heaps.prelude <> P1 var
+R3800:3801 Heaps.prelude <> P4 var
+R3802:3802 Heaps.prelude <> or5 ind
+R3802:3802 Heaps.prelude <> P5 var
+R3802:3802 Heaps.prelude <> P4 var
+R3802:3802 Heaps.prelude <> P3 var
+R3802:3802 Heaps.prelude <> P2 var
+R3802:3802 Heaps.prelude <> P1 var
+R3813:3814 Heaps.prelude <> P5 var
+R3815:3815 Heaps.prelude <> or5 ind
+R3815:3815 Heaps.prelude <> P5 var
+R3815:3815 Heaps.prelude <> P4 var
+R3815:3815 Heaps.prelude <> P3 var
+R3815:3815 Heaps.prelude <> P2 var
+R3815:3815 Heaps.prelude <> P1 var
+ind 3827:3829 <> or6
+constr 3870:3873 <> Or61
+constr 3883:3886 <> Or62
+constr 3896:3899 <> Or63
+constr 3909:3912 <> Or64
+constr 3922:3925 <> Or65
+constr 3935:3938 <> Or66
+R3878:3879 Heaps.prelude <> P1 var
+R3880:3880 Heaps.prelude <> or6 ind
+R3880:3880 Heaps.prelude <> P6 var
+R3880:3880 Heaps.prelude <> P5 var
+R3880:3880 Heaps.prelude <> P4 var
+R3880:3880 Heaps.prelude <> P3 var
+R3880:3880 Heaps.prelude <> P2 var
+R3880:3880 Heaps.prelude <> P1 var
+R3891:3892 Heaps.prelude <> P2 var
+R3893:3893 Heaps.prelude <> or6 ind
+R3893:3893 Heaps.prelude <> P6 var
+R3893:3893 Heaps.prelude <> P5 var
+R3893:3893 Heaps.prelude <> P4 var
+R3893:3893 Heaps.prelude <> P3 var
+R3893:3893 Heaps.prelude <> P2 var
+R3893:3893 Heaps.prelude <> P1 var
+R3904:3905 Heaps.prelude <> P3 var
+R3906:3906 Heaps.prelude <> or6 ind
+R3906:3906 Heaps.prelude <> P6 var
+R3906:3906 Heaps.prelude <> P5 var
+R3906:3906 Heaps.prelude <> P4 var
+R3906:3906 Heaps.prelude <> P3 var
+R3906:3906 Heaps.prelude <> P2 var
+R3906:3906 Heaps.prelude <> P1 var
+R3917:3918 Heaps.prelude <> P4 var
+R3919:3919 Heaps.prelude <> or6 ind
+R3919:3919 Heaps.prelude <> P6 var
+R3919:3919 Heaps.prelude <> P5 var
+R3919:3919 Heaps.prelude <> P4 var
+R3919:3919 Heaps.prelude <> P3 var
+R3919:3919 Heaps.prelude <> P2 var
+R3919:3919 Heaps.prelude <> P1 var
+R3930:3931 Heaps.prelude <> P5 var
+R3932:3932 Heaps.prelude <> or6 ind
+R3932:3932 Heaps.prelude <> P6 var
+R3932:3932 Heaps.prelude <> P5 var
+R3932:3932 Heaps.prelude <> P4 var
+R3932:3932 Heaps.prelude <> P3 var
+R3932:3932 Heaps.prelude <> P2 var
+R3932:3932 Heaps.prelude <> P1 var
+R3943:3944 Heaps.prelude <> P6 var
+R3945:3945 Heaps.prelude <> or6 ind
+R3945:3945 Heaps.prelude <> P6 var
+R3945:3945 Heaps.prelude <> P5 var
+R3945:3945 Heaps.prelude <> P4 var
+R3945:3945 Heaps.prelude <> P3 var
+R3945:3945 Heaps.prelude <> P2 var
+R3945:3945 Heaps.prelude <> P1 var
+R3998:4001 Heaps.prelude <> and6 ind
+not 3957:3957 <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']'
+R4081:4083 Heaps.prelude <> or5 ind
+not 4045:4045 <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']'
+R4165:4167 Heaps.prelude <> or6 ind
+not 4124:4124 <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']'
+sec 4211:4228 <> ReflectConnectives
+var 4241:4242 ReflectConnectives b1
+var 4244:4245 ReflectConnectives b2
+var 4247:4248 ReflectConnectives b3
+var 4250:4251 ReflectConnectives b4
+var 4253:4254 ReflectConnectives b5
+var 4256:4257 ReflectConnectives b6
+R4261:4264 Coq.Init.Datatypes <> bool ind
+prf 4273:4277 <> and6P
+R4281:4287 Coq.ssr.ssrbool <> reflect syndef
+R4318:4321 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4324:4325 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4328:4329 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4332:4333 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4336:4337 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4340:4342 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4345:4345 Coq.ssr.ssrbool <> :bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R4322:4323 Heaps.prelude <> ReflectConnectives.b1 var
+R4326:4327 Heaps.prelude <> ReflectConnectives.b2 var
+R4330:4331 Heaps.prelude <> ReflectConnectives.b3 var
+R4334:4335 Heaps.prelude <> ReflectConnectives.b4 var
+R4338:4339 Heaps.prelude <> ReflectConnectives.b5 var
+R4343:4344 Heaps.prelude <> ReflectConnectives.b6 var
+R4289:4292 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4295:4296 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4299:4300 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4303:4304 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4307:4308 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4311:4313 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4316:4316 Heaps.prelude <> :type_scope:'['_'/\'_x_','_x_','_x_','_x_','_x_'&'_x_']' not
+R4293:4294 Heaps.prelude <> ReflectConnectives.b1 var
+R4297:4298 Heaps.prelude <> ReflectConnectives.b2 var
+R4301:4302 Heaps.prelude <> ReflectConnectives.b3 var
+R4305:4306 Heaps.prelude <> ReflectConnectives.b4 var
+R4309:4310 Heaps.prelude <> ReflectConnectives.b5 var
+R4314:4315 Heaps.prelude <> ReflectConnectives.b6 var
+R4363:4364 Heaps.prelude <> ReflectConnectives.b1 var
+R4372:4373 Heaps.prelude <> ReflectConnectives.b2 var
+R4381:4382 Heaps.prelude <> ReflectConnectives.b3 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4363:4364 Heaps.prelude <> ReflectConnectives.b1 var
+R4372:4373 Heaps.prelude <> ReflectConnectives.b2 var
+R4372:4373 Heaps.prelude <> ReflectConnectives.b2 var
+R4381:4382 Heaps.prelude <> ReflectConnectives.b3 var
+R4381:4382 Heaps.prelude <> ReflectConnectives.b3 var
+R4381:4382 Heaps.prelude <> ReflectConnectives.b3 var
+R4381:4382 Heaps.prelude <> ReflectConnectives.b3 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4390:4391 Heaps.prelude <> ReflectConnectives.b4 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4399:4400 Heaps.prelude <> ReflectConnectives.b5 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+R4408:4409 Heaps.prelude <> ReflectConnectives.b6 var
+prf 4450:4453 <> or5P
+R4457:4463 Coq.ssr.ssrbool <> reflect syndef
+R4490:4493 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4496:4497 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4500:4501 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4504:4505 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4508:4510 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4513:4513 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4494:4495 Heaps.prelude <> ReflectConnectives.b1 var
+R4498:4499 Heaps.prelude <> ReflectConnectives.b2 var
+R4502:4503 Heaps.prelude <> ReflectConnectives.b3 var
+R4506:4507 Heaps.prelude <> ReflectConnectives.b4 var
+R4511:4512 Heaps.prelude <> ReflectConnectives.b5 var
+R4465:4468 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4471:4472 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4475:4476 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4479:4480 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4483:4485 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4488:4488 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_'|'_x_']' not
+R4469:4470 Heaps.prelude <> ReflectConnectives.b1 var
+R4473:4474 Heaps.prelude <> ReflectConnectives.b2 var
+R4477:4478 Heaps.prelude <> ReflectConnectives.b3 var
+R4481:4482 Heaps.prelude <> ReflectConnectives.b4 var
+R4486:4487 Heaps.prelude <> ReflectConnectives.b5 var
+R4528:4529 Heaps.prelude <> ReflectConnectives.b1 var
+R4528:4529 Heaps.prelude <> ReflectConnectives.b1 var
+R4574:4575 Heaps.prelude <> ReflectConnectives.b2 var
+R4574:4575 Heaps.prelude <> ReflectConnectives.b2 var
+R4620:4621 Heaps.prelude <> ReflectConnectives.b3 var
+R4620:4621 Heaps.prelude <> ReflectConnectives.b3 var
+R4666:4667 Heaps.prelude <> ReflectConnectives.b4 var
+R4666:4667 Heaps.prelude <> ReflectConnectives.b4 var
+R4712:4713 Heaps.prelude <> ReflectConnectives.b5 var
+R4712:4713 Heaps.prelude <> ReflectConnectives.b5 var
+prf 4787:4790 <> or6P
+R4794:4800 Coq.ssr.ssrbool <> reflect syndef
+R4831:4834 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4837:4838 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4841:4842 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4845:4846 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4849:4850 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4853:4855 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4858:4858 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_','_x_','_'..'_','_x_'|'_x_']' not
+R4835:4836 Heaps.prelude <> ReflectConnectives.b1 var
+R4839:4840 Heaps.prelude <> ReflectConnectives.b2 var
+R4843:4844 Heaps.prelude <> ReflectConnectives.b3 var
+R4847:4848 Heaps.prelude <> ReflectConnectives.b4 var
+R4851:4852 Heaps.prelude <> ReflectConnectives.b5 var
+R4856:4857 Heaps.prelude <> ReflectConnectives.b6 var
+R4802:4805 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4808:4809 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4812:4813 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4816:4817 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4820:4821 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4824:4826 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4829:4829 Heaps.prelude <> :type_scope:'['_'\/'_x_','_x_','_x_','_x_','_x_'|'_x_']' not
+R4806:4807 Heaps.prelude <> ReflectConnectives.b1 var
+R4810:4811 Heaps.prelude <> ReflectConnectives.b2 var
+R4814:4815 Heaps.prelude <> ReflectConnectives.b3 var
+R4818:4819 Heaps.prelude <> ReflectConnectives.b4 var
+R4822:4823 Heaps.prelude <> ReflectConnectives.b5 var
+R4827:4828 Heaps.prelude <> ReflectConnectives.b6 var
+R4873:4874 Heaps.prelude <> ReflectConnectives.b1 var
+R4873:4874 Heaps.prelude <> ReflectConnectives.b1 var
+R4919:4920 Heaps.prelude <> ReflectConnectives.b2 var
+R4919:4920 Heaps.prelude <> ReflectConnectives.b2 var
+R4965:4966 Heaps.prelude <> ReflectConnectives.b3 var
+R4965:4966 Heaps.prelude <> ReflectConnectives.b3 var
+R5011:5012 Heaps.prelude <> ReflectConnectives.b4 var
+R5011:5012 Heaps.prelude <> ReflectConnectives.b4 var
+R5057:5058 Heaps.prelude <> ReflectConnectives.b5 var
+R5057:5058 Heaps.prelude <> ReflectConnectives.b5 var
+R5103:5104 Heaps.prelude <> ReflectConnectives.b6 var
+R5103:5104 Heaps.prelude <> ReflectConnectives.b6 var
+R5176:5193 Heaps.prelude ReflectConnectives <> sec
+R5216:5220 Heaps.prelude <> and6P thm
+R5262:5265 Heaps.prelude <> or5P thm
+R5304:5307 Heaps.prelude <> or6P thm

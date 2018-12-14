@@ -1,0 +1,1237 @@
+DIGEST 6227bb2fa1069d591fb3261b2e3e4c1c
+FContracts.Crowdfunding
+R40:48 mathcomp.ssreflect.ssreflect <> <> lib
+R50:56 mathcomp.ssreflect.ssrbool <> <> lib
+R58:63 mathcomp.ssreflect.ssrnat <> <> lib
+R65:70 mathcomp.ssreflect.eqtype <> <> lib
+R72:77 mathcomp.ssreflect.ssrfun <> <> lib
+R79:81 mathcomp.ssreflect.seq <> <> lib
+R113:116 mathcomp.ssreflect.path <> <> lib
+R134:138 Coq.Logic.Eqdep <> <> lib
+R167:170 Heaps.pred <> <> lib
+R172:178 Heaps.prelude <> <> lib
+R180:187 Heaps.idynamic <> <> lib
+R189:195 Heaps.ordtype <> <> lib
+R197:199 Heaps.pcm <> <> lib
+R201:206 Heaps.finmap <> <> lib
+R208:215 Heaps.unionmap <> <> lib
+R217:220 Heaps.heap <> <> lib
+R222:227 Heaps.coding <> <> lib
+R261:269 Contracts.Automata2 <> <> lib
+R287:291 Coq.Arith.Arith <> <> lib
+R293:296 Coq.Bool.Bool <> <> lib
+R298:302 Coq.omega.Omega <> <> lib
+sec 397:408 <> Crowdfunding
+constr 2893:2894 <> CS
+rec 2879:2888 <> crowdState
+proj 2901:2913 <> owner_mb_goal
+proj 2943:2949 <> backers
+proj 2979:2984 <> funded
+R2930:2932 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2924:2926 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2917:2923 Contracts.Automata2 <> address def
+R2927:2929 Coq.Init.Datatypes <> nat ind
+R2933:2937 Contracts.Automata2 <> value def
+R2953:2955 mathcomp.ssreflect.seq <> seq syndef
+R2965:2967 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R2958:2964 Contracts.Automata2 <> address def
+R2968:2972 Contracts.Automata2 <> value def
+R2988:2991 Coq.Init.Datatypes <> bool ind
+def 3046:3054 <> get_owner
+R3061:3067 Contracts.Automata2 <> address def
+R3092:3093 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R3072:3072 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R3089:3091 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R3073:3085 Contracts.Crowdfunding <> owner_mb_goal proj
+R3087:3088 Contracts.Crowdfunding <> cs var
+def 3107:3114 <> get_goal
+R3121:3125 Contracts.Automata2 <> value def
+R3130:3130 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R3147:3149 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R3131:3143 Contracts.Crowdfunding <> owner_mb_goal proj
+R3145:3146 Contracts.Crowdfunding <> cs var
+def 3163:3175 <> get_max_block
+R3182:3184 Coq.Init.Datatypes <> nat ind
+R3209:3210 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R3189:3189 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R3206:3208 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R3190:3202 Contracts.Crowdfunding <> owner_mb_goal proj
+R3204:3205 Contracts.Crowdfunding <> cs var
+def 3226:3236 <> set_backers
+R3246:3255 Contracts.Crowdfunding <> crowdState rec
+R3262:3263 Contracts.Crowdfunding <> CS constr
+R3288:3293 Contracts.Crowdfunding <> funded proj
+R3295:3296 Contracts.Crowdfunding <> cs var
+R3284:3285 Contracts.Crowdfunding <> bs var
+R3266:3278 Contracts.Crowdfunding <> owner_mb_goal proj
+R3280:3281 Contracts.Crowdfunding <> cs var
+def 3312:3321 <> set_funded
+R3330:3339 Contracts.Crowdfunding <> crowdState rec
+R3346:3347 Contracts.Crowdfunding <> CS constr
+R3381:3381 Contracts.Crowdfunding <> f var
+R3369:3375 Contracts.Crowdfunding <> backers proj
+R3377:3378 Contracts.Crowdfunding <> cs var
+R3350:3362 Contracts.Crowdfunding <> owner_mb_goal proj
+R3364:3365 Contracts.Crowdfunding <> cs var
+var 3457:3466 Crowdfunding init_owner
+R3470:3476 Contracts.Automata2 <> address def
+var 3488:3501 Crowdfunding init_max_block
+R3505:3507 Coq.Init.Datatypes <> nat ind
+var 3519:3527 Crowdfunding init_goal
+R3531:3535 Contracts.Automata2 <> value def
+var 3547:3558 Crowdfunding init_address
+R3562:3568 Contracts.Automata2 <> address def
+def 3615:3624 <> init_state
+R3628:3637 Contracts.Crowdfunding <> crowdState rec
+R3644:3645 Contracts.Crowdfunding <> CS constr
+R3697:3701 Coq.Init.Datatypes <> false constr
+R3692:3695 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_']' not
+R3647:3647 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3658:3659 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3674:3675 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3690:3690 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3648:3657 Contracts.Crowdfunding <> Crowdfunding.init_owner var
+R3660:3673 Contracts.Crowdfunding <> Crowdfunding.init_max_block var
+R3676:3689 Contracts.Crowdfunding <> Crowdfunding.init_max_block var
+def 3744:3754 <> init_cstate
+R3758:3763 Contracts.Automata2 <> cstate rec
+R3765:3774 Contracts.Crowdfunding <> crowdState rec
+R3781:3786 Contracts.Automata2 <> CState constr
+R3803:3812 Contracts.Crowdfunding <> init_state def
+R3788:3799 Contracts.Crowdfunding <> Crowdfunding.init_address var
+def 3846:3855 <> init_world
+R3859:3863 Contracts.Automata2 <> world rec
+R3865:3874 Contracts.Crowdfunding <> crowdState rec
+R3879:3881 Contracts.Automata2 <> mkW constr
+R3907:3910 Coq.Init.Datatypes <> None constr
+R3904:3905 Contracts.Automata2 <> b0 defax
+R3892:3902 Contracts.Crowdfunding <> init_cstate def
+R3883:3890 Contracts.Automata2 <> emptymsg defax
+def 3925:3928 <> pred
+R3949:3952 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3933:3937 Contracts.Automata2 <> world rec
+R3939:3948 Contracts.Crowdfunding <> crowdState rec
+var 3968:3971 Crowdfunding prot
+R3975:3982 Contracts.Automata2 <> Protocol rec
+R3984:3993 Contracts.Crowdfunding <> crowdState rec
+def 4008:4019 <> reachability
+R4039:4042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4059:4062 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4043:4047 Contracts.Automata2 <> world rec
+R4049:4058 Contracts.Crowdfunding <> crowdState rec
+R4023:4027 Contracts.Automata2 <> world rec
+R4029:4038 Contracts.Crowdfunding <> crowdState rec
+R4102:4104 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4084:4093 Contracts.Automata2 <> step_world def
+R4100:4101 Contracts.Crowdfunding <> w1 var
+R4095:4098 Contracts.Crowdfunding <> Crowdfunding.prot var
+R4105:4106 Contracts.Crowdfunding <> w2 var
+def 4144:4147 <> path
+R4155:4158 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4159:4163 Contracts.Automata2 <> world rec
+R4165:4174 Contracts.Crowdfunding <> crowdState rec
+R4152:4154 Coq.Init.Datatypes <> nat ind
+def 4188:4193 <> firstp
+R4200:4203 Contracts.Crowdfunding <> path def
+R4208:4212 Contracts.Automata2 <> world rec
+R4214:4223 Contracts.Crowdfunding <> crowdState rec
+R4228:4228 Contracts.Crowdfunding <> p var
+def 4244:4257 <> path_predicate
+R4264:4267 Contracts.Crowdfunding <> path def
+R4283:4294 Contracts.Crowdfunding <> reachability def
+R4303:4303 Contracts.Crowdfunding <> p var
+R4306:4306 Coq.Init.Datatypes <> S constr
+R4308:4308 Contracts.Crowdfunding <> n var
+R4297:4297 Contracts.Crowdfunding <> p var
+R4299:4299 Contracts.Crowdfunding <> n var
+def 4363:4367 <> gpath
+R4379:4379 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4381:4383 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4388:4390 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4407:4407 Coq.Init.Specif <> :type_scope:'{'_x_':'_x_'&'_x_'}' not
+R4384:4387 Contracts.Crowdfunding <> path def
+R4391:4404 Contracts.Crowdfunding <> path_predicate def
+R4406:4406 Contracts.Crowdfunding <> p var
+def 4474:4484 <> gpath_proj1
+R4493:4497 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4521:4521 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4501:4504 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4505:4509 Contracts.Automata2 <> world rec
+R4511:4520 Contracts.Crowdfunding <> crowdState rec
+R4498:4500 Coq.Init.Datatypes <> nat ind
+R4488:4492 Contracts.Crowdfunding <> gpath def
+R4544:4545 Contracts.Crowdfunding <> gp var
+R4566:4571 Coq.Init.Specif <> existT constr
+R4599:4639 Contracts.Crowdfunding <> gpath_proj1 def
+def 4654:4664 <> gpath_proj2
+R4672:4676 Contracts.Crowdfunding <> gpath def
+R4682:4695 Contracts.Crowdfunding <> path_predicate def
+R4698:4708 Contracts.Crowdfunding <> gpath_proj1 def
+R4710:4711 Contracts.Crowdfunding <> gp var
+R4726:4727 Contracts.Crowdfunding <> gp var
+R4738:4743 Coq.Init.Specif <> existT constr
+def 4772:4776 <> first
+R4784:4788 Contracts.Crowdfunding <> gpath def
+R4793:4797 Contracts.Automata2 <> world rec
+R4799:4808 Contracts.Crowdfunding <> crowdState rec
+R4814:4824 Contracts.Crowdfunding <> gpath_proj1 def
+R4826:4827 Contracts.Crowdfunding <> gp var
+def 4917:4928 <> step_n_times
+R4935:4939 Contracts.Automata2 <> world rec
+R4941:4950 Contracts.Crowdfunding <> crowdState rec
+R4958:4960 Coq.Init.Datatypes <> nat ind
+R4974:4974 Contracts.Crowdfunding <> n var
+R4990:4990 Contracts.Crowdfunding <> w var
+R4996:4996 Coq.Init.Datatypes <> S constr
+R5004:5013 Contracts.Automata2 <> step_world def
+R5021:5032 Contracts.Crowdfunding <> step_n_times def
+R5034:5034 Contracts.Crowdfunding <> w var
+R5015:5018 Contracts.Crowdfunding <> Crowdfunding.prot var
+def 5059:5067 <> make_path
+R5074:5078 Contracts.Automata2 <> world rec
+R5080:5089 Contracts.Crowdfunding <> crowdState rec
+R5094:5097 Contracts.Crowdfunding <> path def
+R5102:5113 Contracts.Crowdfunding <> step_n_times def
+R5115:5115 Contracts.Crowdfunding <> w var
+prf 5125:5144 <> rewrite_step_world_S
+R5162:5164 Coq.Init.Datatypes <> nat ind
+R5172:5176 Contracts.Automata2 <> world rec
+R5178:5187 Contracts.Crowdfunding <> crowdState rec
+R5215:5217 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5195:5206 Contracts.Crowdfunding <> step_n_times def
+R5211:5211 Coq.Init.Datatypes <> S constr
+R5213:5213 Contracts.Crowdfunding <> n var
+R5208:5208 Contracts.Crowdfunding <> w var
+R5218:5227 Contracts.Automata2 <> step_world def
+R5235:5246 Contracts.Crowdfunding <> step_n_times def
+R5250:5250 Contracts.Crowdfunding <> n var
+R5248:5248 Contracts.Crowdfunding <> w var
+R5229:5232 Contracts.Crowdfunding <> Crowdfunding.prot var
+prf 5286:5307 <> step_world_swap_helper
+R5325:5327 Coq.Init.Datatypes <> nat ind
+R5335:5339 Contracts.Automata2 <> world rec
+R5341:5350 Contracts.Crowdfunding <> crowdState rec
+R5392:5398 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5358:5367 Contracts.Automata2 <> step_world def
+R5375:5386 Contracts.Crowdfunding <> step_n_times def
+R5390:5390 Contracts.Crowdfunding <> n var
+R5388:5388 Contracts.Crowdfunding <> w var
+R5369:5372 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5399:5410 Contracts.Crowdfunding <> step_n_times def
+R5432:5432 Contracts.Crowdfunding <> n var
+R5413:5422 Contracts.Automata2 <> step_world def
+R5429:5429 Contracts.Crowdfunding <> w var
+R5424:5427 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5500:5519 Contracts.Crowdfunding <> rewrite_step_world_S thm
+R5500:5519 Contracts.Crowdfunding <> rewrite_step_world_S thm
+R5500:5519 Contracts.Crowdfunding <> rewrite_step_world_S thm
+R5551:5570 Contracts.Crowdfunding <> rewrite_step_world_S thm
+R5551:5570 Contracts.Crowdfunding <> rewrite_step_world_S thm
+R5551:5570 Contracts.Crowdfunding <> rewrite_step_world_S thm
+prf 5602:5616 <> step_world_swap
+R5633:5635 Coq.Init.Datatypes <> nat ind
+R5703:5709 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5642:5651 Contracts.Automata2 <> step_world def
+R5659:5670 Contracts.Crowdfunding <> step_n_times def
+R5701:5701 Contracts.Crowdfunding <> n var
+R5673:5682 Contracts.Automata2 <> step_world def
+R5689:5698 Contracts.Crowdfunding <> init_world def
+R5684:5687 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5653:5656 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5710:5721 Contracts.Crowdfunding <> step_n_times def
+R5770:5770 Contracts.Crowdfunding <> n var
+R5724:5733 Contracts.Automata2 <> step_world def
+R5741:5750 Contracts.Automata2 <> step_world def
+R5757:5766 Contracts.Crowdfunding <> init_world def
+R5752:5755 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5735:5738 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5824:5845 Contracts.Crowdfunding <> step_world_swap_helper thm
+R5824:5845 Contracts.Crowdfunding <> step_world_swap_helper thm
+R5824:5845 Contracts.Crowdfunding <> step_world_swap_helper thm
+prf 5877:5890 <> step_world_ind
+R5907:5909 Coq.Init.Datatypes <> nat ind
+R5959:5961 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5916:5925 Contracts.Automata2 <> step_world def
+R5933:5944 Contracts.Crowdfunding <> step_n_times def
+R5957:5957 Contracts.Crowdfunding <> n var
+R5946:5955 Contracts.Crowdfunding <> init_world def
+R5927:5930 Contracts.Crowdfunding <> Crowdfunding.prot var
+R5962:5973 Contracts.Crowdfunding <> step_n_times def
+R5987:5987 Coq.Init.Datatypes <> S constr
+R5989:5989 Contracts.Crowdfunding <> n var
+R5975:5984 Contracts.Crowdfunding <> init_world def
+prf 6075:6081 <> about_p
+R6085:6098 Contracts.Crowdfunding <> path_predicate def
+R6101:6109 Contracts.Crowdfunding <> make_path def
+R6111:6120 Contracts.Crowdfunding <> init_world def
+R6140:6153 Contracts.Crowdfunding <> path_predicate def
+R6189:6200 Contracts.Crowdfunding <> reachability def
+R6227:6238 Contracts.Crowdfunding <> reachability def
+R6257:6265 Contracts.Crowdfunding <> make_path def
+prf 6329:6340 <> about_p_hole
+R6357:6361 Contracts.Automata2 <> world rec
+R6363:6372 Contracts.Crowdfunding <> crowdState rec
+R6379:6392 Contracts.Crowdfunding <> path_predicate def
+R6395:6403 Contracts.Crowdfunding <> make_path def
+R6405:6405 Contracts.Crowdfunding <> w var
+R6425:6438 Contracts.Crowdfunding <> path_predicate def
+R6474:6485 Contracts.Crowdfunding <> reachability def
+R6512:6523 Contracts.Crowdfunding <> reachability def
+R6542:6550 Contracts.Crowdfunding <> make_path def
+def 6619:6620 <> gp
+R6624:6628 Contracts.Crowdfunding <> gpath def
+R6634:6639 Coq.Init.Specif <> existT constr
+R6666:6672 Contracts.Crowdfunding <> about_p thm
+R6644:6652 Contracts.Crowdfunding <> make_path def
+R6654:6663 Contracts.Crowdfunding <> init_world def
+ax 6741:6753 <> generic_world
+R6757:6761 Contracts.Automata2 <> world rec
+R6763:6772 Contracts.Crowdfunding <> crowdState rec
+R6782:6793 Contracts.Crowdfunding <> about_p_hole thm
+R6795:6807 Contracts.Crowdfunding <> generic_world defax
+def 6822:6828 <> gp_hole
+R6835:6839 Contracts.Automata2 <> world rec
+R6841:6850 Contracts.Crowdfunding <> crowdState rec
+R6855:6859 Contracts.Crowdfunding <> gpath def
+R6865:6870 Coq.Init.Specif <> existT constr
+R6889:6900 Contracts.Crowdfunding <> about_p_hole thm
+R6902:6902 Contracts.Crowdfunding <> w var
+R6875:6883 Contracts.Crowdfunding <> make_path def
+R6885:6885 Contracts.Crowdfunding <> w var
+def 6977:6992 <> make_offset_path
+R6999:7002 Contracts.Crowdfunding <> path def
+R7007:7010 Contracts.Crowdfunding <> path def
+R7024:7024 Contracts.Crowdfunding <> p var
+R7027:7027 Coq.Init.Datatypes <> S constr
+R7029:7029 Contracts.Crowdfunding <> n var
+def 7044:7060 <> make_offset_path'
+R7068:7072 Contracts.Crowdfunding <> gpath def
+R7077:7080 Contracts.Crowdfunding <> path def
+R7094:7104 Contracts.Crowdfunding <> gpath_proj1 def
+R7110:7110 Coq.Init.Datatypes <> S constr
+R7112:7112 Contracts.Crowdfunding <> n var
+R7106:7107 Contracts.Crowdfunding <> gp var
+prf 7122:7138 <> about_offset_path
+R7155:7158 Contracts.Crowdfunding <> path def
+R7181:7188 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7189:7202 Contracts.Crowdfunding <> path_predicate def
+R7205:7220 Contracts.Crowdfunding <> make_offset_path def
+R7222:7222 Contracts.Crowdfunding <> p var
+R7165:7178 Contracts.Crowdfunding <> path_predicate def
+R7180:7180 Contracts.Crowdfunding <> p var
+R7258:7273 Contracts.Crowdfunding <> make_offset_path def
+R7285:7298 Contracts.Crowdfunding <> path_predicate def
+R7332:7332 Coq.Init.Datatypes <> S constr
+R7332:7332 Coq.Init.Datatypes <> S constr
+prf 7350:7367 <> about_offset_path'
+R7385:7389 Contracts.Crowdfunding <> gpath def
+R7396:7409 Contracts.Crowdfunding <> path_predicate def
+R7412:7428 Contracts.Crowdfunding <> make_offset_path' def
+R7430:7431 Contracts.Crowdfunding <> gp var
+R7477:7490 Contracts.Crowdfunding <> path_predicate def
+R7507:7523 Contracts.Crowdfunding <> make_offset_path' def
+R7535:7545 Contracts.Crowdfunding <> gpath_proj1 def
+R7557:7570 Contracts.Crowdfunding <> path_predicate def
+R7597:7597 Coq.Init.Datatypes <> S constr
+R7597:7597 Coq.Init.Datatypes <> S constr
+def 7621:7629 <> gp_offset
+R7636:7639 Contracts.Crowdfunding <> path def
+R7650:7663 Contracts.Crowdfunding <> path_predicate def
+R7665:7665 Contracts.Crowdfunding <> p var
+R7670:7674 Contracts.Crowdfunding <> gpath def
+R7682:7687 Coq.Init.Specif <> existT constr
+R7713:7729 Contracts.Crowdfunding <> about_offset_path thm
+R7731:7734 Contracts.Crowdfunding <> pred var
+R7692:7707 Contracts.Crowdfunding <> make_offset_path def
+R7709:7709 Contracts.Crowdfunding <> p var
+def 7750:7759 <> gp_offset'
+R7767:7771 Contracts.Crowdfunding <> gpath def
+R7776:7780 Contracts.Crowdfunding <> gpath def
+R7788:7793 Coq.Init.Specif <> existT constr
+R7821:7838 Contracts.Crowdfunding <> about_offset_path' thm
+R7840:7841 Contracts.Crowdfunding <> gp var
+R7798:7814 Contracts.Crowdfunding <> make_offset_path' def
+R7816:7817 Contracts.Crowdfunding <> gp var
+def 7901:7926 <> make_backwards_offset_path
+R7934:7938 Contracts.Automata2 <> world rec
+R7940:7949 Contracts.Crowdfunding <> crowdState rec
+R7957:7960 Contracts.Crowdfunding <> path def
+R7965:7968 Contracts.Crowdfunding <> path def
+R7990:7990 Contracts.Crowdfunding <> n var
+R8002:8003 Contracts.Crowdfunding <> w0 var
+R8013:8013 Contracts.Crowdfunding <> p var
+R8017:8019 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'.-1' not
+R8016:8016 Contracts.Crowdfunding <> n var
+def 8039:8065 <> make_backwards_offset_path'
+R8073:8077 Contracts.Automata2 <> world rec
+R8079:8088 Contracts.Crowdfunding <> crowdState rec
+R8097:8101 Contracts.Crowdfunding <> gpath def
+R8106:8109 Contracts.Crowdfunding <> path def
+R8131:8131 Contracts.Crowdfunding <> n var
+R8143:8144 Contracts.Crowdfunding <> w0 var
+R8154:8164 Contracts.Crowdfunding <> gpath_proj1 def
+R8171:8173 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'.-1' not
+R8170:8170 Contracts.Crowdfunding <> n var
+R8166:8167 Contracts.Crowdfunding <> gp var
+prf 8188:8214 <> about_backwards_offset_path
+R8232:8235 Contracts.Crowdfunding <> path def
+R8244:8248 Contracts.Automata2 <> world rec
+R8250:8259 Contracts.Crowdfunding <> crowdState rec
+R8283:8290 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8312:8320 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8321:8334 Contracts.Crowdfunding <> path_predicate def
+R8337:8362 Contracts.Crowdfunding <> make_backwards_offset_path def
+R8367:8367 Contracts.Crowdfunding <> p var
+R8364:8365 Contracts.Crowdfunding <> w0 var
+R8291:8302 Contracts.Crowdfunding <> reachability def
+R8308:8308 Contracts.Crowdfunding <> p var
+R8304:8305 Contracts.Crowdfunding <> w0 var
+R8267:8280 Contracts.Crowdfunding <> path_predicate def
+R8282:8282 Contracts.Crowdfunding <> p var
+R8406:8431 Contracts.Crowdfunding <> make_backwards_offset_path def
+R8443:8456 Contracts.Crowdfunding <> path_predicate def
+R8515:8515 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'-'_x not
+R8515:8515 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'-'_x not
+R8546:8550 mathcomp.ssreflect.ssrnat <> subn0 thm
+R8546:8550 mathcomp.ssreflect.ssrnat <> subn0 thm
+R8546:8550 mathcomp.ssreflect.ssrnat <> subn0 thm
+prf 8594:8621 <> about_backwards_offset_path'
+R8640:8644 Contracts.Crowdfunding <> gpath def
+R8653:8657 Contracts.Automata2 <> world rec
+R8659:8668 Contracts.Crowdfunding <> crowdState rec
+R8710:8718 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R8719:8732 Contracts.Crowdfunding <> path_predicate def
+R8735:8761 Contracts.Crowdfunding <> make_backwards_offset_path' def
+R8766:8767 Contracts.Crowdfunding <> gp var
+R8763:8764 Contracts.Crowdfunding <> w0 var
+R8676:8687 Contracts.Crowdfunding <> reachability def
+R8693:8703 Contracts.Crowdfunding <> gpath_proj1 def
+R8705:8706 Contracts.Crowdfunding <> gp var
+R8689:8690 Contracts.Crowdfunding <> w0 var
+R8821:8834 Contracts.Crowdfunding <> path_predicate def
+R8851:8877 Contracts.Crowdfunding <> make_backwards_offset_path' def
+R8889:8899 Contracts.Crowdfunding <> gpath_proj1 def
+R8911:8924 Contracts.Crowdfunding <> path_predicate def
+R8980:8980 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'-'_x not
+R8980:8980 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'-'_x not
+R9009:9013 mathcomp.ssreflect.ssrnat <> subn0 thm
+R9009:9013 mathcomp.ssreflect.ssrnat <> subn0 thm
+R9009:9013 mathcomp.ssreflect.ssrnat <> subn0 thm
+def 9060:9078 <> gp_backwards_offset
+R9097:9101 Contracts.Automata2 <> world rec
+R9103:9112 Contracts.Crowdfunding <> crowdState rec
+R9120:9123 Contracts.Crowdfunding <> path def
+R9145:9158 Contracts.Crowdfunding <> path_predicate def
+R9160:9160 Contracts.Crowdfunding <> p var
+R9179:9190 Contracts.Crowdfunding <> reachability def
+R9196:9196 Contracts.Crowdfunding <> p var
+R9192:9193 Contracts.Crowdfunding <> w0 var
+R9204:9208 Contracts.Crowdfunding <> gpath def
+R9216:9221 Coq.Init.Specif <> existT constr
+R9260:9286 Contracts.Crowdfunding <> about_backwards_offset_path thm
+R9293:9293 Contracts.Crowdfunding <> r var
+R9288:9291 Contracts.Crowdfunding <> pred var
+R9226:9251 Contracts.Crowdfunding <> make_backwards_offset_path def
+R9256:9256 Contracts.Crowdfunding <> p var
+R9253:9254 Contracts.Crowdfunding <> w0 var
+def 9309:9328 <> gp_backwards_offset'
+R9347:9351 Contracts.Automata2 <> world rec
+R9353:9362 Contracts.Crowdfunding <> crowdState rec
+R9371:9375 Contracts.Crowdfunding <> gpath def
+R9394:9405 Contracts.Crowdfunding <> reachability def
+R9411:9421 Contracts.Crowdfunding <> gpath_proj1 def
+R9423:9424 Contracts.Crowdfunding <> gp var
+R9407:9408 Contracts.Crowdfunding <> w0 var
+R9432:9436 Contracts.Crowdfunding <> gpath def
+R9444:9449 Coq.Init.Specif <> existT constr
+R9490:9517 Contracts.Crowdfunding <> about_backwards_offset_path' thm
+R9519:9519 Contracts.Crowdfunding <> r var
+R9454:9480 Contracts.Crowdfunding <> make_backwards_offset_path' def
+R9485:9486 Contracts.Crowdfunding <> gp var
+R9482:9483 Contracts.Crowdfunding <> w0 var
+def 9569:9577 <> satisfies
+R9584:9588 Contracts.Automata2 <> world rec
+R9590:9599 Contracts.Crowdfunding <> crowdState rec
+R9607:9610 Contracts.Crowdfunding <> pred def
+R9623:9623 Contracts.Crowdfunding <> p var
+R9625:9625 Contracts.Crowdfunding <> w var
+def 9707:9713 <> entails
+R9722:9725 Contracts.Crowdfunding <> pred def
+R9750:9750 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9764:9769 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9783:9783 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R9770:9778 Contracts.Crowdfunding <> satisfies def
+R9782:9782 Contracts.Crowdfunding <> q var
+R9780:9780 Contracts.Crowdfunding <> w var
+R9751:9759 Contracts.Crowdfunding <> satisfies def
+R9763:9763 Contracts.Crowdfunding <> p var
+R9761:9761 Contracts.Crowdfunding <> w var
+def 9797:9801 <> equiv
+R9810:9813 Contracts.Crowdfunding <> pred def
+R9837:9840 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R9826:9832 Contracts.Crowdfunding <> entails def
+R9836:9836 Contracts.Crowdfunding <> q var
+R9834:9834 Contracts.Crowdfunding <> p var
+R9841:9847 Contracts.Crowdfunding <> entails def
+R9851:9851 Contracts.Crowdfunding <> p var
+R9849:9849 Contracts.Crowdfunding <> q var
+ax 9862:9864 <> LEM
+R9886:9889 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R9885:9885 Contracts.Crowdfunding <> P var
+R9890:9891 Coq.Init.Logic <> :type_scope:'~'_x not
+R9892:9892 Contracts.Crowdfunding <> P var
+R9919:9927 Contracts.Crowdfunding <> satisfies def
+not 9904:9904 Crowdfunding ::x_'|='_x
+ax 10014:10016 <> Top
+R10020:10023 Contracts.Crowdfunding <> pred def
+ax 10036:10041 <> Bottom
+R10045:10048 Contracts.Crowdfunding <> pred def
+ax 10057:10065 <> about_top
+R10079:10081 Contracts.Crowdfunding <> Top defax
+R10083:10083 Contracts.Crowdfunding <> w var
+ax 10092:10103 <> about_bottom
+R10125:10128 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10129:10133 Coq.Init.Logic <> False ind
+R10117:10122 Contracts.Crowdfunding <> Bottom defax
+R10124:10124 Contracts.Crowdfunding <> w var
+def 10147:10149 <> Neg
+R10155:10158 Contracts.Crowdfunding <> pred def
+R10172:10172 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10179:10183 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10184:10188 Coq.Init.Logic <> False ind
+R10174:10177 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10173:10173 Contracts.Crowdfunding <> w var
+R10178:10178 Contracts.Crowdfunding <> p var
+def 10202:10205 <> Conj
+R10213:10216 Contracts.Crowdfunding <> pred def
+R10230:10230 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10237:10242 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10249:10249 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10232:10235 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10231:10231 Contracts.Crowdfunding <> w var
+R10236:10236 Contracts.Crowdfunding <> p var
+R10244:10247 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10243:10243 Contracts.Crowdfunding <> w var
+R10248:10248 Contracts.Crowdfunding <> q var
+def 10263:10266 <> Disj
+R10274:10277 Contracts.Crowdfunding <> pred def
+R10291:10291 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10298:10303 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10310:10310 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10293:10296 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10292:10292 Contracts.Crowdfunding <> w var
+R10297:10297 Contracts.Crowdfunding <> p var
+R10305:10308 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10304:10304 Contracts.Crowdfunding <> w var
+R10309:10309 Contracts.Crowdfunding <> q var
+def 10324:10327 <> Impl
+R10335:10338 Contracts.Crowdfunding <> pred def
+R10362:10366 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10373:10373 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R10352:10354 Coq.Init.Logic <> :type_scope:'~'_x not
+R10361:10361 Coq.Init.Logic <> :type_scope:'~'_x not
+R10356:10359 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10355:10355 Contracts.Crowdfunding <> w var
+R10360:10360 Contracts.Crowdfunding <> p var
+R10368:10371 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10367:10367 Contracts.Crowdfunding <> w var
+R10372:10372 Contracts.Crowdfunding <> q var
+def 10505:10511 <> AllNext
+R10518:10521 Contracts.Crowdfunding <> pred def
+R10552:10556 Contracts.Crowdfunding <> gpath def
+R10571:10574 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10579:10582 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10575:10576 Contracts.Crowdfunding <> gp var
+R10583:10583 Contracts.Crowdfunding <> p var
+R10567:10569 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10559:10563 Contracts.Crowdfunding <> first def
+R10565:10566 Contracts.Crowdfunding <> gp var
+R10570:10570 Contracts.Crowdfunding <> w var
+def 10677:10686 <> ExistsNext
+R10693:10696 Contracts.Crowdfunding <> pred def
+R10715:10721 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R10732:10733 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R10727:10731 Contracts.Crowdfunding <> gpath def
+R10746:10749 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R10742:10744 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10734:10738 Contracts.Crowdfunding <> first def
+R10740:10741 Contracts.Crowdfunding <> gp var
+R10745:10745 Contracts.Crowdfunding <> w var
+R10754:10757 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10750:10751 Contracts.Crowdfunding <> gp var
+R10758:10758 Contracts.Crowdfunding <> p var
+def 10855:10860 <> AllBox
+R10867:10870 Contracts.Crowdfunding <> pred def
+R10901:10905 Contracts.Crowdfunding <> gpath def
+R10920:10923 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10938:10941 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R10934:10935 Contracts.Crowdfunding <> gp var
+R10937:10937 Contracts.Crowdfunding <> n var
+R10942:10942 Contracts.Crowdfunding <> p var
+R10916:10918 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10908:10912 Contracts.Crowdfunding <> first def
+R10914:10915 Contracts.Crowdfunding <> gp var
+R10919:10919 Contracts.Crowdfunding <> w var
+def 11046:11054 <> ExistsBox
+R11061:11064 Contracts.Crowdfunding <> pred def
+R11083:11089 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11100:11101 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11095:11099 Contracts.Crowdfunding <> gpath def
+R11114:11117 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11110:11112 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11102:11106 Contracts.Crowdfunding <> first def
+R11108:11109 Contracts.Crowdfunding <> gp var
+R11113:11113 Contracts.Crowdfunding <> w var
+R11132:11135 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11128:11129 Contracts.Crowdfunding <> gp var
+R11131:11131 Contracts.Crowdfunding <> n var
+R11136:11136 Contracts.Crowdfunding <> p var
+def 11233:11241 <> AllFuture
+R11248:11251 Contracts.Crowdfunding <> pred def
+R11282:11286 Contracts.Crowdfunding <> gpath def
+R11301:11304 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11305:11311 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11313:11314 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11319:11322 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11315:11316 Contracts.Crowdfunding <> gp var
+R11318:11318 Contracts.Crowdfunding <> n var
+R11323:11323 Contracts.Crowdfunding <> p var
+R11297:11299 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11289:11293 Contracts.Crowdfunding <> first def
+R11295:11296 Contracts.Crowdfunding <> gp var
+R11300:11300 Contracts.Crowdfunding <> w var
+def 11425:11436 <> ExistsFuture
+R11443:11446 Contracts.Crowdfunding <> pred def
+R11465:11471 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11482:11483 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11477:11481 Contracts.Crowdfunding <> gpath def
+R11496:11500 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11492:11494 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11484:11488 Contracts.Crowdfunding <> first def
+R11490:11491 Contracts.Crowdfunding <> gp var
+R11495:11495 Contracts.Crowdfunding <> w var
+R11501:11507 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11509:11510 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11515:11518 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11511:11512 Contracts.Crowdfunding <> gp var
+R11514:11514 Contracts.Crowdfunding <> n var
+R11519:11519 Contracts.Crowdfunding <> p var
+def 11598:11605 <> AllUntil
+R11614:11617 Contracts.Crowdfunding <> pred def
+R11648:11652 Contracts.Crowdfunding <> gpath def
+R11667:11670 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11671:11677 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11679:11680 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11690:11693 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11685:11688 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11681:11682 Contracts.Crowdfunding <> gp var
+R11684:11684 Contracts.Crowdfunding <> n var
+R11689:11689 Contracts.Crowdfunding <> q var
+R11709:11712 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11717:11720 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11713:11714 Contracts.Crowdfunding <> gp var
+R11716:11716 Contracts.Crowdfunding <> m var
+R11721:11721 Contracts.Crowdfunding <> p var
+R11705:11707 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<'_x not
+R11704:11704 Contracts.Crowdfunding <> m var
+R11708:11708 Contracts.Crowdfunding <> n var
+R11663:11665 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11655:11659 Contracts.Crowdfunding <> first def
+R11661:11662 Contracts.Crowdfunding <> gp var
+R11666:11666 Contracts.Crowdfunding <> w var
+def 11816:11826 <> ExistsUntil
+R11835:11838 Contracts.Crowdfunding <> pred def
+R11857:11863 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11874:11875 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11869:11873 Contracts.Crowdfunding <> gpath def
+R11888:11891 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11884:11886 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11876:11880 Contracts.Crowdfunding <> first def
+R11882:11883 Contracts.Crowdfunding <> gp var
+R11887:11887 Contracts.Crowdfunding <> w var
+R11892:11898 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11900:11901 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R11911:11914 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11906:11909 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11902:11903 Contracts.Crowdfunding <> gp var
+R11905:11905 Contracts.Crowdfunding <> n var
+R11910:11910 Contracts.Crowdfunding <> q var
+R11930:11933 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11938:11941 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R11934:11935 Contracts.Crowdfunding <> gp var
+R11937:11937 Contracts.Crowdfunding <> m var
+R11942:11942 Contracts.Crowdfunding <> p var
+R11926:11928 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<'_x not
+R11925:11925 Contracts.Crowdfunding <> m var
+R11929:11929 Contracts.Crowdfunding <> n var
+def 12002:12011 <> AllRelease
+R12020:12023 Contracts.Crowdfunding <> pred def
+R12041:12043 Contracts.Crowdfunding <> Neg def
+R12075:12075 Contracts.Crowdfunding <> w var
+R12046:12056 Contracts.Crowdfunding <> ExistsUntil def
+R12067:12069 Contracts.Crowdfunding <> Neg def
+R12071:12071 Contracts.Crowdfunding <> q var
+R12059:12061 Contracts.Crowdfunding <> Neg def
+R12063:12063 Contracts.Crowdfunding <> p var
+def 12089:12101 <> ExistsRelease
+R12110:12113 Contracts.Crowdfunding <> pred def
+R12131:12133 Contracts.Crowdfunding <> Neg def
+R12162:12162 Contracts.Crowdfunding <> w var
+R12136:12143 Contracts.Crowdfunding <> AllUntil def
+R12154:12156 Contracts.Crowdfunding <> Neg def
+R12158:12158 Contracts.Crowdfunding <> q var
+R12146:12148 Contracts.Crowdfunding <> Neg def
+R12150:12150 Contracts.Crowdfunding <> p var
+def 12176:12182 <> AllWait
+R12191:12194 Contracts.Crowdfunding <> pred def
+R12212:12221 Contracts.Crowdfunding <> AllRelease def
+R12236:12236 Contracts.Crowdfunding <> w var
+R12226:12229 Contracts.Crowdfunding <> Disj def
+R12233:12233 Contracts.Crowdfunding <> q var
+R12231:12231 Contracts.Crowdfunding <> p var
+R12223:12223 Contracts.Crowdfunding <> q var
+def 12250:12259 <> ExistsWait
+R12268:12271 Contracts.Crowdfunding <> pred def
+R12288:12300 Contracts.Crowdfunding <> ExistsRelease def
+R12315:12315 Contracts.Crowdfunding <> w var
+R12305:12308 Contracts.Crowdfunding <> Disj def
+R12312:12312 Contracts.Crowdfunding <> q var
+R12310:12310 Contracts.Crowdfunding <> p var
+R12302:12302 Contracts.Crowdfunding <> q var
+R12369:12373 Contracts.Crowdfunding <> equiv def
+not 12355:12355 Crowdfunding ::x_'<=>'_x
+R12432:12434 Contracts.Crowdfunding <> Neg def
+not 12422:12422 Crowdfunding ::'!'_x
+R12497:12500 Contracts.Crowdfunding <> Conj def
+not 12484:12484 Crowdfunding ::x_'&&'_x
+R12564:12567 Contracts.Crowdfunding <> Disj def
+not 12551:12551 Crowdfunding ::x_'||'_x
+R12598:12601 Contracts.Crowdfunding <> Impl def
+not 12584:12584 Crowdfunding ::x_'-->'_x
+R12663:12668 Contracts.Crowdfunding <> AllBox def
+not 12650:12650 Crowdfunding ::'AG'_x
+R12728:12736 Contracts.Crowdfunding <> ExistsBox def
+not 12715:12715 Crowdfunding ::'EG'_x
+R12796:12802 Contracts.Crowdfunding <> AllNext def
+not 12783:12783 Crowdfunding ::'AX'_x
+R12862:12871 Contracts.Crowdfunding <> ExistsNext def
+not 12849:12849 Crowdfunding ::'EX'_x
+R12931:12939 Contracts.Crowdfunding <> AllFuture def
+not 12918:12918 Crowdfunding ::'AF'_x
+R12999:13010 Contracts.Crowdfunding <> ExistsFuture def
+not 12986:12986 Crowdfunding ::'EF'_x
+R13084:13091 Contracts.Crowdfunding <> AllUntil def
+not 13058:13058 Crowdfunding ::'A'_'['_x_'U'_x_']'
+R13166:13176 Contracts.Crowdfunding <> ExistsUntil def
+not 13140:13140 Crowdfunding ::'E'_'['_x_'U'_x_']'
+R13251:13260 Contracts.Crowdfunding <> AllRelease def
+not 13225:13225 Crowdfunding ::'A'_'['_x_'R'_x_']'
+R13335:13347 Contracts.Crowdfunding <> ExistsRelease def
+not 13309:13309 Crowdfunding ::'E'_'['_x_'R'_x_']'
+R13422:13428 Contracts.Crowdfunding <> AllWait def
+not 13396:13396 Crowdfunding ::'A'_'['_x_'W'_x_']'
+R13503:13512 Contracts.Crowdfunding <> ExistsWait def
+not 13477:13477 Crowdfunding ::'E'_'['_x_'W'_x_']'
+prf 13561:13565 <> ctl_1
+R13581:13584 Contracts.Crowdfunding <> pred def
+R13596:13601 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13616:13616 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13592:13594 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R13595:13595 Contracts.Crowdfunding <> P var
+R13603:13606 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R13602:13602 Contracts.Crowdfunding <> P var
+R13607:13610 Contracts.Crowdfunding Crowdfunding ::'AX'_x not
+R13615:13615 Contracts.Crowdfunding Crowdfunding ::'AX'_x not
+R13611:13613 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R13614:13614 Contracts.Crowdfunding <> P var
+prf 13644:13648 <> ctl_2
+R13664:13667 Contracts.Crowdfunding <> pred def
+R13675:13675 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13690:13695 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13677:13680 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R13676:13676 Contracts.Crowdfunding <> P var
+R13681:13684 Contracts.Crowdfunding Crowdfunding ::'AX'_x not
+R13689:13689 Contracts.Crowdfunding Crowdfunding ::'AX'_x not
+R13685:13687 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R13688:13688 Contracts.Crowdfunding <> P var
+R13696:13698 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R13699:13699 Contracts.Crowdfunding <> P var
+prf 13727:13731 <> ctl_3
+R13747:13750 Contracts.Crowdfunding <> pred def
+R13762:13767 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13782:13782 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13758:13760 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R13761:13761 Contracts.Crowdfunding <> P var
+R13769:13772 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R13768:13768 Contracts.Crowdfunding <> P var
+R13773:13776 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13781:13781 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13777:13779 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R13780:13780 Contracts.Crowdfunding <> P var
+prf 13816:13820 <> ctl_4
+R13836:13839 Contracts.Crowdfunding <> pred def
+R13847:13847 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13862:13867 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13849:13852 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R13848:13848 Contracts.Crowdfunding <> P var
+R13853:13856 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13861:13861 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13857:13859 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R13860:13860 Contracts.Crowdfunding <> P var
+R13868:13870 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R13871:13871 Contracts.Crowdfunding <> P var
+prf 13899:13905 <> equiv_1
+R13921:13924 Contracts.Crowdfunding <> pred def
+R13936:13940 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R13932:13934 Contracts.Crowdfunding Crowdfunding ::'AX'_x not
+R13935:13935 Contracts.Crowdfunding <> P var
+R13941:13943 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R13952:13952 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R13944:13947 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13951:13951 Contracts.Crowdfunding Crowdfunding ::'EX'_x not
+R13948:13949 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R13950:13950 Contracts.Crowdfunding <> P var
+prf 13980:13986 <> equiv_2
+R14002:14005 Contracts.Crowdfunding <> pred def
+R14017:14021 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R14013:14015 Contracts.Crowdfunding Crowdfunding ::'AF'_x not
+R14016:14016 Contracts.Crowdfunding <> P var
+R14022:14024 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14033:14033 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14025:14028 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R14032:14032 Contracts.Crowdfunding Crowdfunding ::'EG'_x not
+R14029:14030 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14031:14031 Contracts.Crowdfunding <> P var
+prf 14061:14067 <> equiv_3
+R14083:14086 Contracts.Crowdfunding <> pred def
+R14098:14102 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R14094:14096 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R14097:14097 Contracts.Crowdfunding <> P var
+R14103:14105 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14113:14113 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14106:14109 Contracts.Crowdfunding Crowdfunding ::'EF'_x not
+R14112:14112 Contracts.Crowdfunding Crowdfunding ::'EF'_x not
+R14110:14110 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14111:14111 Contracts.Crowdfunding <> P var
+prf 14141:14147 <> equiv_4
+R14163:14166 Contracts.Crowdfunding <> pred def
+R14178:14182 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R14174:14176 Contracts.Crowdfunding Crowdfunding ::'AF'_x not
+R14177:14177 Contracts.Crowdfunding <> P var
+R14183:14185 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14189:14191 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14193:14193 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14186:14188 Contracts.Crowdfunding <> Top defax
+R14192:14192 Contracts.Crowdfunding <> P var
+prf 14222:14228 <> equiv_5
+R14244:14247 Contracts.Crowdfunding <> pred def
+R14259:14263 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R14255:14257 Contracts.Crowdfunding Crowdfunding ::'EF'_x not
+R14258:14258 Contracts.Crowdfunding <> P var
+R14264:14266 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14270:14272 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14274:14274 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14267:14269 Contracts.Crowdfunding <> Top defax
+R14273:14273 Contracts.Crowdfunding <> P var
+prf 14302:14308 <> equiv_6
+R14326:14329 Contracts.Crowdfunding <> pred def
+R14346:14350 Contracts.Crowdfunding Crowdfunding ::x_'<=>'_x not
+R14337:14339 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14341:14343 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14345:14345 Contracts.Crowdfunding Crowdfunding ::'A'_'['_x_'U'_x_']' not
+R14340:14340 Contracts.Crowdfunding <> P var
+R14344:14344 Contracts.Crowdfunding <> Q var
+R14370:14373 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R14351:14353 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14356:14359 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14368:14369 Contracts.Crowdfunding Crowdfunding ::'E'_'['_x_'U'_x_']' not
+R14354:14354 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14355:14355 Contracts.Crowdfunding <> P var
+R14360:14360 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14362:14365 Contracts.Crowdfunding Crowdfunding ::x_'&&'_x not
+R14361:14361 Contracts.Crowdfunding <> P var
+R14366:14366 Contracts.Crowdfunding Crowdfunding ::'!'_x not
+R14367:14367 Contracts.Crowdfunding <> Q var
+R14374:14376 Contracts.Crowdfunding Crowdfunding ::'AF'_x not
+R14377:14377 Contracts.Crowdfunding <> Q var
+var 15337:15346 Crowdfunding crowd_addr
+R15350:15356 Contracts.Automata2 <> address def
+syndef 15369:15371 <> tft
+R15377:15390 Contracts.Automata2 <> trans_fun_type def
+R15392:15401 Contracts.Crowdfunding <> crowdState rec
+def 15416:15421 <> ok_msg
+R15426:15429 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15441:15441 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15430:15430 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15432:15433 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15440:15440 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15434:15437 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15439:15439 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+def 15455:15460 <> no_msg
+R15465:15468 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15480:15480 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15469:15469 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15471:15472 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15479:15479 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15473:15476 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R15478:15478 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+def 15495:15504 <> donate_tag
+def 15523:15532 <> donate_fun
+R15536:15538 Contracts.Crowdfunding <> tft syndef
+R15566:15568 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15591:15600 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16057:16064 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15577:15580 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R15569:15574 Contracts.Automata2 <> method proj
+R15576:15576 Contracts.Crowdfunding <> m var
+R15581:15590 Contracts.Crowdfunding <> donate_tag def
+R15611:15617 Contracts.Crowdfunding <> backers proj
+R15619:15619 Contracts.Crowdfunding <> s var
+R15657:15659 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'+'_x not
+R15645:15653 Contracts.Automata2 <> block_num proj
+R15655:15656 Contracts.Crowdfunding <> bc var
+R15681:15686 Contracts.Automata2 <> sender proj
+R15688:15688 Contracts.Crowdfunding <> m var
+R15697:15699 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15728:15737 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15780:15789 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15715:15718 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R15700:15712 Contracts.Crowdfunding <> get_max_block def
+R15714:15714 Contracts.Crowdfunding <> s var
+R15719:15727 Contracts.Crowdfunding <> nxt_block var
+R15738:15738 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15740:15741 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15779:15779 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15739:15739 Contracts.Crowdfunding <> s var
+R15742:15745 Coq.Init.Datatypes <> Some constr
+R15748:15750 Contracts.Automata2 <> Msg constr
+R15772:15777 Contracts.Crowdfunding <> no_msg def
+R15765:15768 Contracts.Crowdfunding <> from var
+R15754:15763 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R15790:15792 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15822:15862 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16000:16014 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R15793:15795 mathcomp.ssreflect.seq <> all def
+R15820:15821 Contracts.Crowdfunding <> bs var
+R15797:15802 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R15804:15806 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R15818:15818 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R15810:15813 mathcomp.ssreflect.eqtype <> :bool_scope:x_'!='_x not
+R15808:15809 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R15807:15807 Contracts.Crowdfunding <> e var
+R15814:15817 Contracts.Crowdfunding <> from var
+R15887:15890 mathcomp.ssreflect.seq <> :seq_scope:x_'::'_x not
+R15874:15874 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15879:15880 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15886:15886 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15875:15878 Contracts.Crowdfunding <> from var
+R15881:15883 Contracts.Automata2 <> val proj
+R15885:15885 Contracts.Crowdfunding <> m var
+R15891:15892 Contracts.Crowdfunding <> bs var
+R15922:15932 Contracts.Crowdfunding <> set_backers def
+R15936:15938 Contracts.Crowdfunding <> bs' var
+R15934:15934 Contracts.Crowdfunding <> s var
+R15957:15957 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15960:15961 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15999:15999 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R15958:15959 Contracts.Crowdfunding <> s' var
+R15962:15965 Coq.Init.Datatypes <> Some constr
+R15968:15970 Contracts.Automata2 <> Msg constr
+R15992:15997 Contracts.Crowdfunding <> ok_msg def
+R15985:15988 Contracts.Crowdfunding <> from var
+R15974:15983 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R16015:16015 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16017:16018 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16056:16056 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16016:16016 Contracts.Crowdfunding <> s var
+R16019:16022 Coq.Init.Datatypes <> Some constr
+R16025:16027 Contracts.Automata2 <> Msg constr
+R16049:16054 Contracts.Crowdfunding <> no_msg def
+R16042:16045 Contracts.Crowdfunding <> from var
+R16031:16040 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R16065:16065 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16067:16068 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16073:16073 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R16066:16066 Contracts.Crowdfunding <> s var
+R16069:16072 Coq.Init.Datatypes <> None constr
+def 16088:16093 <> donate
+R16098:16103 Contracts.Automata2 <> CTrans constr
+R16116:16125 Contracts.Crowdfunding <> donate_fun def
+R16105:16114 Contracts.Crowdfunding <> donate_tag def
+def 16792:16803 <> getfunds_tag
+def 16822:16833 <> getfunds_fun
+R16837:16839 Contracts.Crowdfunding <> tft syndef
+R16880:16885 Contracts.Automata2 <> sender proj
+R16887:16887 Contracts.Crowdfunding <> m var
+R16894:16896 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16950:16959 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17265:17272 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R16897:16897 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R16922:16927 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R16949:16949 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R16906:16909 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R16898:16903 Contracts.Automata2 <> method proj
+R16905:16905 Contracts.Crowdfunding <> m var
+R16910:16921 Contracts.Crowdfunding <> getfunds_tag def
+R16932:16936 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R16948:16948 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R16937:16945 Contracts.Crowdfunding <> get_owner def
+R16947:16947 Contracts.Crowdfunding <> s var
+R16983:16985 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'+'_x not
+R16971:16979 Contracts.Automata2 <> block_num proj
+R16981:16982 Contracts.Crowdfunding <> bc var
+R16995:16998 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17020:17030 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17213:17222 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17014:17016 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<'_x not
+R16999:17011 Contracts.Crowdfunding <> get_max_block def
+R17013:17013 Contracts.Crowdfunding <> s var
+R17017:17019 Contracts.Crowdfunding <> blk var
+R17031:17033 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17051:17065 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17156:17170 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R17044:17047 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R17034:17041 Contracts.Crowdfunding <> get_goal def
+R17043:17043 Contracts.Crowdfunding <> s var
+R17048:17050 Contracts.Crowdfunding <> bal var
+R17076:17085 Contracts.Crowdfunding <> set_funded def
+R17089:17092 Coq.Init.Datatypes <> true constr
+R17087:17087 Contracts.Crowdfunding <> s var
+R17111:17111 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17114:17115 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17155:17155 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17112:17113 Contracts.Crowdfunding <> s' var
+R17116:17119 Coq.Init.Datatypes <> Some constr
+R17122:17124 Contracts.Automata2 <> Msg constr
+R17148:17153 Contracts.Crowdfunding <> ok_msg def
+R17130:17139 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R17126:17128 Contracts.Crowdfunding <> bal var
+R17171:17171 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17173:17174 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17212:17212 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17172:17172 Contracts.Crowdfunding <> s var
+R17175:17178 Coq.Init.Datatypes <> Some constr
+R17181:17183 Contracts.Automata2 <> Msg constr
+R17205:17210 Contracts.Crowdfunding <> no_msg def
+R17187:17196 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R17223:17223 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17225:17226 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17264:17264 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17224:17224 Contracts.Crowdfunding <> s var
+R17227:17230 Coq.Init.Datatypes <> Some constr
+R17233:17235 Contracts.Automata2 <> Msg constr
+R17257:17262 Contracts.Crowdfunding <> no_msg def
+R17239:17248 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R17273:17273 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17275:17276 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17281:17281 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R17274:17274 Contracts.Crowdfunding <> s var
+R17277:17280 Coq.Init.Datatypes <> None constr
+def 17296:17304 <> get_funds
+R17309:17314 Contracts.Automata2 <> CTrans constr
+R17329:17340 Contracts.Crowdfunding <> getfunds_fun def
+R17316:17327 Contracts.Crowdfunding <> getfunds_tag def
+def 18083:18091 <> claim_tag
+def 18110:18118 <> claim_fun
+R18122:18124 Contracts.Crowdfunding <> tft syndef
+R18165:18170 Contracts.Automata2 <> sender proj
+R18172:18172 Contracts.Crowdfunding <> m var
+R18179:18181 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18203:18212 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18956:18963 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18190:18193 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R18182:18187 Contracts.Automata2 <> method proj
+R18189:18189 Contracts.Crowdfunding <> m var
+R18194:18202 Contracts.Crowdfunding <> claim_tag def
+R18224:18232 Contracts.Automata2 <> block_num proj
+R18234:18235 Contracts.Crowdfunding <> bc var
+R18244:18246 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18269:18307 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18350:18359 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18250:18253 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R18247:18249 Contracts.Crowdfunding <> blk var
+R18254:18266 Contracts.Crowdfunding <> get_max_block def
+R18268:18268 Contracts.Crowdfunding <> s var
+R18308:18308 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18310:18311 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18349:18349 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18309:18309 Contracts.Crowdfunding <> s var
+R18312:18315 Coq.Init.Datatypes <> Some constr
+R18318:18320 Contracts.Automata2 <> Msg constr
+R18342:18347 Contracts.Crowdfunding <> no_msg def
+R18324:18333 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R18370:18376 Contracts.Crowdfunding <> backers proj
+R18378:18378 Contracts.Crowdfunding <> s var
+R18392:18394 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18428:18493 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18536:18550 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18395:18398 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_'|'_x_']' not
+R18407:18409 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_'|'_x_']' not
+R18427:18427 Coq.ssr.ssrbool <> :bool_scope:'['_'||'_x_'|'_x_']' not
+R18399:18404 Contracts.Crowdfunding <> funded proj
+R18406:18406 Contracts.Crowdfunding <> s var
+R18420:18423 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R18410:18417 Contracts.Crowdfunding <> get_goal def
+R18419:18419 Contracts.Crowdfunding <> s var
+R18424:18426 Contracts.Crowdfunding <> bal var
+R18494:18494 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18496:18497 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18535:18535 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18495:18495 Contracts.Crowdfunding <> s var
+R18498:18501 Coq.Init.Datatypes <> Some constr
+R18504:18506 Contracts.Automata2 <> Msg constr
+R18528:18533 Contracts.Crowdfunding <> no_msg def
+R18510:18519 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R18560:18567 mathcomp.ssreflect.seq <> find def
+R18592:18593 Contracts.Crowdfunding <> bs var
+R18569:18574 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18576:18578 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18590:18590 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18582:18585 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R18580:18581 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R18579:18579 Contracts.Crowdfunding <> e var
+R18612:18614 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18626:18645 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18858:18946 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18616:18618 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<'_x not
+R18615:18615 Contracts.Crowdfunding <> n var
+R18619:18622 mathcomp.ssreflect.seq <> size def
+R18624:18625 Contracts.Crowdfunding <> bs var
+R18655:18657 mathcomp.ssreflect.seq <> nth def
+R18674:18674 Contracts.Crowdfunding <> n var
+R18662:18664 mathcomp.ssreflect.seq <> map def
+R18670:18671 Contracts.Crowdfunding <> bs var
+R18666:18668 Coq.Init.Datatypes <> snd def
+R18709:18714 mathcomp.ssreflect.seq <> filter def
+R18739:18740 Contracts.Crowdfunding <> bs var
+R18716:18721 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18723:18725 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18737:18737 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R18729:18732 mathcomp.ssreflect.eqtype <> :bool_scope:x_'!='_x not
+R18727:18728 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R18726:18726 Contracts.Crowdfunding <> e var
+R18775:18785 Contracts.Crowdfunding <> set_backers def
+R18789:18791 Contracts.Crowdfunding <> bs' var
+R18787:18787 Contracts.Crowdfunding <> s var
+R18815:18815 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18818:18819 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18857:18857 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18816:18817 Contracts.Crowdfunding <> s' var
+R18820:18823 Coq.Init.Datatypes <> Some constr
+R18826:18828 Contracts.Automata2 <> Msg constr
+R18850:18855 Contracts.Crowdfunding <> ok_msg def
+R18832:18841 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+R18830:18830 Contracts.Crowdfunding <> v var
+R18947:18947 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18949:18950 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18955:18955 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18948:18948 Contracts.Crowdfunding <> s var
+R18951:18954 Coq.Init.Datatypes <> None constr
+R18964:18964 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18966:18967 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18972:18972 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18965:18965 Contracts.Crowdfunding <> s var
+R18968:18971 Coq.Init.Datatypes <> None constr
+def 18987:18991 <> claim
+R18996:19001 Contracts.Automata2 <> CTrans constr
+R19013:19021 Contracts.Crowdfunding <> claim_fun def
+R19003:19011 Contracts.Crowdfunding <> claim_tag def
+def 19044:19053 <> crowd_prot
+R19057:19064 Contracts.Automata2 <> Protocol rec
+R19066:19075 Contracts.Crowdfunding <> crowdState rec
+R19083:19087 Contracts.Automata2 <> CProt constr
+R19115:19118 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19125:19126 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19136:19137 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19143:19143 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19119:19124 Contracts.Crowdfunding <> donate def
+R19127:19135 Contracts.Crowdfunding <> get_funds def
+R19138:19142 Contracts.Crowdfunding <> claim def
+R19104:19113 Contracts.Crowdfunding <> init_state def
+R19091:19100 Contracts.Crowdfunding <> Crowdfunding.crowd_addr var
+prf 19155:19164 <> crowd_tags
+R19183:19185 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19168:19171 Contracts.Automata2 <> tags def
+R19173:19182 Contracts.Crowdfunding <> crowd_prot def
+R19186:19189 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19191:19192 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19194:19195 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19197:19197 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+def 20217:20225 <> notfunded
+R20229:20232 Contracts.Crowdfunding <> pred def
+R20269:20271 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20248:20253 Contracts.Crowdfunding <> funded proj
+R20256:20260 Contracts.Automata2 <> state proj
+R20263:20264 Contracts.Automata2 <> st proj
+R20266:20266 Contracts.Crowdfunding <> w var
+R20272:20276 Coq.Init.Datatypes <> false constr
+def 20290:20307 <> balance_sufficient
+R20311:20314 Contracts.Crowdfunding <> pred def
+R20369:20372 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'<='_x not
+R20330:20333 mathcomp.ssreflect.seq <> sumn def
+R20336:20338 mathcomp.ssreflect.seq <> map def
+R20345:20351 Contracts.Crowdfunding <> backers proj
+R20354:20358 Contracts.Automata2 <> state proj
+R20361:20362 Contracts.Automata2 <> st proj
+R20364:20364 Contracts.Crowdfunding <> s var
+R20340:20342 Coq.Init.Datatypes <> snd def
+R20373:20379 Contracts.Automata2 <> balance proj
+R20382:20383 Contracts.Automata2 <> st proj
+R20385:20385 Contracts.Crowdfunding <> s var
+prf 20396:20418 <> temporal_balance_backed
+R20436:20439 Contracts.Crowdfunding Crowdfunding ::x_'|='_x not
+R20426:20435 Contracts.Crowdfunding <> init_world def
+R20440:20443 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R20476:20476 Contracts.Crowdfunding Crowdfunding ::'AG'_x not
+R20453:20457 Contracts.Crowdfunding Crowdfunding ::x_'-->'_x not
+R20444:20452 Contracts.Crowdfunding <> notfunded def
+R20458:20475 Contracts.Crowdfunding <> balance_sufficient def
+R20495:20503 Contracts.Crowdfunding <> satisfies def
+R20515:20520 Contracts.Crowdfunding <> AllBox def
+R20556:20564 Contracts.Crowdfunding <> satisfies def
+R20567:20570 Contracts.Crowdfunding <> Impl def
+R20613:20626 Contracts.Crowdfunding <> path_predicate def
+R20701:20709 Contracts.Crowdfunding <> satisfies def
+R20793:20802 Contracts.Crowdfunding <> init_world def
+R20812:20822 Contracts.Crowdfunding <> init_cstate def
+R20832:20841 Contracts.Crowdfunding <> init_state def
+R20855:20872 Contracts.Crowdfunding <> balance_sufficient def
+R21000:21011 Contracts.Crowdfunding <> reachability def
+R21023:21025 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'.+1' not
+R21000:21011 Contracts.Crowdfunding <> reachability def
+R21023:21025 mathcomp.ssreflect.ssrnat <> :nat_scope:x_'.+1' not
+R21059:21070 Contracts.Crowdfunding <> reachability def
+R21089:21098 Contracts.Automata2 <> step_world def
+R21119:21120 Contracts.Automata2 <> st proj
+def 23967:23973 <> donated
+R23982:23986 Contracts.Automata2 <> value def
+R23997:23997 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R24045:24049 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R23998:24003 mathcomp.ssreflect.seq <> filter def
+R24026:24032 Contracts.Crowdfunding <> backers proj
+R24035:24039 Contracts.Automata2 <> state proj
+R24041:24042 Contracts.Crowdfunding <> st var
+R24005:24010 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R24012:24014 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R24023:24023 Coq.ssr.ssrbool <> :fun_scope:'['_'pred'_x_'|'_x_']' not
+R24018:24021 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R24016:24017 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R24015:24015 Contracts.Crowdfunding <> e var
+R24022:24022 Contracts.Crowdfunding <> b var
+R24050:24053 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R24060:24060 mathcomp.ssreflect.seq <> :seq_scope:'['_'::'_x_']' not
+R24054:24054 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24056:24057 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24059:24059 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R24055:24055 Contracts.Crowdfunding <> b var
+R24058:24058 Contracts.Crowdfunding <> d var
+def 24114:24127 <> no_claims_from
+R24142:24144 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R24136:24141 Contracts.Automata2 <> bstate rec
+R24145:24151 Contracts.Automata2 <> message rec
+R24167:24170 mathcomp.ssreflect.eqtype <> :bool_scope:x_'!='_x not
+R24157:24162 Contracts.Automata2 <> sender proj
+R24165:24166 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R24164:24164 Contracts.Crowdfunding <> q var
+R24171:24171 Contracts.Crowdfunding <> b var
+R27911:27922 Contracts.Crowdfunding Crowdfunding <> sec

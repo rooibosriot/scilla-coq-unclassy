@@ -1,0 +1,149 @@
+DIGEST 3980ae149d5fff49fd53837942354134
+FHeaps.idynamic
+R39:47 mathcomp.ssreflect.ssreflect <> <> lib
+R49:54 mathcomp.ssreflect.ssrfun <> <> lib
+R72:76 Coq.Logic.Eqdep <> <> lib
+R106:112 Heaps.prelude <> <> lib
+sec 1212:1225 <> IndexedDynamic
+var 1238:1238 IndexedDynamic I
+var 1249:1252 IndexedDynamic sort
+R1257:1260 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1256:1256 Heaps.idynamic <> I var
+ind 1279:1286 <> idynamic
+constr 1291:1294 <> idyn
+R1301:1301 Heaps.idynamic <> IndexedDynamic.I var
+R1307:1310 Heaps.idynamic <> IndexedDynamic.sort var
+R1312:1312 Heaps.idynamic <> A var
+R1313:1313 Heaps.idynamic <> idynamic ind
+def 1327:1333 <> idyn_tp
+R1340:1347 Heaps.idynamic <> idynamic ind
+R1352:1352 Heaps.idynamic <> IndexedDynamic.I var
+R1374:1374 Heaps.idynamic <> x var
+R1362:1365 Heaps.idynamic <> idyn constr
+def 1394:1401 <> idyn_val
+R1408:1415 Heaps.idynamic <> idynamic ind
+R1420:1423 Heaps.idynamic <> IndexedDynamic.sort var
+R1426:1432 Heaps.idynamic <> idyn_tp def
+R1434:1434 Heaps.idynamic <> x var
+R1459:1459 Heaps.idynamic <> x var
+R1447:1450 Heaps.idynamic <> idyn constr
+prf 1474:1481 <> idyn_eta
+R1488:1495 Heaps.idynamic <> idynamic ind
+R1517:1519 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1500:1503 Heaps.idynamic <> idyn constr
+R1506:1513 Heaps.idynamic <> idyn_val def
+R1515:1515 Heaps.idynamic <> x var
+R1520:1520 Heaps.idynamic <> x var
+prf 1554:1562 <> idyn_injT
+R1573:1573 Heaps.idynamic <> IndexedDynamic.I var
+R1582:1585 Heaps.idynamic <> IndexedDynamic.sort var
+R1587:1588 Heaps.idynamic <> A1 var
+R1597:1600 Heaps.idynamic <> IndexedDynamic.sort var
+R1602:1603 Heaps.idynamic <> A2 var
+R1634:1637 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1640:1642 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1638:1639 Heaps.idynamic <> A1 var
+R1643:1644 Heaps.idynamic <> A2 var
+R1624:1626 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1617:1620 Heaps.idynamic <> idyn constr
+R1622:1623 Heaps.idynamic <> v1 var
+R1627:1630 Heaps.idynamic <> idyn constr
+R1632:1633 Heaps.idynamic <> v2 var
+prf 1675:1682 <> idyn_inj
+R1689:1689 Heaps.idynamic <> IndexedDynamic.I var
+R1701:1704 Heaps.idynamic <> IndexedDynamic.sort var
+R1706:1706 Heaps.idynamic <> A var
+R1728:1731 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1734:1736 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1732:1733 Heaps.idynamic <> v1 var
+R1737:1738 Heaps.idynamic <> v2 var
+R1718:1720 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1711:1714 Heaps.idynamic <> idyn constr
+R1716:1717 Heaps.idynamic <> v1 var
+R1721:1724 Heaps.idynamic <> idyn constr
+R1726:1727 Heaps.idynamic <> v2 var
+R1767:1776 Coq.Logic.Eqdep EqdepTheory inj_pairT2 syndef
+R1767:1776 Coq.Logic.Eqdep EqdepTheory inj_pairT2 syndef
+def 1798:1804 <> icoerce
+R1815:1818 Heaps.idynamic <> IndexedDynamic.sort var
+R1820:1820 Heaps.idynamic <> A var
+R1830:1833 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1834:1837 Heaps.idynamic <> IndexedDynamic.sort var
+R1839:1839 Heaps.idynamic <> B var
+R1826:1828 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1825:1825 Heaps.idynamic <> A var
+R1829:1829 Heaps.idynamic <> B var
+R1846:1850 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R1875:1875 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R1851:1857 Coq.Init.Logic <> eq_rect scheme
+R1874:1874 Heaps.idynamic <> B var
+R1872:1872 Heaps.idynamic <> v var
+R1861:1865 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R1870:1870 Coq.ssr.ssrfun <> :fun_scope:'['_'eta'_x_']' not
+R1866:1869 Heaps.idynamic <> IndexedDynamic.sort var
+R1859:1859 Heaps.idynamic <> A var
+prf 1885:1888 <> ieqc
+R1897:1900 Heaps.idynamic <> IndexedDynamic.sort var
+R1902:1902 Heaps.idynamic <> A var
+R1912:1914 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1911:1911 Heaps.idynamic <> A var
+R1915:1915 Heaps.idynamic <> A var
+R1932:1934 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1920:1926 Heaps.idynamic <> icoerce def
+R1930:1931 Heaps.idynamic <> pf var
+R1928:1928 Heaps.idynamic <> v var
+R1935:1935 Heaps.idynamic <> v var
+R1965:1975 Coq.Logic.Eqdep EqdepTheory Streicher_K thm
+R1965:1975 Coq.Logic.Eqdep EqdepTheory Streicher_K thm
+def 1995:1999 <> ijmeq
+R2011:2014 Heaps.idynamic <> IndexedDynamic.sort var
+R2016:2016 Heaps.idynamic <> A var
+R2025:2028 Heaps.idynamic <> IndexedDynamic.sort var
+R2030:2030 Heaps.idynamic <> B var
+R2062:2064 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2049:2055 Heaps.idynamic <> icoerce def
+R2060:2061 Heaps.idynamic <> pf var
+R2057:2058 Heaps.idynamic <> v1 var
+R2065:2066 Heaps.idynamic <> v2 var
+prf 2076:2085 <> ijmeq_refl
+R2094:2097 Heaps.idynamic <> IndexedDynamic.sort var
+R2099:2099 Heaps.idynamic <> A var
+R2104:2108 Heaps.idynamic <> ijmeq def
+R2112:2112 Heaps.idynamic <> v var
+R2110:2110 Heaps.idynamic <> v var
+R2143:2146 Heaps.idynamic <> ieqc thm
+R2143:2146 Heaps.idynamic <> ieqc thm
+R2143:2146 Heaps.idynamic <> ieqc thm
+prf 2187:2190 <> ijmE
+R2203:2206 Heaps.idynamic <> IndexedDynamic.sort var
+R2208:2208 Heaps.idynamic <> A var
+R2224:2228 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R2213:2217 Heaps.idynamic <> ijmeq def
+R2222:2223 Heaps.idynamic <> v2 var
+R2219:2220 Heaps.idynamic <> v1 var
+R2231:2233 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2229:2230 Heaps.idynamic <> v1 var
+R2234:2235 Heaps.idynamic <> v2 var
+R2280:2284 Coq.ssr.ssrfun <> erefl syndef
+prf 2303:2307 <> idynE
+R2318:2318 Heaps.idynamic <> IndexedDynamic.I var
+R2327:2330 Heaps.idynamic <> IndexedDynamic.sort var
+R2332:2333 Heaps.idynamic <> A1 var
+R2342:2345 Heaps.idynamic <> IndexedDynamic.sort var
+R2347:2348 Heaps.idynamic <> A2 var
+R2368:2371 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2383:2386 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2394:2396 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2387:2390 Heaps.idynamic <> idyn constr
+R2392:2393 Heaps.idynamic <> v1 var
+R2397:2400 Heaps.idynamic <> idyn constr
+R2402:2403 Heaps.idynamic <> v2 var
+R2372:2376 Heaps.idynamic <> ijmeq def
+R2381:2382 Heaps.idynamic <> v2 var
+R2378:2379 Heaps.idynamic <> v1 var
+R2363:2365 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2361:2362 Heaps.idynamic <> A1 var
+R2366:2367 Heaps.idynamic <> A2 var
+R2454:2457 Heaps.idynamic <> ijmE thm
+R2474:2487 Heaps.idynamic IndexedDynamic <> sec
+R2565:2571 Heaps.idynamic <> icoerce def

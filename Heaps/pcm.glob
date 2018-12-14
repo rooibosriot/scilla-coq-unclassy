@@ -1,0 +1,1314 @@
+DIGEST e3bb5b5a3fc6bf369b7129a5fce35ecd
+FHeaps.pcm
+R39:47 mathcomp.ssreflect.ssreflect <> <> lib
+R49:55 mathcomp.ssreflect.ssrbool <> <> lib
+R57:62 mathcomp.ssreflect.ssrnat <> <> lib
+R64:69 mathcomp.ssreflect.eqtype <> <> lib
+R71:76 mathcomp.ssreflect.ssrfun <> <> lib
+R78:80 mathcomp.ssreflect.seq <> <> lib
+R109:112 Heaps.pred <> <> lib
+R114:120 Heaps.prelude <> <> lib
+R122:128 Heaps.ordtype <> <> lib
+R130:135 Heaps.finmap <> <> lib
+mod 331:333 <> PCM
+constr 367:371 PCM Mixin
+rec 344:351 PCM mixin_of
+proj 379:386 PCM valid_op
+proj 405:411 PCM join_op
+proj 432:438 PCM unit_op
+R391:394 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R395:398 Coq.Init.Datatypes <> bool ind
+R390:390 Heaps.pcm <> T var
+R416:419 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R421:424 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R425:425 Heaps.pcm <> T var
+R420:420 Heaps.pcm <> T var
+R415:415 Heaps.pcm <> T var
+R442:442 Heaps.pcm <> T var
+R453:463 Coq.ssr.ssrfun <> commutative def
+R465:471 Heaps.pcm <> join_op meth
+R482:492 Coq.ssr.ssrfun <> associative def
+R494:500 Heaps.pcm <> join_op meth
+R511:517 Coq.ssr.ssrfun <> left_id def
+R527:533 Heaps.pcm <> join_op meth
+R519:525 Heaps.pcm <> unit_op meth
+R610:613 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R614:621 Heaps.pcm <> valid_op meth
+R623:623 Heaps.pcm <> x var
+R588:595 Heaps.pcm <> valid_op meth
+R598:604 Heaps.pcm <> join_op meth
+R608:608 Heaps.pcm <> y var
+R606:606 Heaps.pcm <> x var
+R658:665 Heaps.pcm <> valid_op meth
+R667:673 Heaps.pcm <> unit_op meth
+sec 686:693 PCM ClassDef
+syndef 706:713 PCM class_of
+R718:725 Heaps.pcm PCM mixin_of rec
+constr 769:772 PCM Pack
+rec 754:757 PCM type
+proj 775:778 PCM sort
+R792:799 Heaps.pcm PCM class_of syndef
+R801:804 Heaps.pcm <> sort meth
+R824:857 Heaps.pcm PCM sort proj
+var 872:872 PCM.ClassDef T
+var 883:884 PCM.ClassDef cT
+R888:891 Heaps.pcm PCM type rec
+def 906:910 PCM class
+R941:942 Heaps.pcm <> PCM.ClassDef.cT var
+R951:958 Heaps.pcm PCM class_of syndef
+R960:962 Heaps.pcm <> cT' var
+R920:923 Heaps.pcm PCM Pack constr
+def 982:985 PCM pack
+R993:996 Heaps.pcm PCM Pack constr
+R1002:1002 Heaps.pcm <> PCM.ClassDef.T var
+R1000:1000 Heaps.pcm <> c var
+R998:998 Heaps.pcm <> PCM.ClassDef.T var
+def 1016:1020 PCM clone
+R1035:1038 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1039:1039 Heaps.pcm <> PCM.ClassDef.T var
+R1033:1034 Heaps.pcm <> PCM.ClassDef.cT var
+R1043:1050 Coq.ssr.ssrfun <> phant_id def
+R1061:1062 Heaps.pcm <> PCM.ClassDef.cT var
+R1053:1056 Heaps.pcm PCM pack def
+R1058:1058 Heaps.pcm <> c var
+R1067:1070 Heaps.pcm PCM pack def
+R1072:1072 Heaps.pcm <> c var
+def 1087:1091 PCM valid
+R1096:1103 Heaps.pcm PCM valid_op proj
+R1105:1109 Heaps.pcm PCM class def
+def 1123:1126 PCM join
+R1131:1137 Heaps.pcm PCM join_op proj
+R1139:1143 Heaps.pcm PCM class def
+def 1157:1160 PCM unit
+R1165:1171 Heaps.pcm PCM unit_op proj
+R1173:1177 Heaps.pcm PCM class def
+R1185:1192 Heaps.pcm PCM.ClassDef <> sec
+R1215:1218 Heaps.pcm PCM unit def
+def 1238:1248 PCM morph_axiom
+R1257:1260 Heaps.pcm PCM type rec
+R1274:1277 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R1278:1281 Heaps.pcm PCM sort proj
+R1283:1283 Heaps.pcm <> B var
+R1268:1271 Heaps.pcm PCM sort proj
+R1273:1273 Heaps.pcm <> A var
+R1304:1307 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1297:1299 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1291:1291 Heaps.pcm <> f var
+R1293:1296 Heaps.pcm PCM unit def
+R1300:1303 Heaps.pcm PCM unit def
+R1332:1334 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1320:1320 Heaps.pcm <> f var
+R1323:1326 Heaps.pcm PCM join def
+R1330:1330 Heaps.pcm <> y var
+R1328:1328 Heaps.pcm <> x var
+R1335:1338 Heaps.pcm PCM join def
+R1347:1347 Heaps.pcm <> f var
+R1349:1349 Heaps.pcm <> y var
+R1341:1341 Heaps.pcm <> f var
+R1343:1343 Heaps.pcm <> x var
+mod 1361:1367 <> PCM.Exports
+R1370:1403 Heaps.pcm PCM sort proj
+syndef 1415:1417 PCM.Exports pcm
+R1422:1425 Heaps.pcm PCM type rec
+syndef 1437:1444 PCM.Exports PCMMixin
+R1449:1453 Heaps.pcm PCM Mixin constr
+syndef 1465:1467 PCM.Exports PCM
+R1478:1481 Heaps.pcm PCM pack def
+R1534:1536 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+R1537:1544 Heaps.pcm PCM mixin_of rec
+R1527:1531 Heaps.pcm PCM class def
+not 1499:1499 PCM.Exports :form_scope:'['_'pcmMixin'_'of'_x_']'
+R1653:1657 Heaps.pcm PCM clone def
+R1671:1672 Coq.ssr.ssrfun <> id syndef
+R1665:1669 Coq.ssr.ssrfun <> idfun syndef
+not 1621:1621 PCM.Exports :form_scope:'['_'pcm'_'of'_x_'for'_x_']'
+R1776:1780 Heaps.pcm PCM clone def
+R1791:1792 Coq.ssr.ssrfun <> id syndef
+R1788:1789 Coq.ssr.ssrfun <> id syndef
+not 1752:1752 PCM.Exports :form_scope:'['_'pcm'_'of'_x_']'
+R1876:1879 Heaps.pcm PCM join def
+not 1863:1863 PCM.Exports ::x_'\+'_x
+syndef 1930:1934 PCM.Exports valid
+R1939:1943 Heaps.pcm PCM valid def
+syndef 1955:1958 PCM.Exports Unit
+R1963:1966 Heaps.pcm PCM unit def
+R1989:1992 Heaps.pcm PCM unit def
+sec 2037:2044 PCM.Exports Morphism
+var 2057:2057 PCM.Exports.Morphism A
+var 2059:2059 PCM.Exports.Morphism B
+R2063:2065 Heaps.pcm PCM.Exports pcm syndef
+constr 2097:2104 PCM.Exports PCMMorph
+rec 2079:2092 PCM.Exports pcm_morph_type
+proj 2110:2117 PCM.Exports pcm_func
+R2123:2126 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2127:2127 Heaps.pcm <> PCM.Exports.Morphism.B var
+R2122:2122 Heaps.pcm <> PCM.Exports.Morphism.A var
+R2136:2146 Heaps.pcm PCM morph_axiom def
+R2148:2155 Heaps.pcm <> pcm_func meth
+def 2171:2183 PCM.Exports pcm_morph_for
+R2188:2192 Coq.ssr.ssreflect <> phant coind
+R2196:2199 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2200:2200 Heaps.pcm <> PCM.Exports.Morphism.B var
+R2195:2195 Heaps.pcm <> PCM.Exports.Morphism.A var
+R2206:2219 Heaps.pcm PCM.Exports pcm_morph_type rec
+R2299:2306 Heaps.pcm PCM.Exports.Morphism <> sec
+R2344:2356 Heaps.pcm PCM.Exports pcm_morph_for def
+R2359:2363 Coq.ssr.ssreflect <> Phant constr
+not 2319:2319 PCM.Exports :type_scope:'{'_'pcm_morph'_x_'}'
+sec 2539:2542 PCM.Exports Laws
+var 2554:2554 PCM.Exports.Laws U
+var 2556:2556 PCM.Exports.Laws V
+R2560:2562 Heaps.pcm PCM.Exports pcm syndef
+prf 2572:2576 PCM.Exports joinC
+R2585:2585 Heaps.pcm <> PCM.Exports.Laws.U var
+R2596:2598 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2591:2594 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2590:2590 Heaps.pcm <> x var
+R2595:2595 Heaps.pcm <> y var
+R2600:2603 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2599:2599 Heaps.pcm <> y var
+R2604:2604 Heaps.pcm <> x var
+R2623:2623 Heaps.pcm <> PCM.Exports.Laws.U var
+R2623:2623 Heaps.pcm <> PCM.Exports.Laws.U var
+R2623:2623 Heaps.pcm <> PCM.Exports.Laws.U var
+prf 2670:2674 PCM.Exports joinA
+R2685:2685 Heaps.pcm <> PCM.Exports.Laws.U var
+R2703:2705 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2691:2695 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2702:2702 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2690:2690 Heaps.pcm <> x var
+R2697:2700 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2696:2696 Heaps.pcm <> y var
+R2701:2701 Heaps.pcm <> z var
+R2712:2715 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2707:2710 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2706:2706 Heaps.pcm <> x var
+R2711:2711 Heaps.pcm <> y var
+R2716:2716 Heaps.pcm <> z var
+R2735:2735 Heaps.pcm <> PCM.Exports.Laws.U var
+R2735:2735 Heaps.pcm <> PCM.Exports.Laws.U var
+R2735:2735 Heaps.pcm <> PCM.Exports.Laws.U var
+prf 2787:2792 PCM.Exports joinAC
+R2803:2803 Heaps.pcm <> PCM.Exports.Laws.U var
+R2819:2821 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2814:2817 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2809:2812 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2808:2808 Heaps.pcm <> x var
+R2813:2813 Heaps.pcm <> y var
+R2818:2818 Heaps.pcm <> z var
+R2828:2831 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2823:2826 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2822:2822 Heaps.pcm <> x var
+R2827:2827 Heaps.pcm <> z var
+R2832:2832 Heaps.pcm <> y var
+R2854:2858 Heaps.pcm PCM.Exports joinA thm
+R2861:2865 Heaps.pcm PCM.Exports joinC thm
+R2870:2874 Heaps.pcm PCM.Exports joinA thm
+R2854:2858 Heaps.pcm PCM.Exports joinA thm
+R2854:2858 Heaps.pcm PCM.Exports joinA thm
+R2861:2865 Heaps.pcm PCM.Exports joinC thm
+R2861:2865 Heaps.pcm PCM.Exports joinC thm
+R2870:2874 Heaps.pcm PCM.Exports joinA thm
+R2870:2874 Heaps.pcm PCM.Exports joinA thm
+prf 2889:2894 PCM.Exports joinCA
+R2905:2905 Heaps.pcm <> PCM.Exports.Laws.U var
+R2923:2925 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2911:2915 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2922:2922 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2910:2910 Heaps.pcm <> x var
+R2917:2920 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2916:2916 Heaps.pcm <> y var
+R2921:2921 Heaps.pcm <> z var
+R2927:2931 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2938:2938 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2926:2926 Heaps.pcm <> y var
+R2933:2936 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R2932:2932 Heaps.pcm <> x var
+R2937:2937 Heaps.pcm <> z var
+R2959:2963 Heaps.pcm PCM.Exports joinA thm
+R2966:2970 Heaps.pcm PCM.Exports joinC thm
+R2976:2980 Heaps.pcm PCM.Exports joinA thm
+R2959:2963 Heaps.pcm PCM.Exports joinA thm
+R2959:2963 Heaps.pcm PCM.Exports joinA thm
+R2966:2970 Heaps.pcm PCM.Exports joinC thm
+R2966:2970 Heaps.pcm PCM.Exports joinC thm
+R2976:2980 Heaps.pcm PCM.Exports joinA thm
+R2976:2980 Heaps.pcm PCM.Exports joinA thm
+prf 2995:3000 PCM.Exports validL
+R3009:3009 Heaps.pcm <> PCM.Exports.Laws.U var
+R3028:3031 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3032:3036 Heaps.pcm PCM.Exports valid syndef
+R3038:3038 Heaps.pcm <> x var
+R3014:3018 Heaps.pcm PCM.Exports valid syndef
+R3022:3025 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3021:3021 Heaps.pcm <> x var
+R3026:3026 Heaps.pcm <> y var
+R3054:3054 Heaps.pcm <> PCM.Exports.Laws.U var
+R3054:3054 Heaps.pcm <> PCM.Exports.Laws.U var
+R3054:3054 Heaps.pcm <> PCM.Exports.Laws.U var
+prf 3117:3122 PCM.Exports validR
+R3131:3131 Heaps.pcm <> PCM.Exports.Laws.U var
+R3150:3153 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3154:3158 Heaps.pcm PCM.Exports valid syndef
+R3160:3160 Heaps.pcm <> y var
+R3136:3140 Heaps.pcm PCM.Exports valid syndef
+R3144:3147 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3143:3143 Heaps.pcm <> x var
+R3148:3148 Heaps.pcm <> y var
+R3181:3185 Heaps.pcm PCM.Exports joinC thm
+R3195:3200 Heaps.pcm PCM.Exports validL thm
+R3181:3185 Heaps.pcm PCM.Exports joinC thm
+R3181:3185 Heaps.pcm PCM.Exports joinC thm
+R3195:3200 Heaps.pcm PCM.Exports validL thm
+prf 3215:3219 PCM.Exports unitL
+R3226:3226 Heaps.pcm <> PCM.Exports.Laws.U var
+R3240:3242 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3235:3238 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3231:3234 Heaps.pcm PCM.Exports Unit syndef
+R3239:3239 Heaps.pcm <> x var
+R3243:3243 Heaps.pcm <> x var
+R3262:3262 Heaps.pcm <> PCM.Exports.Laws.U var
+R3262:3262 Heaps.pcm <> PCM.Exports.Laws.U var
+R3262:3262 Heaps.pcm <> PCM.Exports.Laws.U var
+prf 3313:3317 PCM.Exports unitR
+R3324:3324 Heaps.pcm <> PCM.Exports.Laws.U var
+R3338:3340 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3330:3333 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3329:3329 Heaps.pcm <> x var
+R3334:3337 Heaps.pcm PCM.Exports Unit syndef
+R3341:3341 Heaps.pcm <> x var
+R3362:3366 Heaps.pcm PCM.Exports joinC thm
+R3368:3372 Heaps.pcm PCM.Exports unitL thm
+R3362:3366 Heaps.pcm PCM.Exports joinC thm
+R3362:3366 Heaps.pcm PCM.Exports joinC thm
+R3368:3372 Heaps.pcm PCM.Exports unitL thm
+R3368:3372 Heaps.pcm PCM.Exports unitL thm
+prf 3387:3396 PCM.Exports valid_unit
+R3400:3404 Heaps.pcm PCM.Exports valid syndef
+R3408:3411 Heaps.pcm PCM.Exports Unit syndef
+R3413:3413 Heaps.pcm <> PCM.Exports.Laws.U var
+R3433:3433 Heaps.pcm <> PCM.Exports.Laws.U var
+R3433:3433 Heaps.pcm <> PCM.Exports.Laws.U var
+R3433:3433 Heaps.pcm <> PCM.Exports.Laws.U var
+var 3480:3480 PCM.Exports.Laws f
+R3484:3494 Heaps.pcm PCM.Exports :type_scope:'{'_'pcm_morph'_x_'}' not
+R3501:3501 Heaps.pcm PCM.Exports :type_scope:'{'_'pcm_morph'_x_'}' not
+R3496:3499 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3500:3500 Heaps.pcm <> PCM.Exports.Laws.V var
+R3495:3495 Heaps.pcm <> PCM.Exports.Laws.U var
+prf 3511:3515 PCM.Exports fjoin
+R3533:3535 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3523:3523 Heaps.pcm <> PCM.Exports.Laws.f var
+R3527:3530 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3526:3526 Heaps.pcm <> x var
+R3531:3531 Heaps.pcm <> y var
+R3539:3542 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3536:3536 Heaps.pcm <> PCM.Exports.Laws.f var
+R3538:3538 Heaps.pcm <> x var
+R3543:3543 Heaps.pcm <> PCM.Exports.Laws.f var
+R3545:3545 Heaps.pcm <> y var
+R3564:3564 Heaps.pcm <> PCM.Exports.Laws.f var
+R3564:3564 Heaps.pcm <> PCM.Exports.Laws.f var
+R3564:3564 Heaps.pcm <> PCM.Exports.Laws.f var
+prf 3585:3589 PCM.Exports funit
+R3599:3601 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3593:3593 Heaps.pcm <> PCM.Exports.Laws.f var
+R3595:3598 Heaps.pcm PCM.Exports Unit syndef
+R3602:3605 Heaps.pcm PCM.Exports Unit syndef
+R3624:3624 Heaps.pcm <> PCM.Exports.Laws.f var
+R3624:3624 Heaps.pcm <> PCM.Exports.Laws.f var
+R3624:3624 Heaps.pcm <> PCM.Exports.Laws.f var
+R3643:3646 Heaps.pcm PCM.Exports.Laws <> sec
+sec 3684:3697 PCM.Exports UnfoldingRules
+var 3709:3709 PCM.Exports.UnfoldingRules U
+R3713:3715 Heaps.pcm PCM.Exports pcm syndef
+prf 3725:3733 PCM.Exports pcm_joinE
+R3742:3742 Heaps.pcm <> PCM.Exports.UnfoldingRules.U var
+R3753:3755 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3748:3751 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R3747:3747 Heaps.pcm <> x var
+R3752:3752 Heaps.pcm <> y var
+R3756:3762 Heaps.pcm PCM join_op proj
+R3776:3776 Heaps.pcm <> y var
+R3774:3774 Heaps.pcm <> x var
+R3765:3769 Heaps.pcm PCM class def
+R3771:3771 Heaps.pcm <> PCM.Exports.UnfoldingRules.U var
+prf 3805:3814 PCM.Exports pcm_validE
+R3821:3821 Heaps.pcm <> PCM.Exports.UnfoldingRules.U var
+R3833:3835 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3826:3830 Heaps.pcm PCM.Exports valid syndef
+R3832:3832 Heaps.pcm <> x var
+R3836:3843 Heaps.pcm PCM valid_op proj
+R3855:3855 Heaps.pcm <> x var
+R3846:3850 Heaps.pcm PCM class def
+R3852:3852 Heaps.pcm <> PCM.Exports.UnfoldingRules.U var
+prf 3884:3892 PCM.Exports pcm_unitE
+R3900:3902 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3896:3899 Heaps.pcm PCM unit def
+R3903:3909 Heaps.pcm PCM unit_op proj
+R3912:3916 Heaps.pcm PCM class def
+R3918:3918 Heaps.pcm <> PCM.Exports.UnfoldingRules.U var
+def 3953:3956 PCM.Exports pcmE
+R3961:3961 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3971:3972 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3983:3984 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3994:3994 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3962:3970 Heaps.pcm PCM.Exports pcm_joinE thm
+R3973:3982 Heaps.pcm PCM.Exports pcm_validE thm
+R3985:3993 Heaps.pcm PCM.Exports pcm_unitE thm
+R4002:4015 Heaps.pcm PCM.Exports.UnfoldingRules <> sec
+R4023:4029 Heaps.pcm PCM.Exports <> mod
+R4037:4039 Heaps.pcm PCM <> mod
+def 4129:4135 <> precise
+R4142:4144 Heaps.pcm <> pcm syndef
+R4152:4155 Heaps.pred <> Pred def
+R4157:4157 Heaps.pcm <> U var
+R4205:4212 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4232:4239 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4248:4251 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4260:4263 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4266:4268 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4264:4265 Heaps.pcm <> s1 var
+R4269:4270 Heaps.pcm <> s2 var
+R4254:4258 Heaps.pred <> :rel_scope:x_'\In'_x not
+R4252:4253 Heaps.pcm <> s2 var
+R4259:4259 Heaps.pcm <> P var
+R4242:4246 Heaps.pred <> :rel_scope:x_'\In'_x not
+R4240:4241 Heaps.pcm <> s1 var
+R4247:4247 Heaps.pcm <> P var
+R4221:4223 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4215:4218 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R4213:4214 Heaps.pcm <> s1 var
+R4219:4220 Heaps.pcm <> t1 var
+R4226:4229 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R4224:4225 Heaps.pcm <> s2 var
+R4230:4231 Heaps.pcm <> t2 var
+R4189:4193 Heaps.pcm <> valid syndef
+R4198:4201 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R4196:4197 Heaps.pcm <> s1 var
+R4202:4203 Heaps.pcm <> t1 var
+mod 4558:4565 <> Unlifted
+constr 4599:4603 Unlifted Mixin
+rec 4576:4583 Unlifted mixin_of
+proj 4609:4616 Unlifted ounit_op
+proj 4625:4632 Unlifted ojoin_op
+proj 4658:4666 Unlifted ojoinC_op
+proj 4713:4721 Unlifted ojoinA_op
+proj 4818:4826 Unlifted ounitL_op
+R4620:4620 Heaps.pcm <> T var
+R4637:4640 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4642:4645 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4646:4651 Coq.Init.Datatypes <> option ind
+R4653:4653 Heaps.pcm <> T var
+R4641:4641 Heaps.pcm <> T var
+R4636:4636 Heaps.pcm <> T var
+R4694:4696 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4682:4689 Heaps.pcm <> ojoin_op meth
+R4693:4693 Heaps.pcm <> y var
+R4691:4691 Heaps.pcm <> x var
+R4697:4704 Heaps.pcm <> ojoin_op meth
+R4708:4708 Heaps.pcm <> x var
+R4706:4706 Heaps.pcm <> y var
+R4776:4778 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4743:4747 Coq.ssr.ssrfun <> obind syndef
+R4763:4770 Heaps.pcm <> ojoin_op meth
+R4774:4774 Heaps.pcm <> z var
+R4772:4772 Heaps.pcm <> y var
+R4750:4757 Heaps.pcm <> ojoin_op meth
+R4759:4759 Heaps.pcm <> x var
+R4779:4783 Coq.ssr.ssrfun <> obind syndef
+R4801:4808 Heaps.pcm <> ojoin_op meth
+R4812:4812 Heaps.pcm <> y var
+R4810:4810 Heaps.pcm <> x var
+R4794:4796 Coq.ssr.ssrfun <> :fun_scope:x_'^~'_x not
+R4797:4797 Heaps.pcm <> z var
+R4786:4793 Heaps.pcm <> ojoin_op meth
+R4859:4861 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4840:4847 Heaps.pcm <> ojoin_op meth
+R4858:4858 Heaps.pcm <> x var
+R4849:4856 Heaps.pcm <> ounit_op meth
+R4862:4865 Coq.Init.Datatypes <> Some constr
+R4867:4867 Heaps.pcm <> x var
+sec 4880:4887 Unlifted ClassDef
+syndef 4900:4907 Unlifted class_of
+R4912:4919 Heaps.pcm Unlifted mixin_of rec
+constr 4963:4966 Unlifted Pack
+rec 4948:4951 Unlifted type
+proj 4969:4972 Unlifted sort
+R4986:4993 Heaps.pcm Unlifted class_of syndef
+R4995:4998 Heaps.pcm <> sort meth
+R5018:5051 Heaps.pcm Unlifted sort proj
+var 5066:5066 Unlifted.ClassDef T
+var 5077:5078 Unlifted.ClassDef cT
+R5082:5085 Heaps.pcm Unlifted type rec
+def 5100:5104 Unlifted class
+R5135:5136 Heaps.pcm <> Unlifted.ClassDef.cT var
+R5145:5152 Heaps.pcm Unlifted class_of syndef
+R5154:5156 Heaps.pcm <> cT' var
+R5114:5117 Heaps.pcm Unlifted Pack constr
+def 5175:5178 Unlifted pack
+R5186:5189 Heaps.pcm Unlifted Pack constr
+R5195:5195 Heaps.pcm <> Unlifted.ClassDef.T var
+R5193:5193 Heaps.pcm <> c var
+R5191:5191 Heaps.pcm <> Unlifted.ClassDef.T var
+def 5209:5213 Unlifted clone
+R5228:5231 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5232:5232 Heaps.pcm <> Unlifted.ClassDef.T var
+R5226:5227 Heaps.pcm <> Unlifted.ClassDef.cT var
+R5236:5243 Coq.ssr.ssrfun <> phant_id def
+R5254:5255 Heaps.pcm <> Unlifted.ClassDef.cT var
+R5246:5249 Heaps.pcm Unlifted pack def
+R5251:5251 Heaps.pcm <> c var
+R5260:5263 Heaps.pcm Unlifted pack def
+R5265:5265 Heaps.pcm <> c var
+def 5280:5284 Unlifted ounit
+R5289:5296 Heaps.pcm Unlifted ounit_op proj
+R5298:5302 Heaps.pcm Unlifted class def
+def 5316:5320 Unlifted ojoin
+R5325:5332 Heaps.pcm Unlifted ojoin_op proj
+R5334:5338 Heaps.pcm Unlifted class def
+R5346:5353 Heaps.pcm Unlifted.ClassDef <> sec
+mod 5364:5370 <> Unlifted.Exports
+R5373:5406 Heaps.pcm Unlifted sort proj
+syndef 5418:5425 Unlifted.Exports unlifted
+R5430:5433 Heaps.pcm Unlifted type rec
+syndef 5445:5457 Unlifted.Exports UnliftedMixin
+R5462:5466 Heaps.pcm Unlifted Mixin constr
+syndef 5478:5485 Unlifted.Exports Unlifted
+R5496:5499 Heaps.pcm Unlifted pack def
+R5557:5559 Coq.ssr.ssreflect <> :core_scope:x_':'_x not
+R5560:5567 Heaps.pcm Unlifted mixin_of rec
+R5550:5554 Heaps.pcm Unlifted class def
+not 5517:5517 Unlifted.Exports :form_scope:'['_'unliftedMixin'_'of'_x_']'
+R5686:5690 Heaps.pcm Unlifted clone def
+R5704:5705 Coq.ssr.ssrfun <> id syndef
+R5698:5702 Coq.ssr.ssrfun <> idfun syndef
+not 5649:5649 Unlifted.Exports :form_scope:'['_'unlifted'_'of'_x_'for'_x_']'
+R5819:5823 Heaps.pcm Unlifted clone def
+R5834:5835 Coq.ssr.ssrfun <> id syndef
+R5831:5832 Coq.ssr.ssrfun <> id syndef
+not 5790:5790 Unlifted.Exports :form_scope:'['_'unlifted'_'of'_x_']'
+syndef 5911:5915 Unlifted.Exports ounit
+R5920:5924 Heaps.pcm Unlifted ounit def
+syndef 5936:5940 Unlifted.Exports ojoin
+R5945:5949 Heaps.pcm Unlifted ojoin def
+R5972:5976 Heaps.pcm Unlifted ounit def
+prf 5991:5996 Unlifted.Exports ojoinC
+R6003:6010 Heaps.pcm Unlifted.Exports unlifted syndef
+R6020:6020 Heaps.pcm <> U var
+R6034:6036 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6025:6029 Heaps.pcm Unlifted.Exports ojoin syndef
+R6033:6033 Heaps.pcm <> y var
+R6031:6031 Heaps.pcm <> x var
+R6037:6041 Heaps.pcm Unlifted.Exports ojoin syndef
+R6045:6045 Heaps.pcm <> x var
+R6043:6043 Heaps.pcm <> y var
+prf 6098:6103 Unlifted.Exports ojoinA
+R6110:6117 Heaps.pcm Unlifted.Exports unlifted syndef
+R6129:6129 Heaps.pcm <> U var
+R6169:6171 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6142:6146 Coq.ssr.ssrfun <> obind syndef
+R6159:6163 Heaps.pcm Unlifted.Exports ojoin syndef
+R6167:6167 Heaps.pcm <> z var
+R6165:6165 Heaps.pcm <> y var
+R6149:6153 Heaps.pcm Unlifted.Exports ojoin syndef
+R6155:6155 Heaps.pcm <> x var
+R6172:6176 Coq.ssr.ssrfun <> obind syndef
+R6194:6198 Heaps.pcm Unlifted.Exports ojoin syndef
+R6202:6202 Heaps.pcm <> y var
+R6200:6200 Heaps.pcm <> x var
+R6187:6189 Coq.ssr.ssrfun <> :fun_scope:x_'^~'_x not
+R6190:6190 Heaps.pcm <> z var
+R6180:6184 Heaps.pcm Unlifted.Exports ojoin syndef
+R6186:6186 Heaps.pcm <> U var
+prf 6262:6267 Unlifted.Exports ounitL
+R6274:6281 Heaps.pcm Unlifted.Exports unlifted syndef
+R6289:6289 Heaps.pcm <> U var
+R6307:6309 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6294:6298 Heaps.pcm Unlifted.Exports ojoin syndef
+R6306:6306 Heaps.pcm <> x var
+R6300:6304 Heaps.pcm Unlifted.Exports ounit syndef
+R6310:6313 Coq.Init.Datatypes <> Some constr
+R6315:6315 Heaps.pcm <> x var
+R6372:6378 Heaps.pcm Unlifted.Exports <> mod
+R6386:6393 Heaps.pcm Unlifted <> mod
+mod 6590:6593 <> Lift
+sec 6604:6607 Lift Lift
+var 6619:6619 Lift.Lift A
+R6623:6630 Heaps.pcm Unlifted.Exports unlifted syndef
+ind 6644:6647 Lift lift
+constr 6659:6663 Lift Undef
+constr 6667:6668 Lift Up
+R6664:6664 Heaps.pcm <> lift ind
+R6673:6673 Heaps.pcm <> Lift.Lift.A var
+R6674:6674 Heaps.pcm <> lift ind
+var 6681:6684 Lift.Lift unit
+R6689:6690 Heaps.pcm Lift Up constr
+R6692:6696 Heaps.pcm Unlifted.Exports ounit syndef
+var 6704:6708 Lift.Lift valid
+R6715:6719 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R6721:6723 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R6728:6731 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R6765:6765 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R6735:6735 Heaps.pcm <> x var
+R6740:6741 Heaps.pcm Lift Up constr
+R6750:6753 Coq.Init.Datatypes <> true constr
+R6760:6764 Coq.Init.Datatypes <> false constr
+R6724:6727 Heaps.pcm Lift lift ind
+var 6773:6776 Lift.Lift join
+R6783:6787 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R6789:6789 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R6791:6793 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R6798:6806 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R6911:6911 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R6810:6810 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6812:6813 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6815:6815 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6811:6811 Heaps.pcm <> x var
+R6814:6814 Heaps.pcm <> y var
+R6820:6820 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6825:6826 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6831:6831 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6821:6822 Heaps.pcm Lift Up constr
+R6827:6828 Heaps.pcm Lift Up constr
+R6848:6852 Heaps.pcm Unlifted.Exports ojoin syndef
+R6861:6864 Coq.Init.Datatypes <> Some constr
+R6873:6874 Heaps.pcm Lift Up constr
+R6890:6894 Heaps.pcm Lift Undef constr
+R6906:6910 Heaps.pcm Lift Undef constr
+R6794:6797 Heaps.pcm Lift lift ind
+R6794:6797 Heaps.pcm Lift lift ind
+prf 6921:6925 Lift joinC
+R6934:6937 Heaps.pcm Lift lift ind
+R6950:6952 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6942:6945 Heaps.pcm <> Lift.Lift.join var
+R6949:6949 Heaps.pcm <> y var
+R6947:6947 Heaps.pcm <> x var
+R6953:6956 Heaps.pcm <> Lift.Lift.join var
+R6960:6960 Heaps.pcm <> x var
+R6958:6958 Heaps.pcm <> y var
+R7006:7011 Heaps.pcm Unlifted.Exports ojoinC thm
+R7006:7011 Heaps.pcm Unlifted.Exports ojoinC thm
+R7006:7011 Heaps.pcm Unlifted.Exports ojoinC thm
+prf 7026:7030 Lift joinA
+R7041:7044 Heaps.pcm Lift lift ind
+R7066:7068 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7049:7052 Heaps.pcm <> Lift.Lift.join var
+R7057:7060 Heaps.pcm <> Lift.Lift.join var
+R7064:7064 Heaps.pcm <> z var
+R7062:7062 Heaps.pcm <> y var
+R7054:7054 Heaps.pcm <> x var
+R7069:7072 Heaps.pcm <> Lift.Lift.join var
+R7085:7085 Heaps.pcm <> z var
+R7075:7078 Heaps.pcm <> Lift.Lift.join var
+R7082:7082 Heaps.pcm <> y var
+R7080:7080 Heaps.pcm <> x var
+R7143:7147 Heaps.pcm Unlifted.Exports ojoin syndef
+R7143:7147 Heaps.pcm Unlifted.Exports ojoin syndef
+R7143:7147 Heaps.pcm Unlifted.Exports ojoin syndef
+R7165:7169 Heaps.pcm Unlifted.Exports ojoin syndef
+R7165:7169 Heaps.pcm Unlifted.Exports ojoin syndef
+R7165:7169 Heaps.pcm Unlifted.Exports ojoin syndef
+R7196:7200 Heaps.pcm Unlifted.Exports ojoin syndef
+R7227:7232 Heaps.pcm Unlifted.Exports ojoinA thm
+R7196:7200 Heaps.pcm Unlifted.Exports ojoin syndef
+R7196:7200 Heaps.pcm Unlifted.Exports ojoin syndef
+R7227:7232 Heaps.pcm Unlifted.Exports ojoinA thm
+R7227:7232 Heaps.pcm Unlifted.Exports ojoinA thm
+R7227:7232 Heaps.pcm Unlifted.Exports ojoinA thm
+R7227:7232 Heaps.pcm Unlifted.Exports ojoinA thm
+R7280:7284 Heaps.pcm Unlifted.Exports ojoin syndef
+R7280:7284 Heaps.pcm Unlifted.Exports ojoin syndef
+R7280:7284 Heaps.pcm Unlifted.Exports ojoin syndef
+R7312:7317 Heaps.pcm Unlifted.Exports ojoinA thm
+R7312:7317 Heaps.pcm Unlifted.Exports ojoinA thm
+R7312:7317 Heaps.pcm Unlifted.Exports ojoinA thm
+prf 7362:7366 Lift unitL
+R7383:7385 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7372:7375 Heaps.pcm <> Lift.Lift.join var
+R7382:7382 Heaps.pcm <> x var
+R7377:7380 Heaps.pcm <> Lift.Lift.unit var
+R7386:7386 Heaps.pcm <> x var
+R7426:7431 Heaps.pcm Unlifted.Exports ounitL thm
+R7426:7431 Heaps.pcm Unlifted.Exports ounitL thm
+R7426:7431 Heaps.pcm Unlifted.Exports ounitL thm
+prf 7446:7451 Lift validL
+R7475:7478 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7479:7483 Heaps.pcm <> Lift.Lift.valid var
+R7485:7485 Heaps.pcm <> x var
+R7459:7463 Heaps.pcm <> Lift.Lift.valid var
+R7466:7469 Heaps.pcm <> Lift.Lift.join var
+R7473:7473 Heaps.pcm <> y var
+R7471:7471 Heaps.pcm <> x var
+prf 7531:7536 Lift validU
+R7540:7544 Heaps.pcm <> Lift.Lift.valid var
+R7546:7549 Heaps.pcm <> Lift.Lift.unit var
+R7576:7579 Heaps.pcm Lift.Lift <> sec
+R7586:7589 Heaps.pcm Lift <> mod
+syndef 7602:7605 <> lift
+R7614:7622 Heaps.pcm <> lift ind
+syndef 7637:7641 <> undef
+R7648:7657 Heaps.pcm <> Undef constr
+syndef 7672:7673 <> up
+R7682:7688 Heaps.pcm <> Up constr
+ind 7757:7765 <> lift_spec
+constr 7791:7800 <> undef_spec
+constr 7822:7828 <> up_spec
+R7777:7780 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7771:7774 Heaps.pcm <> lift syndef
+R7804:7812 Heaps.pcm <> lift_spec ind
+R7814:7818 Heaps.pcm <> undef syndef
+R7804:7812 Heaps.pcm <> A var
+R7843:7843 Heaps.pcm <> A var
+R7846:7854 Heaps.pcm <> lift_spec ind
+R7857:7858 Heaps.pcm <> up syndef
+R7860:7860 Heaps.pcm <> a var
+R7846:7854 Heaps.pcm <> A var
+prf 7871:7875 <> liftP
+R7884:7887 Heaps.pcm <> lift syndef
+R7889:7889 Heaps.pcm <> A var
+R7894:7902 Heaps.pcm <> lift_spec coind
+R7904:7904 Heaps.pcm <> x var
+R7940:7949 Heaps.pcm <> undef_spec constr
+R7960:7966 Heaps.pcm <> up_spec constr
+R7940:7949 Heaps.pcm <> undef_spec constr
+R7960:7966 Heaps.pcm <> up_spec constr
+def 7987:7998 <> liftPCMMixin
+R8007:8014 Heaps.pcm <> PCMMixin syndef
+R8094:8104 Heaps.pcm <> validU thm
+R8106:8106 Heaps.pcm <> A var
+R8077:8087 Heaps.pcm <> validL thm
+R8089:8089 Heaps.pcm <> A var
+R8061:8070 Heaps.pcm <> unitL thm
+R8072:8072 Heaps.pcm <> A var
+R8034:8043 Heaps.pcm <> joinA thm
+R8045:8045 Heaps.pcm <> A var
+R8018:8027 Heaps.pcm <> joinC thm
+R8029:8029 Heaps.pcm <> A var
+R8145:8147 Heaps.pcm <> PCM syndef
+R8150:8153 Heaps.pcm <> lift syndef
+R8155:8155 Heaps.pcm <> A var
+R8159:8170 Heaps.pcm <> liftPCMMixin def
+R8172:8172 Heaps.pcm <> A var
+prf 8220:8224 <> upupE
+R8231:8238 Heaps.pcm <> unlifted syndef
+R8250:8250 Heaps.pcm <> A var
+R8277:8287 Coq.Init.Logic <> :type_scope:x_'='_x not
+R8268:8271 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R8263:8264 Heaps.pcm <> up syndef
+R8266:8267 Heaps.pcm <> a1 var
+R8272:8273 Heaps.pcm <> up syndef
+R8275:8276 Heaps.pcm <> a2 var
+R8291:8295 Heaps.pcm <> ojoin syndef
+R8300:8301 Heaps.pcm <> a2 var
+R8297:8298 Heaps.pcm <> a1 var
+R8306:8309 Coq.Init.Datatypes <> Some constr
+R8318:8319 Heaps.pcm <> up syndef
+R8328:8332 Heaps.pcm <> undef syndef
+mod 8420:8429 <> LiftEqType
+sec 8440:8449 LiftEqType LiftEqType
+var 8462:8462 LiftEqType.LiftEqType A
+var 8475:8475 LiftEqType.LiftEqType c
+R8466:8471 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R8479:8495 Heaps.pcm Unlifted mixin_of rec
+R8497:8497 Heaps.pcm <> A var
+var 8506:8506 LiftEqType.LiftEqType U
+R8512:8519 Heaps.pcm Unlifted.Exports Unlifted syndef
+R8521:8521 Heaps.pcm <> LiftEqType.LiftEqType.A var
+R8523:8523 Heaps.pcm <> LiftEqType.LiftEqType.c var
+def 8539:8545 LiftEqType lift_eq
+R8554:8557 Heaps.pcm <> lift syndef
+R8559:8559 Heaps.pcm <> LiftEqType.LiftEqType.U var
+R8576:8576 Heaps.pcm <> v var
+R8573:8573 Heaps.pcm <> u var
+R8587:8593 Heaps.pcm Lift Up constr
+R8598:8604 Heaps.pcm Lift Up constr
+R8612:8615 mathcomp.ssreflect.eqtype <> :bool_scope:x_'=='_x not
+R8622:8631 Heaps.pcm Lift Undef constr
+R8634:8643 Heaps.pcm Lift Undef constr
+R8648:8651 Coq.Init.Datatypes <> true constr
+R8665:8669 Coq.Init.Datatypes <> false constr
+prf 8685:8692 LiftEqType lift_eqP
+R8696:8709 mathcomp.ssreflect.eqtype Equality axiom def
+R8711:8717 Heaps.pcm LiftEqType lift_eq def
+R8777:8780 Coq.ssr.ssrbool <> iffP thm
+R8782:8784 mathcomp.ssreflect.eqtype <> eqP thm
+R8777:8780 Coq.ssr.ssrbool <> iffP thm
+R8782:8784 mathcomp.ssreflect.eqtype <> eqP thm
+R8807:8816 Heaps.pcm LiftEqType.LiftEqType <> sec
+R8823:8832 Heaps.pcm LiftEqType <> mod
+def 8847:8857 <> liftEqMixin
+R8866:8872 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R8876:8894 Heaps.pcm <> lift_eqP thm
+R8898:8898 Heaps.pcm <> c var
+R8896:8896 Heaps.pcm <> A var
+R8942:8947 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R8953:8963 Heaps.pcm <> liftEqMixin def
+R8967:8967 Heaps.pcm <> c var
+R8965:8965 Heaps.pcm <> A var
+def 9350:9360 <> natPCMMixin
+R9367:9374 Heaps.pcm <> PCMMixin syndef
+R9417:9421 Coq.ssr.ssrfun <> erefl syndef
+R9406:9409 Coq.ssr.ssrfun <> :fun_scope:'@'_'id'_x not
+R9410:9413 Coq.Init.Datatypes <> true constr
+R9388:9392 mathcomp.ssreflect.ssrnat <> add0n thm
+R9382:9386 mathcomp.ssreflect.ssrnat <> addnA thm
+R9376:9380 mathcomp.ssreflect.ssrnat <> addnC thm
+R9459:9461 Heaps.pcm <> PCM syndef
+R9463:9465 Coq.Init.Datatypes <> nat ind
+R9467:9477 Heaps.pcm <> natPCMMixin def
+def 9562:9573 <> multPCMMixin
+R9580:9587 Heaps.pcm <> PCMMixin syndef
+R9630:9634 Coq.ssr.ssrfun <> erefl syndef
+R9619:9622 Coq.ssr.ssrfun <> :fun_scope:'@'_'id'_x not
+R9623:9626 Coq.Init.Datatypes <> true constr
+R9601:9605 mathcomp.ssreflect.ssrnat <> mul1n thm
+R9595:9599 mathcomp.ssreflect.ssrnat <> mulnA thm
+R9589:9593 mathcomp.ssreflect.ssrnat <> mulnC thm
+def 9651:9657 <> multPCM
+R9674:9676 Heaps.pcm <> PCM syndef
+R9678:9680 Coq.Init.Datatypes <> nat ind
+R9682:9693 Heaps.pcm <> multPCMMixin def
+def 9728:9738 <> maxPCMMixin
+R9745:9752 Heaps.pcm <> PCMMixin syndef
+R9795:9799 Coq.ssr.ssrfun <> erefl syndef
+R9784:9787 Coq.ssr.ssrfun <> :fun_scope:'@'_'id'_x not
+R9788:9791 Coq.Init.Datatypes <> true constr
+R9766:9770 mathcomp.ssreflect.ssrnat <> max0n thm
+R9760:9764 mathcomp.ssreflect.ssrnat <> maxnA thm
+R9754:9758 mathcomp.ssreflect.ssrnat <> maxnC thm
+def 9816:9821 <> maxPCM
+R9838:9840 Heaps.pcm <> PCM syndef
+R9842:9844 Coq.Init.Datatypes <> nat ind
+R9846:9856 Heaps.pcm <> maxPCMMixin def
+ind 9926:9930 <> mutex
+constr 9935:9937 <> own
+constr 9941:9944 <> nown
+R9938:9938 Heaps.pcm <> mutex ind
+R9945:9945 Heaps.pcm <> mutex ind
+mod 9955:9965 <> MutexUnlift
+def 9980:9987 MutexUnlift mutex_eq
+R10007:10007 Heaps.pcm <> y var
+R10004:10004 Heaps.pcm <> x var
+R10018:10020 Heaps.pcm <> own constr
+R10023:10025 Heaps.pcm <> own constr
+R10030:10033 Coq.Init.Datatypes <> true constr
+R10039:10042 Heaps.pcm <> nown constr
+R10045:10048 Heaps.pcm <> nown constr
+R10053:10056 Coq.Init.Datatypes <> true constr
+R10070:10074 Coq.Init.Datatypes <> false constr
+prf 10090:10098 MutexUnlift mutex_eqP
+R10102:10115 mathcomp.ssreflect.eqtype Equality axiom def
+R10117:10124 Heaps.pcm MutexUnlift mutex_eq def
+def 10179:10183 MutexUnlift ojoin
+R10203:10203 Heaps.pcm <> y var
+R10200:10200 Heaps.pcm <> x var
+R10214:10216 Heaps.pcm <> own constr
+R10219:10222 Heaps.pcm <> nown constr
+R10227:10230 Coq.Init.Datatypes <> Some constr
+R10232:10234 Heaps.pcm <> own constr
+R10240:10243 Heaps.pcm <> nown constr
+R10246:10248 Heaps.pcm <> own constr
+R10253:10256 Coq.Init.Datatypes <> Some constr
+R10258:10260 Heaps.pcm <> own constr
+R10266:10269 Heaps.pcm <> nown constr
+R10272:10275 Heaps.pcm <> nown constr
+R10280:10283 Coq.Init.Datatypes <> Some constr
+R10285:10288 Heaps.pcm <> nown constr
+R10302:10305 Coq.Init.Datatypes <> None constr
+var 10319:10323 MutexUnlift ounit
+R10328:10331 Heaps.pcm <> nown constr
+prf 10341:10346 MutexUnlift ojoinC
+R10363:10365 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10354:10358 Heaps.pcm MutexUnlift ojoin def
+R10362:10362 Heaps.pcm <> y var
+R10360:10360 Heaps.pcm <> x var
+R10366:10370 Heaps.pcm MutexUnlift ojoin def
+R10374:10374 Heaps.pcm <> x var
+R10372:10372 Heaps.pcm <> y var
+prf 10417:10422 MutexUnlift ojoinA
+R10467:10469 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10440:10444 Coq.ssr.ssrfun <> obind syndef
+R10457:10461 Heaps.pcm MutexUnlift ojoin def
+R10465:10465 Heaps.pcm <> z var
+R10463:10463 Heaps.pcm <> y var
+R10447:10451 Heaps.pcm MutexUnlift ojoin def
+R10453:10453 Heaps.pcm <> x var
+R10470:10474 Coq.ssr.ssrfun <> obind syndef
+R10489:10493 Heaps.pcm MutexUnlift ojoin def
+R10497:10497 Heaps.pcm <> y var
+R10495:10495 Heaps.pcm <> x var
+R10482:10484 Coq.ssr.ssrfun <> :fun_scope:x_'^~'_x not
+R10485:10485 Heaps.pcm <> z var
+R10477:10481 Heaps.pcm MutexUnlift ojoin def
+prf 10550:10555 MutexUnlift ounitL
+R10574:10576 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10561:10565 Heaps.pcm MutexUnlift ojoin def
+R10573:10573 Heaps.pcm <> x var
+R10567:10571 Heaps.pcm MutexUnlift ounit def
+R10577:10580 Coq.Init.Datatypes <> Some constr
+R10582:10582 Heaps.pcm <> x var
+R10614:10624 Heaps.pcm MutexUnlift <> mod
+def 10639:10650 <> mutexEqMixin
+R10655:10661 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R10663:10683 Heaps.pcm <> mutex_eqP thm
+R10723:10728 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R10730:10734 Heaps.pcm <> mutex ind
+R10736:10747 Heaps.pcm <> mutexEqMixin def
+def 10762:10779 <> mutexUnliftedMixin
+R10786:10798 Heaps.pcm <> UnliftedMixin syndef
+R10838:10855 Heaps.pcm <> ounitL thm
+R10819:10836 Heaps.pcm <> ojoinA thm
+R10800:10817 Heaps.pcm <> ojoinC thm
+R10897:10904 Heaps.pcm <> Unlifted syndef
+R10906:10910 Heaps.pcm <> mutex ind
+R10912:10929 Heaps.pcm <> mutexUnliftedMixin def
+prf 10970:10975 <> mtx00E
+R11003:11006 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11019:11022 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R11009:11011 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11007:11008 Heaps.pcm <> m1 var
+R11012:11013 Heaps.pcm <> up syndef
+R11015:11018 Heaps.pcm <> nown constr
+R11025:11027 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11023:11024 Heaps.pcm <> m2 var
+R11028:11029 Heaps.pcm <> up syndef
+R11031:11034 Heaps.pcm <> nown constr
+R10993:10995 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10987:10990 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R10985:10986 Heaps.pcm <> m1 var
+R10991:10992 Heaps.pcm <> m2 var
+R10996:10997 Heaps.pcm <> up syndef
+R10999:11002 Heaps.pcm <> nown constr
+R11054:11058 Heaps.pcm <> liftP thm
+R11076:11080 Heaps.pcm <> liftP thm
+R11054:11058 Heaps.pcm <> liftP thm
+R11054:11058 Heaps.pcm <> liftP thm
+R11076:11080 Heaps.pcm <> liftP thm
+R11076:11080 Heaps.pcm <> liftP thm
+mod 11147:11153 <> ProdPCM
+sec 11164:11170 ProdPCM ProdPCM
+var 11184:11184 ProdPCM.ProdPCM U
+var 11186:11186 ProdPCM.ProdPCM V
+R11190:11192 Heaps.pcm PCM.Exports pcm syndef
+syndef 11211:11212 ProdPCM tp
+R11219:11221 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R11218:11218 Heaps.pcm <> ProdPCM.ProdPCM.U var
+R11222:11222 Heaps.pcm <> ProdPCM.ProdPCM.V var
+def 11243:11248 ProdPCM pvalid
+R11253:11257 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R11259:11261 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R11264:11267 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R11290:11290 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R11277:11280 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R11268:11272 Heaps.pcm PCM.Exports valid syndef
+R11275:11276 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R11274:11274 Heaps.pcm <> x var
+R11281:11285 Heaps.pcm PCM.Exports valid syndef
+R11288:11289 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R11287:11287 Heaps.pcm <> x var
+R11262:11263 Heaps.pcm ProdPCM tp syndef
+def 11304:11308 ProdPCM pjoin
+R11313:11317 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R11320:11320 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R11323:11325 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R11328:11331 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R11360:11360 Coq.ssr.ssrfun <> :fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R11332:11332 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11345:11346 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11359:11359 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11337:11340 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R11335:11336 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R11333:11334 Heaps.pcm <> x1 var
+R11343:11344 Coq.ssr.ssrfun <> :pair_scope:x_'.1' not
+R11341:11342 Heaps.pcm <> x2 var
+R11351:11354 Heaps.pcm PCM.Exports ::x_'\+'_x not
+R11349:11350 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R11347:11348 Heaps.pcm <> x1 var
+R11357:11358 Coq.ssr.ssrfun <> :pair_scope:x_'.2' not
+R11355:11356 Heaps.pcm <> x2 var
+R11326:11327 Heaps.pcm ProdPCM tp syndef
+R11326:11327 Heaps.pcm ProdPCM tp syndef
+def 11374:11378 ProdPCM punit
+R11382:11383 Heaps.pcm ProdPCM tp syndef
+R11388:11388 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11393:11394 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11399:11399 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11389:11392 Heaps.pcm PCM.Exports Unit syndef
+R11395:11398 Heaps.pcm PCM.Exports Unit syndef
+prf 11409:11413 ProdPCM joinC
+R11430:11432 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11421:11425 Heaps.pcm ProdPCM pjoin def
+R11429:11429 Heaps.pcm <> y var
+R11427:11427 Heaps.pcm <> x var
+R11433:11437 Heaps.pcm ProdPCM pjoin def
+R11441:11441 Heaps.pcm <> x var
+R11439:11439 Heaps.pcm <> y var
+R11495:11499 Heaps.pcm PCM.Exports joinC thm
+R11506:11510 Heaps.pcm PCM.Exports joinC thm
+R11495:11499 Heaps.pcm PCM.Exports joinC thm
+R11495:11499 Heaps.pcm PCM.Exports joinC thm
+R11506:11510 Heaps.pcm PCM.Exports joinC thm
+R11506:11510 Heaps.pcm PCM.Exports joinC thm
+prf 11529:11533 ProdPCM joinA
+R11562:11564 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11543:11547 Heaps.pcm ProdPCM pjoin def
+R11552:11556 Heaps.pcm ProdPCM pjoin def
+R11560:11560 Heaps.pcm <> z var
+R11558:11558 Heaps.pcm <> y var
+R11549:11549 Heaps.pcm <> x var
+R11565:11569 Heaps.pcm ProdPCM pjoin def
+R11583:11583 Heaps.pcm <> z var
+R11572:11576 Heaps.pcm ProdPCM pjoin def
+R11580:11580 Heaps.pcm <> y var
+R11578:11578 Heaps.pcm <> x var
+R11646:11650 Heaps.pcm PCM.Exports joinA thm
+R11657:11661 Heaps.pcm PCM.Exports joinA thm
+R11646:11650 Heaps.pcm PCM.Exports joinA thm
+R11646:11650 Heaps.pcm PCM.Exports joinA thm
+R11657:11661 Heaps.pcm PCM.Exports joinA thm
+R11657:11661 Heaps.pcm PCM.Exports joinA thm
+prf 11680:11685 ProdPCM validL
+R11711:11714 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R11715:11720 Heaps.pcm ProdPCM pvalid def
+R11722:11722 Heaps.pcm <> x var
+R11693:11698 Heaps.pcm ProdPCM pvalid def
+R11701:11705 Heaps.pcm ProdPCM pjoin def
+R11709:11709 Heaps.pcm <> y var
+R11707:11707 Heaps.pcm <> x var
+R11794:11799 Heaps.pcm PCM.Exports validL thm
+R11806:11811 Heaps.pcm PCM.Exports validL thm
+R11772:11775 Coq.ssr.ssrbool <> andP thm
+R11794:11799 Heaps.pcm PCM.Exports validL thm
+R11794:11799 Heaps.pcm PCM.Exports validL thm
+R11806:11811 Heaps.pcm PCM.Exports validL thm
+R11806:11811 Heaps.pcm PCM.Exports validL thm
+prf 11830:11834 ProdPCM unitL
+R11853:11855 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11840:11844 Heaps.pcm ProdPCM pjoin def
+R11852:11852 Heaps.pcm <> x var
+R11846:11850 Heaps.pcm ProdPCM punit def
+R11856:11856 Heaps.pcm <> x var
+R11897:11901 Heaps.pcm PCM.Exports unitL thm
+R11897:11901 Heaps.pcm PCM.Exports unitL thm
+R11897:11901 Heaps.pcm PCM.Exports unitL thm
+R11897:11901 Heaps.pcm PCM.Exports unitL thm
+R11897:11901 Heaps.pcm PCM.Exports unitL thm
+prf 11916:11921 ProdPCM validU
+R11925:11930 Heaps.pcm ProdPCM pvalid def
+R11932:11936 Heaps.pcm ProdPCM punit def
+R11958:11963 Heaps.pcm ProdPCM pvalid def
+R11969:11978 Heaps.pcm PCM.Exports valid_unit thm
+R11958:11963 Heaps.pcm ProdPCM pvalid def
+R11958:11963 Heaps.pcm ProdPCM pvalid def
+R11969:11978 Heaps.pcm PCM.Exports valid_unit thm
+R11969:11978 Heaps.pcm PCM.Exports valid_unit thm
+R11969:11978 Heaps.pcm PCM.Exports valid_unit thm
+R11969:11978 Heaps.pcm PCM.Exports valid_unit thm
+R11991:11997 Heaps.pcm ProdPCM.ProdPCM <> sec
+R12004:12010 Heaps.pcm ProdPCM <> mod
+def 12025:12036 <> prodPCMMixin
+R12047:12054 Heaps.pcm <> PCMMixin syndef
+R12154:12167 Heaps.pcm <> validU thm
+R12171:12171 Heaps.pcm <> V var
+R12169:12169 Heaps.pcm <> U var
+R12132:12145 Heaps.pcm <> validL thm
+R12149:12149 Heaps.pcm <> V var
+R12147:12147 Heaps.pcm <> U var
+R12111:12123 Heaps.pcm <> unitL thm
+R12127:12127 Heaps.pcm <> V var
+R12125:12125 Heaps.pcm <> U var
+R12079:12091 Heaps.pcm <> joinA thm
+R12095:12095 Heaps.pcm <> V var
+R12093:12093 Heaps.pcm <> U var
+R12058:12070 Heaps.pcm <> joinC thm
+R12074:12074 Heaps.pcm <> V var
+R12072:12072 Heaps.pcm <> U var
+R12212:12214 Heaps.pcm <> PCM syndef
+R12218:12220 Coq.Init.Datatypes <> :type_scope:x_'*'_x not
+R12226:12237 Heaps.pcm <> prodPCMMixin def
+R12241:12241 Heaps.pcm <> V var
+R12239:12239 Heaps.pcm <> U var
+mod 12290:12296 <> UnitPCM
+sec 12307:12313 UnitPCM UnitPCM
+def 12328:12333 UnitPCM uvalid
+R12340:12343 Coq.Init.Datatypes <> unit ind
+R12349:12352 Coq.Init.Datatypes <> true constr
+def 12366:12370 UnitPCM ujoin
+R12379:12382 Coq.Init.Datatypes <> unit ind
+R12388:12389 Coq.Init.Datatypes <> tt constr
+def 12403:12407 UnitPCM uunit
+R12412:12413 Coq.Init.Datatypes <> tt constr
+prf 12423:12428 UnitPCM ujoinC
+R12445:12447 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12436:12440 Heaps.pcm UnitPCM ujoin def
+R12444:12444 Heaps.pcm <> y var
+R12442:12442 Heaps.pcm <> x var
+R12448:12452 Heaps.pcm UnitPCM ujoin def
+R12456:12456 Heaps.pcm <> x var
+R12454:12454 Heaps.pcm <> y var
+prf 12485:12490 UnitPCM ujoinA
+R12519:12521 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12500:12504 Heaps.pcm UnitPCM ujoin def
+R12509:12513 Heaps.pcm UnitPCM ujoin def
+R12517:12517 Heaps.pcm <> z var
+R12515:12515 Heaps.pcm <> y var
+R12506:12506 Heaps.pcm <> x var
+R12522:12526 Heaps.pcm UnitPCM ujoin def
+R12540:12540 Heaps.pcm <> z var
+R12529:12533 Heaps.pcm UnitPCM ujoin def
+R12537:12537 Heaps.pcm <> y var
+R12535:12535 Heaps.pcm <> x var
+prf 12569:12575 UnitPCM uvalidL
+R12601:12604 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R12605:12610 Heaps.pcm UnitPCM uvalid def
+R12612:12612 Heaps.pcm <> x var
+R12583:12588 Heaps.pcm UnitPCM uvalid def
+R12591:12595 Heaps.pcm UnitPCM ujoin def
+R12599:12599 Heaps.pcm <> y var
+R12597:12597 Heaps.pcm <> x var
+prf 12641:12646 UnitPCM uunitL
+R12665:12667 Coq.Init.Logic <> :type_scope:x_'='_x not
+R12652:12656 Heaps.pcm UnitPCM ujoin def
+R12664:12664 Heaps.pcm <> x var
+R12658:12662 Heaps.pcm UnitPCM uunit def
+R12668:12668 Heaps.pcm <> x var
+prf 12702:12708 UnitPCM uvalidU
+R12712:12717 Heaps.pcm UnitPCM uvalid def
+R12719:12723 Heaps.pcm UnitPCM uunit def
+R12750:12756 Heaps.pcm UnitPCM.UnitPCM <> sec
+R12763:12769 Heaps.pcm UnitPCM <> mod
+def 12784:12795 <> unitPCMMixin
+R12802:12809 Heaps.pcm <> PCMMixin syndef
+R12883:12897 Heaps.pcm <> uvalidU thm
+R12867:12881 Heaps.pcm <> uvalidL thm
+R12852:12865 Heaps.pcm <> uunitL thm
+R12826:12839 Heaps.pcm <> ujoinA thm
+R12811:12824 Heaps.pcm <> ujoinC thm
+R12933:12935 Heaps.pcm <> PCM syndef
+R12937:12940 Coq.Init.Datatypes <> unit ind
+R12942:12953 Heaps.pcm <> unitPCMMixin def
+mod 13004:13014 <> BoolConjPCM
+prf 13023:13027 BoolConjPCM unitL
+R13042:13044 Coq.Init.Logic <> :type_scope:x_'='_x not
+R13037:13040 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R13033:13036 Coq.Init.Datatypes <> true constr
+R13041:13041 Heaps.pcm <> x var
+R13045:13045 Heaps.pcm <> x var
+R13071:13081 Heaps.pcm BoolConjPCM <> mod
+def 13096:13107 <> boolPCMMixin
+R13112:13119 Heaps.pcm <> PCMMixin syndef
+R13201:13205 Coq.ssr.ssrfun <> erefl syndef
+R13190:13193 Coq.ssr.ssrfun <> :fun_scope:'@'_'id'_x not
+R13194:13197 Coq.Init.Datatypes <> true constr
+R13133:13149 Heaps.pcm <> unitL thm
+R13127:13131 Coq.ssr.ssrbool <> andbA thm
+R13121:13125 Coq.ssr.ssrbool <> andbC thm
+R13248:13250 Heaps.pcm <> PCM syndef
+R13252:13255 Coq.Init.Datatypes <> bool ind
+R13257:13268 Heaps.pcm <> boolPCMMixin def
+mod 13328:13336 <> FinMapPCM
+sec 13347:13355 FinMapPCM FinMapPCM
+var 13369:13369 FinMapPCM.FinMapPCM K
+var 13383:13383 FinMapPCM.FinMapPCM V
+R13373:13379 Heaps.ordtype Ordered.Exports ordType syndef
+ind 13405:13410 FinMapPCM finmap
+constr 13415:13419 FinMapPCM Undef
+constr 13423:13425 FinMapPCM Def
+R13420:13420 Heaps.pcm <> finmap ind
+R13430:13437 Heaps.finmap <> :type_scope:'{'_'finMap'_x_'}' not
+R13444:13444 Heaps.finmap <> :type_scope:'{'_'finMap'_x_'}' not
+R13439:13442 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R13443:13443 Heaps.pcm <> FinMapPCM.FinMapPCM.V var
+R13438:13438 Heaps.pcm <> FinMapPCM.FinMapPCM.K var
+R13445:13445 Heaps.pcm <> finmap ind
+def 13459:13463 FinMapPCM valid
+R13470:13475 Heaps.pcm FinMapPCM finmap ind
+R13486:13486 Heaps.pcm <> f var
+R13491:13493 Heaps.pcm FinMapPCM Def constr
+R13502:13505 Coq.Init.Datatypes <> true constr
+R13512:13516 Coq.Init.Datatypes <> false constr
+def 13531:13534 FinMapPCM join
+R13545:13550 Heaps.pcm FinMapPCM finmap ind
+R13561:13561 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13564:13565 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13568:13568 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13562:13563 Heaps.pcm <> f1 var
+R13566:13567 Heaps.pcm <> f2 var
+R13573:13573 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13580:13581 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13588:13588 Coq.Init.Datatypes <> :core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13574:13576 Heaps.pcm FinMapPCM Def constr
+R13582:13584 Heaps.pcm FinMapPCM Def constr
+R13599:13601 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13612:13617 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13634:13643 Coq.ssr.ssreflect <> :boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13602:13605 Heaps.finmap <> disj def
+R13618:13620 Heaps.pcm FinMapPCM Def constr
+R13623:13626 Heaps.finmap <> fcat def
+R13644:13648 Heaps.pcm FinMapPCM Undef constr
+R13657:13661 Heaps.pcm FinMapPCM Undef constr
+def 13676:13679 FinMapPCM unit
+R13684:13686 Heaps.pcm FinMapPCM Def constr
+R13690:13692 Heaps.finmap <> nil def
+R13696:13696 Heaps.pcm <> FinMapPCM.FinMapPCM.V var
+R13694:13694 Heaps.pcm <> FinMapPCM.FinMapPCM.K var
+prf 13707:13711 FinMapPCM joinC
+R13731:13733 Coq.Init.Logic <> :type_scope:x_'='_x not
+R13721:13724 Heaps.pcm FinMapPCM join def
+R13729:13730 Heaps.pcm <> f2 var
+R13726:13727 Heaps.pcm <> f1 var
+R13734:13737 Heaps.pcm FinMapPCM join def
+R13742:13743 Heaps.pcm <> f1 var
+R13739:13740 Heaps.pcm <> f2 var
+R13790:13793 Heaps.pcm FinMapPCM join def
+R13790:13793 Heaps.pcm FinMapPCM join def
+R13790:13793 Heaps.pcm FinMapPCM join def
+R13805:13807 Coq.ssr.ssrbool <> ifP thm
+R13821:13825 Heaps.finmap <> disjC thm
+R13832:13836 Heaps.finmap <> fcatC thm
+R13805:13807 Coq.ssr.ssrbool <> ifP thm
+R13805:13807 Coq.ssr.ssrbool <> ifP thm
+R13821:13825 Heaps.finmap <> disjC thm
+R13821:13825 Heaps.finmap <> disjC thm
+R13832:13836 Heaps.finmap <> fcatC thm
+R13832:13836 Heaps.finmap <> fcatC thm
+R13821:13825 Heaps.finmap <> disjC thm
+R13821:13825 Heaps.finmap <> disjC thm
+prf 13851:13856 FinMapPCM joinCA
+R13889:13891 Coq.Init.Logic <> :type_scope:x_'='_x not
+R13869:13872 Heaps.pcm FinMapPCM join def
+R13878:13881 Heaps.pcm FinMapPCM join def
+R13886:13887 Heaps.pcm <> f3 var
+R13883:13884 Heaps.pcm <> f2 var
+R13874:13875 Heaps.pcm <> f1 var
+R13892:13895 Heaps.pcm FinMapPCM join def
+R13901:13904 Heaps.pcm FinMapPCM join def
+R13909:13910 Heaps.pcm <> f3 var
+R13906:13907 Heaps.pcm <> f1 var
+R13897:13898 Heaps.pcm <> f2 var
+R13966:13969 Heaps.pcm FinMapPCM join def
+R13982:13985 Heaps.finmap <> disj def
+R13966:13969 Heaps.pcm FinMapPCM join def
+R13966:13969 Heaps.pcm FinMapPCM join def
+R13982:13985 Heaps.finmap <> disj def
+R13982:13985 Heaps.finmap <> disj def
+R14022:14025 Heaps.finmap <> disj def
+R14047:14055 Heaps.finmap <> disj_fcat thm
+R14060:14064 Coq.ssr.ssrbool <> andbF thm
+R14022:14025 Heaps.finmap <> disj def
+R14022:14025 Heaps.finmap <> disj def
+R14047:14055 Heaps.finmap <> disj_fcat thm
+R14047:14055 Heaps.finmap <> disj_fcat thm
+R14060:14064 Coq.ssr.ssrbool <> andbF thm
+R14060:14064 Coq.ssr.ssrbool <> andbF thm
+R14075:14083 Heaps.finmap <> disj_fcat thm
+R14085:14089 Coq.ssr.ssrbool <> andbC thm
+R14075:14083 Heaps.finmap <> disj_fcat thm
+R14075:14083 Heaps.finmap <> disj_fcat thm
+R14085:14089 Coq.ssr.ssrbool <> andbC thm
+R14085:14089 Coq.ssr.ssrbool <> andbC thm
+R14102:14105 Heaps.finmap <> disj def
+R14127:14135 Heaps.finmap <> disj_fcat thm
+R14138:14142 Heaps.finmap <> disjC thm
+R14154:14158 Coq.ssr.ssrbool <> andbT thm
+R14102:14105 Heaps.finmap <> disj def
+R14102:14105 Heaps.finmap <> disj def
+R14127:14135 Heaps.finmap <> disj_fcat thm
+R14127:14135 Heaps.finmap <> disj_fcat thm
+R14138:14142 Heaps.finmap <> disjC thm
+R14138:14142 Heaps.finmap <> disjC thm
+R14154:14158 Coq.ssr.ssrbool <> andbT thm
+R14154:14158 Coq.ssr.ssrbool <> andbT thm
+R14174:14177 Heaps.finmap <> disj def
+R14199:14204 Heaps.finmap <> fcatAC thm
+R14174:14177 Heaps.finmap <> disj def
+R14174:14177 Heaps.finmap <> disj def
+R14199:14204 Heaps.finmap <> fcatAC thm
+R14199:14204 Heaps.finmap <> fcatAC thm
+prf 14231:14235 FinMapPCM joinA
+R14268:14270 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14248:14251 Heaps.pcm FinMapPCM join def
+R14257:14260 Heaps.pcm FinMapPCM join def
+R14265:14266 Heaps.pcm <> f3 var
+R14262:14263 Heaps.pcm <> f2 var
+R14253:14254 Heaps.pcm <> f1 var
+R14271:14274 Heaps.pcm FinMapPCM join def
+R14289:14290 Heaps.pcm <> f3 var
+R14277:14280 Heaps.pcm FinMapPCM join def
+R14285:14286 Heaps.pcm <> f2 var
+R14282:14283 Heaps.pcm <> f1 var
+R14312:14316 Heaps.pcm FinMapPCM joinC thm
+R14322:14327 Heaps.pcm FinMapPCM joinCA thm
+R14329:14333 Heaps.pcm FinMapPCM joinC thm
+R14312:14316 Heaps.pcm FinMapPCM joinC thm
+R14312:14316 Heaps.pcm FinMapPCM joinC thm
+R14322:14327 Heaps.pcm FinMapPCM joinCA thm
+R14322:14327 Heaps.pcm FinMapPCM joinCA thm
+R14329:14333 Heaps.pcm FinMapPCM joinC thm
+R14329:14333 Heaps.pcm FinMapPCM joinC thm
+prf 14348:14353 FinMapPCM validL
+R14381:14384 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R14385:14389 Heaps.pcm FinMapPCM valid def
+R14391:14392 Heaps.pcm <> f1 var
+R14363:14367 Heaps.pcm FinMapPCM valid def
+R14370:14373 Heaps.pcm FinMapPCM join def
+R14378:14379 Heaps.pcm <> f2 var
+R14375:14376 Heaps.pcm <> f1 var
+prf 14427:14431 FinMapPCM unitL
+R14448:14450 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14437:14440 Heaps.pcm FinMapPCM join def
+R14447:14447 Heaps.pcm <> f var
+R14442:14445 Heaps.pcm FinMapPCM unit def
+R14451:14451 Heaps.pcm <> f var
+R14490:14493 Heaps.pcm FinMapPCM join def
+R14495:14498 Heaps.pcm FinMapPCM unit def
+R14500:14504 Heaps.finmap <> disjC thm
+R14506:14513 Heaps.finmap <> disj_nil thm
+R14515:14520 Heaps.finmap <> fcat0s thm
+R14490:14493 Heaps.pcm FinMapPCM join def
+R14490:14493 Heaps.pcm FinMapPCM join def
+R14495:14498 Heaps.pcm FinMapPCM unit def
+R14495:14498 Heaps.pcm FinMapPCM unit def
+R14500:14504 Heaps.finmap <> disjC thm
+R14500:14504 Heaps.finmap <> disjC thm
+R14506:14513 Heaps.finmap <> disj_nil thm
+R14506:14513 Heaps.finmap <> disj_nil thm
+R14515:14520 Heaps.finmap <> fcat0s thm
+R14515:14520 Heaps.finmap <> fcat0s thm
+prf 14535:14540 FinMapPCM validU
+R14544:14548 Heaps.pcm FinMapPCM valid def
+R14550:14553 Heaps.pcm FinMapPCM unit def
+R14580:14588 Heaps.pcm FinMapPCM.FinMapPCM <> sec
+mod 14599:14605 <> FinMapPCM.Exports
+syndef 14617:14622 FinMapPCM.Exports finmap
+R14627:14632 Heaps.pcm FinMapPCM finmap ind
+sec 14644:14650 FinMapPCM.Exports Exports
+var 14664:14664 FinMapPCM.Exports.Exports K
+var 14678:14678 FinMapPCM.Exports.Exports V
+R14668:14674 Heaps.ordtype Ordered.Exports ordType syndef
+def 14701:14714 FinMapPCM.Exports finmapPCMMixin
+R14721:14728 Heaps.pcm PCM.Exports PCMMixin syndef
+R14785:14790 Heaps.pcm FinMapPCM validU thm
+R14794:14794 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14792:14792 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14771:14776 Heaps.pcm FinMapPCM validL thm
+R14780:14780 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14778:14778 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14758:14762 Heaps.pcm FinMapPCM unitL thm
+R14766:14766 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14764:14764 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14745:14749 Heaps.pcm FinMapPCM joinA thm
+R14753:14753 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14751:14751 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14732:14736 Heaps.pcm FinMapPCM joinC thm
+R14740:14740 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14738:14738 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14833:14835 Heaps.pcm PCM.Exports PCM syndef
+R14838:14843 Heaps.pcm FinMapPCM.Exports finmap syndef
+R14847:14847 Heaps.pcm <> FinMapPCM.Exports.Exports.V var
+R14845:14845 Heaps.pcm <> FinMapPCM.Exports.Exports.K var
+R14850:14863 Heaps.pcm FinMapPCM.Exports finmapPCMMixin def
+R14871:14877 Heaps.pcm FinMapPCM.Exports.Exports <> sec
+R14884:14890 Heaps.pcm FinMapPCM.Exports <> mod
+R14897:14905 Heaps.pcm FinMapPCM <> mod
