@@ -129,9 +129,160 @@ Definition init_world : world crowdState :=
 mkW emptymsg init_cstate b0 None.
 
 Definition pred := world crowdState -> Prop.
-Variable prot : Protocol crowdState.
 
-Definition reachability : world crowdState -> world crowdState -> Prop := fun w1 w2 => step_world prot w1 = w2.
+
+(*********************************************************)
+(********************* Transitions ***********************)
+(*********************************************************)
+
+(* Transition 1 *)
+(*
+transition Donate
+  (sender : address, value : uint, tag : string)
+  (* Simple filter identifying this transition *)
+  if tag == "donate" =>
+
+  bs <- & backers;
+  blk <- && block_number; 
+  let nxt_block = blk + 1 in
+  if max_block <= nxt_block
+  then send (<to -> sender, amount -> 0,
+	      tag -> main,
+	      msg -> "deadline_passed">, MT)
+  else
+    if not (contains(bs, sender))
+    then let bs1 = put(sbs, ender, value) in
+         backers := bs1;
+         send (<to -> sender,
+                amount -> 0,
+	        tag -> "main",
+	        msg -> "ok">, MT)
+    else send (<to -> sender,
+                amount -> 0,
+	        tag -> "main",
+	        msg -> "already_donated">, MT)
+ *)
+
+(* Definition of the protocol *)
+Variable crowd_addr : address.
+
+Notation tft := (trans_fun_type crowdState).
+Definition ok_msg := [:: (0, [:: 1])].
+Definition no_msg := [:: (0, [:: 0])].
+
+Definition donate_tag := 1.
+Definition donate_fun : tft := fun id bal s m bc =>
+  if method m == donate_tag then
+    let bs := backers s in
+    let nxt_block := block_num bc + 1 in
+    let from := sender m in
+    if get_max_block s <= nxt_block
+    then (s, Some (Msg 0 crowd_addr from 0 no_msg))
+    else if all [pred e | e.1 != from] bs
+         (* new backer *)
+         then let bs' := (from, val m) :: bs in
+              let s'  := set_backers s bs' in
+              (s', Some (Msg 0 crowd_addr from 0 ok_msg))
+         else (s, Some (Msg 0 crowd_addr from 0 no_msg))
+  else (s, None).
+
+Definition donate := CTrans donate_tag donate_fun.
+
+(* Transition 2: Sending the funds to the owner *)
+(*
+transition GetFunds
+  (sender : address, value : uint, tag : string)
+  (* Only the owner can get the money back *)
+  if (tag == "getfunds") && (sender == owner) =>
+  blk <- && block_number;
+  bal <- & balance;
+  if max_block < blk
+  then if goal <= bal
+       then funded := true;   
+            send (<to -> owner, amount -> bal,
+                   tag -> "main", msg -> "funded">, MT)
+       else send (<to -> owner, amount -> 0,
+                   tag -> "main", msg -> "failed">, MT)
+  else send (<to -> owner, amount -> 0, tag -> "main",
+   	      msg -> "too_early_to_claim_funds">, MT)
+ *)
+
+Definition getfunds_tag := 2.
+Definition getfunds_fun : tft := fun id bal s m bc =>
+  let: from := sender m in
+  if (method m == getfunds_tag) && (from == (get_owner s)) then
+    let blk := block_num bc + 1 in
+    if (get_max_block s < blk)
+    then if get_goal s <= bal
+         then let s' := set_funded s true in
+              (s', Some (Msg bal crowd_addr from 0 ok_msg))
+         else (s, Some (Msg 0 crowd_addr from 0 no_msg))
+    else (s, Some (Msg 0 crowd_addr from 0 no_msg))
+  else (s, None).
+
+Definition get_funds := CTrans getfunds_tag getfunds_fun.
+
+(* Transition 3: Reclaim funds by a backer *)
+(*
+transition Claim
+  (sender : address, value : uint, tag : string)
+  if tag == "claim" =>
+  blk <- && block_number;
+  if blk <= max_block
+  then send (<to -> sender, amount -> 0, tag -> "main",
+              msg -> "too_early_to_reclaim">, MT)
+  else bs <- & backers;
+       bal <- & balance;
+       if (not (contains(bs, sender))) || funded ||
+          goal <= bal
+       then send (<to -> sender, amount -> 0,
+                   tag -> "main",
+	           msg -> "cannot_refund">, MT)
+       else
+       let v = get(bs, sender) in
+       backers := remove(bs, sender);
+       send (<to -> sender, amount -> v, tag -> "main",
+              msg -> "here_is_your_money">, MT)
+*)
+
+Definition claim_tag := 3.
+Definition claim_fun : tft := fun id bal s m bc =>
+  let: from := sender m in
+  if method m == claim_tag then
+    let blk := block_num bc in
+    if blk <= get_max_block s
+    then
+      (* Too early! *)
+      (s, Some (Msg 0 crowd_addr from 0 no_msg))
+    else let bs := backers s in
+         if [|| funded s | get_goal s <= bal]
+         (* Cannot reimburse: campaign suceeded *)
+         then (s, Some (Msg 0 crowd_addr from 0 no_msg))
+         else let n := seq.find [pred e | e.1 == from] bs in
+              if n < size bs
+              then let v := nth 0 (map snd bs) n in
+                   let bs' := filter [pred e | e.1 != from] bs in
+                   let s'  := set_backers s bs' in
+                   (s', Some (Msg v crowd_addr from 0 ok_msg))
+              else
+                (* Didn't back or already claimed *)
+                (s, None)
+  else (s, None).
+
+Definition claim := CTrans claim_tag claim_fun.
+
+Program Definition crowd_prot : Protocol crowdState :=
+@CProt _ crowd_addr 0 init_state [:: donate; get_funds; claim] _.
+
+Lemma crowd_tags : tags crowd_prot = [:: 1; 2; 3].
+Proof. by []. Qed.
+
+Program Definition prot : Protocol crowdState :=
+@CProt _ crowd_addr 0 init_state [:: donate; get_funds; claim] _.
+
+Definition reachability w1 w2 := step_world prot w1 = w2.
+
+Check reachability.
 
 (* Path definitions *)
 Definition path := nat -> world crowdState.
@@ -159,7 +310,10 @@ Fixpoint step_n_times (w : world crowdState) (n : nat) :=
   | S n' => step_world prot (step_n_times w n')
   end.
 
-Definition make_path (w : world crowdState) : path := step_n_times w.
+Print step_world.
+
+Definition make_path (w : world crowdState) : path := 
+  step_n_times w.
 
 Lemma rewrite_step_world_S :
   forall (n : nat) (w : world crowdState),
@@ -413,153 +567,6 @@ Theorem equiv_6 : forall (P Q : pred),
     A [P U Q] <=> E [!P U (!P && !Q)] && AF Q.
 Proof. Admitted.
 
-
-(*********************************************************)
-(********************* Transitions ***********************)
-(*********************************************************)
-
-(* Transition 1 *)
-(*
-transition Donate
-  (sender : address, value : uint, tag : string)
-  (* Simple filter identifying this transition *)
-  if tag == "donate" =>
-
-  bs <- & backers;
-  blk <- && block_number; 
-  let nxt_block = blk + 1 in
-  if max_block <= nxt_block
-  then send (<to -> sender, amount -> 0,
-	      tag -> main,
-	      msg -> "deadline_passed">, MT)
-  else
-    if not (contains(bs, sender))
-    then let bs1 = put(sbs, ender, value) in
-         backers := bs1;
-         send (<to -> sender,
-                amount -> 0,
-	        tag -> "main",
-	        msg -> "ok">, MT)
-    else send (<to -> sender,
-                amount -> 0,
-	        tag -> "main",
-	        msg -> "already_donated">, MT)
- *)
-
-(* Definition of the protocol *)
-Variable crowd_addr : address.
-
-Notation tft := (trans_fun_type crowdState).
-Definition ok_msg := [:: (0, [:: 1])].
-Definition no_msg := [:: (0, [:: 0])].
-
-Definition donate_tag := 1.
-Definition donate_fun : tft := fun id bal s m bc =>
-  if method m == donate_tag then
-    let bs := backers s in
-    let nxt_block := block_num bc + 1 in
-    let from := sender m in
-    if get_max_block s <= nxt_block
-    then (s, Some (Msg 0 crowd_addr from 0 no_msg))
-    else if all [pred e | e.1 != from] bs
-         (* new backer *)
-         then let bs' := (from, val m) :: bs in
-              let s'  := set_backers s bs' in
-              (s', Some (Msg 0 crowd_addr from 0 ok_msg))
-         else (s, Some (Msg 0 crowd_addr from 0 no_msg))
-  else (s, None).
-
-Definition donate := CTrans donate_tag donate_fun.
-
-(* Transition 2: Sending the funds to the owner *)
-(*
-transition GetFunds
-  (sender : address, value : uint, tag : string)
-  (* Only the owner can get the money back *)
-  if (tag == "getfunds") && (sender == owner) =>
-  blk <- && block_number;
-  bal <- & balance;
-  if max_block < blk
-  then if goal <= bal
-       then funded := true;   
-            send (<to -> owner, amount -> bal,
-                   tag -> "main", msg -> "funded">, MT)
-       else send (<to -> owner, amount -> 0,
-                   tag -> "main", msg -> "failed">, MT)
-  else send (<to -> owner, amount -> 0, tag -> "main",
-   	      msg -> "too_early_to_claim_funds">, MT)
- *)
-
-Definition getfunds_tag := 2.
-Definition getfunds_fun : tft := fun id bal s m bc =>
-  let: from := sender m in
-  if (method m == getfunds_tag) && (from == (get_owner s)) then
-    let blk := block_num bc + 1 in
-    if (get_max_block s < blk)
-    then if get_goal s <= bal
-         then let s' := set_funded s true in
-              (s', Some (Msg bal crowd_addr from 0 ok_msg))
-         else (s, Some (Msg 0 crowd_addr from 0 no_msg))
-    else (s, Some (Msg 0 crowd_addr from 0 no_msg))
-  else (s, None).
-
-Definition get_funds := CTrans getfunds_tag getfunds_fun.
-
-(* Transition 3: Reclaim funds by a backer *)
-(*
-transition Claim
-  (sender : address, value : uint, tag : string)
-  if tag == "claim" =>
-  blk <- && block_number;
-  if blk <= max_block
-  then send (<to -> sender, amount -> 0, tag -> "main",
-              msg -> "too_early_to_reclaim">, MT)
-  else bs <- & backers;
-       bal <- & balance;
-       if (not (contains(bs, sender))) || funded ||
-          goal <= bal
-       then send (<to -> sender, amount -> 0,
-                   tag -> "main",
-	           msg -> "cannot_refund">, MT)
-       else
-       let v = get(bs, sender) in
-       backers := remove(bs, sender);
-       send (<to -> sender, amount -> v, tag -> "main",
-              msg -> "here_is_your_money">, MT)
-*)
-
-Definition claim_tag := 3.
-Definition claim_fun : tft := fun id bal s m bc =>
-  let: from := sender m in
-  if method m == claim_tag then
-    let blk := block_num bc in
-    if blk <= get_max_block s
-    then
-      (* Too early! *)
-      (s, Some (Msg 0 crowd_addr from 0 no_msg))
-    else let bs := backers s in
-         if [|| funded s | get_goal s <= bal]
-         (* Cannot reimburse: campaign suceeded *)
-         then (s, Some (Msg 0 crowd_addr from 0 no_msg))
-         else let n := seq.find [pred e | e.1 == from] bs in
-              if n < size bs
-              then let v := nth 0 (map snd bs) n in
-                   let bs' := filter [pred e | e.1 != from] bs in
-                   let s'  := set_backers s bs' in
-                   (s', Some (Msg v crowd_addr from 0 ok_msg))
-              else
-                (* Didn't back or already claimed *)
-                (s, None)
-  else (s, None).
-
-Definition claim := CTrans claim_tag claim_fun.
-
-Program Definition crowd_prot : Protocol crowdState :=
-  @CProt _ crowd_addr 0 init_state [:: donate; get_funds; claim] _.
-
-Lemma crowd_tags : tags crowd_prot = [:: 1; 2; 3].
-Proof. by []. Qed.
-
 (* 
 Lemma find_leq {A : eqType} (p : pred (A * nat)) (bs : seq (A * nat)) :
   nth 0 [seq i.2 | i <- bs] (seq.find p bs) <= sumn [seq i.2 | i <- bs].
@@ -589,34 +596,30 @@ one's reimbursement doesn't change.
 
 Definition notfunded : pred :=
   fun w => funded (state (st w)) = false.
-Definition balance_sufficient : pred :=
-  fun s => sumn (map snd (backers (state (st s)))) <= balance (st s).
+Definition balance_sufficient s := 
+  sumn (map snd (backers (state (st s)))) <= balance (st s).
 
 Lemma temporal_balance_backed :
     init_world |= AG (notfunded --> balance_sufficient).
 Proof.
-  unfold satisfies.
-  unfold AllBox.
-  intros gp H_first n. 
-  unfold satisfies, Impl.
-  destruct gp as [p r]; simpl.
-  unfold path_predicate in r.
-  remember n as path_index.
-  induction n.
-  - right.  
-    unfold satisfies.
-    rewrite Heqpath_index.
-    simpl in H_first.
-    rewrite H_first.
-    unfold init_world; unfold init_cstate; unfold init_state.
-    unfold balance_sufficient.
-    (* Now we have a mess on our hands, but for base case it's alright *)
-    simpl. reflexivity.  (* Hurray! *)
-  - assert (reachability (p n) (p n.+1)). 
-    exact (r n).
-    unfold reachability in H.
-    unfold step_world in H.
-    destruct st.
+  rewrite /satisfies/AllBox=>gp H_first n/=.
+  rewrite /satisfies/Impl.
+  case: gp H_first=>p r/= H0. 
+  elim: n=>[|n Hi].
+  - by rewrite H0/satisfies; right. (* Hurray! *)
+  move: (r n); case: Hi=>H Ri;
+  rewrite /reachability in Ri; rewrite -Ri.
+  - remember (step_world prot (p n)) as w. clear Ri.
+    move: Heqw H.
+    case: (p n)=>inFlight st b out/=.
+    case: st=>id bal st/=.
+    case: inFlight=>val from to tg body/=?; subst w=>/=.
+    rewrite/step_world/=.
+    case: ifP=>[/eqP Zi|_]/=.
+    + subst tg=>/=; left; rewrite /donate_fun/=.
+      case:ifP=>_/=.
+      by rewrite /satisfies/=/notfunded/= in H *.
+
     (* NOW we have a real mess. *)
     (* How to get a clean case distinction on the three transitions? *)
 Abort.
